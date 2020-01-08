@@ -26,5 +26,10 @@ docker-compose down
 ## Vist
 http://0.0.0.0:7001
 
+
+## More
+[User Manual](https://www.yuque.com/nebulagraph/bh6cky/kx7aug)
+[Sample Data](./example/follow.csv)
+
 ## FAQ
 - Config Nebula Server: when use local nebula server, use the real ip host instead of `127.0.0.1:3699` due to the docker container isolated enviroment.

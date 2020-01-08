@@ -1,0 +1,5 @@
+2020/01/08 13:21:12 [INFO] clientmgr.go:28: Create 10 Nebula Graph clients
+2020/01/08 13:21:12 [INFO] reader.go:53: Start to read file(0): /Users/niania/WorkSpace/nebula-web-docker/example/player.csv, schema: < :VID,person.name:string,person.age:int >
+2020/01/08 13:21:12 [INFO] reader.go:108: Total lines of file(/Users/niania/WorkSpace/nebula-web-docker/example/player.csv) is: 9, error lines: 0
+2020/01/08 13:21:12 [INFO] statsmgr.go:61: Done(/Users/niania/WorkSpace/nebula-web-docker/example/player.csv): Time(0.16s), Finished(9), Failed(0), Latency AVG(5282us), Batches Req AVG(13235us), Rows AVG(56.04/s)
+2020/01/08 13:21:12 [INFO] cmd.go:32: Finish import data, consume time: 0.24s
