@@ -11,6 +11,8 @@
 - 操作文件目录配置
   - 配置环境变量 [WORKING_DIR](./.env)
 
+- 浏览器: [Chrome](https://www.google.com/intl/zh-CN/chrome/)
+
 ## 启动
 ```shell
 docker-compose up

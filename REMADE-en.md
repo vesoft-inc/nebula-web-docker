@@ -11,6 +11,8 @@
 - File directory Path
   - [WORKING_DIR](./.env) 
 
+- Browser: [Chrome](https://www.google.com/intl/zh-CN/chrome/)
+
 ## Start
 ```shell
 docker-compose up
