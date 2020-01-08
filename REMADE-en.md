@@ -4,7 +4,7 @@
 - [Docker](https://docs.docker.com/v17.09/engine/installation/)
 - Nebula Server
   - local start:
-    - [Nebula Docker]((https://github.com/vesoft-inc/nebula-docker-compose))
+    - [Nebula Docker](https://github.com/vesoft-inc/nebula-docker-compose)
   - remote host:
     - host、username、password required
   - more info: [Nebula](https://github.com/vesoft-inc/nebula) 
