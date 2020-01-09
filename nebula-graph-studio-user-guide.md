@@ -4,7 +4,7 @@
 
 ## 概述
 
-**Nebula Graph Studio** 集 `ngql` 语言输入查询，数据导入以及图探索功能于一身，极大简化了使用 **Nebula Graph** 的门槛。**Nebula Graph Studio** 可以让您随时连接本地或其他设备上的 **Nebula Graph** 服务。
+**Nebula Graph Studio** 集 `ngql` 查询语言，数据导入以及图探索功能于一身，极大简化了使用 **Nebula Graph** 的门槛。**Nebula Graph Studio** 可以让您随时连接本地或其他设备上的 **Nebula Graph** 服务。
 
 ## 前提条件
 
@@ -14,7 +14,7 @@
 
 2. [安装 docker](https://docs.docker.com/install/) 且启动 docker。
 
-## 安装 **Nebula Graph Studio**
+## 安装并启动 **Nebula Graph Studio**
 
 1. 在命令行中输入以下命令，下载 **Nebula Graph Studio** 安装包。
 
@@ -30,7 +30,7 @@ git clone https://github.com/vesoft-inc/nebula-web-docker
 
 5. 文件修改完成后，输入 `:wq`，保存文件并退出。
 
-6. 输入 `docker-compose up -d` 启动 **Nebula Graph Studio** 服务。
+6. 输入 `docker-compose up` 启动 **Nebula Graph Studio** 服务。
 
 ```bash
     Creating docker_importer_1 ... done
@@ -48,6 +48,8 @@ git clone https://github.com/vesoft-inc/nebula-web-docker
 1. 在浏览器（Chrome) 搜索框中输入`localhost:7001`，出现配置数据库界面。
 
 2. 在 `Host` 字段输入 **Nebula Graph** 服务所在的主机地址和端口号，例如 *192.168.11.100:3699*。默认情况下端口号为：3699。
+
+**注意**：**Host** 字段不支持输入 *127.0.0.1:3699* 或 *localhost:3699* 类型的地址和端口，必须提供一个真实的 **Nebula Graph** 服务地址。
 
 3. 在`用户名`字段输入登录 **Nebula Graph** 的用户名称，默认为 user。
 
