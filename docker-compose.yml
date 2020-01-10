@@ -9,7 +9,7 @@ services:
     networks:
       - nebula-web
   web:
-    image: vesoft/nebula-web-console:0.0.6
+    image: vesoft/nebula-web-console:0.0.7
     environment:
       USER: root
       WORKING_DIR: ${MAPPING_DOCKER_DIR}
