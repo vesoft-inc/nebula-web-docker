@@ -9,7 +9,7 @@
     - host、username、password required
   - more info: [Nebula](https://github.com/vesoft-inc/nebula) 
 - File directory Path
-  - [WORKING_DIR](./.env) 
+  - [WORKING_DIR](./.env)
 
 - Browser: [Chrome](https://www.google.com/intl/zh-CN/chrome/)
 
