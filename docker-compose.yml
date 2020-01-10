@@ -9,16 +9,16 @@ services:
     networks:
       - nebula-web
   web:
-    image: vesoft/nebula-web-console:0.0.2
+    image: vesoft/nebula-web-console:0.0.5
     environment:
       USER: root
-      WORKING_DIR: ${WORKING_DIR}
+      WORKING_DIR: ${MAPPING_DOCKER_DIR}
     ports:
       - 7001
     depends_on:
       - client
     volumes:
-      - ${WORKING_DIR}:${WORKING_DIR}:rw
+      - ${WORKING_DIR}:${MAPPING_DOCKER_DIR}:rw
     networks:
       - nebula-web
   importer:
@@ -28,7 +28,7 @@ services:
     ports:
       - 5699
     volumes:
-      - ${WORKING_DIR}:${WORKING_DIR}:rw
+      - ${WORKING_DIR}:${MAPPING_DOCKER_DIR}:rw
     command:
       - "--port=5699"
       - "--callback=http://nginx:7001/api/import/finish"
@@ -36,6 +36,7 @@ services:
     image: nginx:alpine
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/conf.d/nebula.conf
+      - ${WORKING_DIR}:${MAPPING_DOCKER_DIR}:rw
     depends_on:
       - client
       - web
