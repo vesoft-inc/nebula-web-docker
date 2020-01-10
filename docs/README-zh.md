@@ -9,7 +9,7 @@
   - 更多信息：[Nebula](https://github.com/vesoft-inc/nebula)
 
 - 操作文件目录配置
-  - 配置环境变量 [WORKING_DIR](./.env)
+  - 配置环境变量 [WORKING_DIR](./.env)，当前默认指向样例目录
 
 - 浏览器: [Chrome](https://www.google.com/intl/zh-CN/chrome/)
 
