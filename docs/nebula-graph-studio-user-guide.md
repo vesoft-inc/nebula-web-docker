@@ -30,7 +30,7 @@ git clone https://github.com/vesoft-inc/nebula-web-docker
 
 5. 文件修改完成后，输入 `:wq`，保存文件并退出。
 
-6. 输入 `docker-compose up` 启动 **Nebula Graph Studio** 服务。
+6. 输入 `docker-compose up --quiet-pull` 启动 **Nebula Graph Studio** 服务。
 
 ```bash
     Creating docker_importer_1 ... done
