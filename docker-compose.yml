@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   client:
-    image: vesoft/nebula-http-client:0.0.1
+    image: vesoft/nebula-http-client:latest
     environment:
       USER: root
     ports:
@@ -9,7 +9,7 @@ services:
     networks:
       - nebula-web
   web:
-    image: vesoft/nebula-web-console:0.0.7
+    image: vesoft/nebula-web-console:latest
     environment:
       USER: root
       WORKING_DIR: ${MAPPING_DOCKER_DIR}

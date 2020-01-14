@@ -15,12 +15,17 @@
 
 ## 启动
 ```shell
-docker-compose up
+docker-compose up --quiet-pull
 ```
 
 ## 停止/清除
 ```shell
 docker-compose down
+```
+
+## 更新
+```shell
+docker-compose pull
 ```
 
 ## 应用访问

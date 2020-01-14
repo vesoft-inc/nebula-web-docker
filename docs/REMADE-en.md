@@ -15,12 +15,17 @@
 
 ## Start
 ```shell
-docker-compose up
+docker-compose up --quiet-pull
 ```
 
 ## Stop/Clear
 ```shell
 docker-compose down
+```
+
+## Update
+```shell
+docker-compose pull
 ```
 
 ## Vist
