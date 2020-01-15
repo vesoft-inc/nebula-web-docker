@@ -1,4 +1,3 @@
-# nebula-web-docker
-Docker of kinds of web tools of Neubla Graph
+# nebula-graph-studio
 - [English Mannual](./docs/REMADE-en.md)
 - [中文手册](./docs/README-zh.md)
