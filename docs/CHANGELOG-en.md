@@ -1,5 +1,11 @@
 ## Change Log
-### 2020.1.9 - beta
+### 2019.1.15 - v1.0.0
+- features:
+  - Visualization
+    - support node props show
+- normal optimization
+
+### 2020.1.9 - v1.0.0-beta
 - features:
   - Console
   - Import Data

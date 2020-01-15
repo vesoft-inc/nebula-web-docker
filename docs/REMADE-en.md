@@ -38,3 +38,4 @@ http://0.0.0.0:7001
 
 ## FAQ
 - Config Nebula Server: when use local nebula server, use the real ip host instead of `127.0.0.1:3699` due to the docker container isolated enviroment.
+- Nebula Version: Download the latest version of Nebula for studio normal use.
