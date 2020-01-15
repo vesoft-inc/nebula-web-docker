@@ -15,7 +15,7 @@
 
 ## 启动
 ```shell
-docker-compose up --quiet-pull
+docker-compose pull && docker-compose up
 ```
 
 ## 停止/清除
