@@ -15,7 +15,7 @@
 
 ## Start
 ```shell
-docker-compose up --quiet-pull
+docker-compose pull && docker-compose up
 ```
 
 ## Stop/Clear
