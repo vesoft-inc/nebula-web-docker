@@ -4,7 +4,7 @@
 
 ## 数据导入
 
-**Nebula Graph Studio** 支持从多种数据源导入数据。
+**Nebula Graph Studio** 支持从本地 CSV 文件导入数据。
 
 ## 图探索
 
@@ -13,7 +13,7 @@
 ## 文档
 
 - [User Manual](./docs/nebula-graph-studio-user-guide-en.md)
-- [用户手册](./docs/README-zh.md)
+- [用户手册](./docs/nebula-graph-studio-user-guide-cn.md)
 
 ## 联系方式
 

@@ -4,7 +4,7 @@
 
 ## Data Import
 
-You can import data from other sources into **Nebula Graph Studio**.
+You can import data from your local CSV files into **Nebula Graph Studio**.
 
 ## Graph Visualization
 
@@ -13,7 +13,7 @@ Graph visualization provides a better understanding of your data than textual fo
 ## Documentation
 
 - [User Manual](./docs/nebula-graph-studio-user-guide-en.md)
-- [用户手册](./docs/README-zh.md)
+- [用户手册](./docs/nebula-graph-studio-user-guide-cn.md)
 
 ## Contact
 
