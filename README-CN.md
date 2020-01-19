@@ -1,21 +1,21 @@
 # Nebula Graph Studio
 
-**Nebula Graph Studio** is a visualization application that combines data import and graph exploration.
+**Nebula Graph Studio** 是一款可视化的图数据库 Web 应用，集构图、数据导入、图探索于一体，无缝连接图数据库，给用户带来全新的图数据库使用体验.
 
-## Data Import
+## 数据导入
 
-You can import data from other sources into **Nebula Graph Studio**.
+**Nebula Graph Studio** 支持从多种数据源导入数据。
 
-## Graph Visualization
+## 图探索
 
-Graph visualization provides a better understanding of your data than textual formats can support. When importing your data, you can see how your data looks and explore connections that you never know.
+相比文本格式的数据，可视化能够帮助更好地理解数据。导入数据后即可查看数据构图并对数据进行探索。
 
-## Documentation
+## 文档
 
 - [User Manual](./docs/nebula-graph-studio-user-guide-en.md)
 - [用户手册](./docs/README-zh.md)
 
-## Contact
+## 联系方式
 
 - Twitter: [@NebulaGraph](https://twitter.com/NebulaGraph)
 - [Facebook page](https://www.facebook.com/NebulaGraph/)
