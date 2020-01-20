@@ -4,7 +4,7 @@
 
 ## 数据导入
 
-**Nebula Graph Studio** 支持从本地 CSV 文件导入数据。
+**Nebula Graph Studio** 支持把 CSV 文件中的数据导入到 **Nebula Graph** 数据库中。
 
 ## 图探索
 

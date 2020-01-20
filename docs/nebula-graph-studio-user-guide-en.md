@@ -100,6 +100,8 @@ CREATE EDGE serve (start_year int, end_year int);
 
 After the graph schema is created, you can import the required data. In this example we have prepared two vertex files, `player.csv` and `team.csv`, and two edge files, `follow.csv` and `serve.csv`. You can find the four files in the `example` folder.
 
+**Note**: Only support for importing data from CSV files without header.
+
 1. Click the **import** tab and enter **Init**. Select the required graph space in the **Spaces** drop-down list. We select `NBA` here. Click **Next**.
 
 ![select_graph](https://user-images.githubusercontent.com/40747875/72596032-22a5b300-3946-11ea-8001-7e27fc005013.png)

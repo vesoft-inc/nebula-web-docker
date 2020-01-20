@@ -4,7 +4,7 @@
 
 ## Data Import
 
-You can import data from your local CSV files into **Nebula Graph Studio**.
+You can import data from your local CSV files into the **Nebula Graph** database with **Nebula Graph Studio**.
 
 ## Graph Visualization
 
