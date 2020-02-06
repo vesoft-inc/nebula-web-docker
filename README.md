@@ -12,8 +12,6 @@ After entering **Nebula Graph Studio** UI, you can see the default `console` tab
 
 <img width="1440" alt="console" src="https://user-images.githubusercontent.com/40747875/73910282-d5d04f00-48e9-11ea-894c-4df65e6d57bc.png">
 
-**Note:** The `console` tab is for entering `ngql` statements to create schemas or query data from your graph database.
-
 ## Data Import
 
 You can import data from your local CSV files into **Nebula Graph Studio**.
