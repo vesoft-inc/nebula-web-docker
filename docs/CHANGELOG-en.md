@@ -10,3 +10,7 @@
 - Improves:
   - Support spaces select and cache when excute in Console
   - Add more lines to show in Console
+
+### 2020.3.31 - v1.0.2-beta
+- Features:
+  - Visualization explore add edge atrributes show && config tag fields show on graph
