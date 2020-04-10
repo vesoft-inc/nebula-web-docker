@@ -28,7 +28,7 @@ $ git clone https://github.com/vesoft-inc/nebula-web-docker
 
 3. 输入 `ls -a` 显示安装文件下所有的隐藏文件。
 
-4. 输入 `vi .env` 修改 `.env` 文件中的导入文件的路径。例如，将要导入的文件存放在 `/User/nebula/` 路径下，则 `WORKING_DIR=/Users/nebula`。
+4. 输入 `vi .env` 修改 `.env` 文件中的导入文件的路径。例如，将要导入的文件存放在 `/User/nebula/` 路径下，则 `UPLOAD_DIR=/Users/nebula`。
 
 5. 文件修改完成后，输入 `:wq`，保存文件并退出。
 

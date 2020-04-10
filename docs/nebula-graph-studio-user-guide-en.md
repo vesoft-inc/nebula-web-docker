@@ -28,7 +28,7 @@ $ git clone https://github.com/vesoft-inc/nebula-web-docker
 
 3. Enter the `ls -a` command to display all the hidden files in the instllation directory.
 
-4. Enter the `vi .env` command to modify the directory for the files to be imported in the `.env` file. For example, if the files to be imported is stored in the `/User/nebula/` directory, then the directory must be changed to `WORKING_DIR=/Users/nebula`.
+4. Enter the `vi .env` command to modify the directory for the files to be imported in the `.env` file. For example, if the files to be imported is stored in the `/User/nebula/` directory, then the directory must be changed to `UPLOAD_DIR=/Users/nebula`.
 
 5. After the file is modified, enter the `:wq` command to save the file and exit.
 
