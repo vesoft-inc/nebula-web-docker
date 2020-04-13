@@ -10,11 +10,9 @@
 
 使用 **Nebula Graph Studio** 前请确保您已：
 
-1. 请确保 docker、**Nebula Graph Studio** 以及 Chrome 浏览器安装在同一主机上，否则无法导入数据。例如，您在Mac上安装了 docker、Chrome 浏览器，但是 **Nebula Graph Studio** 安装在了虚拟机上，那么将无法把数据导入到 **Nebula Graph** 中。
+1. [安装 Nebula Graph](https://github.com/vesoft-inc/nebula-docker-compose/blob/master/README_zh-CN.md) 服务且启动 **Nebula Graph**。
 
-2. [安装 Nebula Graph](https://github.com/vesoft-inc/nebula-docker-compose/blob/master/README_zh-CN.md) 服务且启动 **Nebula Graph**。
-
-3. [安装 docker](https://docs.docker.com/install/) 且启动 docker。
+2. [安装 docker](https://docs.docker.com/install/) 且启动 docker。
 
 ## 安装并启动 **Nebula Graph Studio**
 
@@ -26,13 +24,7 @@ $ git clone https://github.com/vesoft-inc/nebula-web-docker
 
 2. 在命令行中，进入到安装文件夹 `nebula-web-docker`。
 
-3. 输入 `ls -a` 显示安装文件下所有的隐藏文件。
-
-4. 输入 `vi .env` 修改 `.env` 文件中的导入文件的路径。例如，将要导入的文件存放在 `/User/nebula/` 路径下，则 `UPLOAD_DIR=/Users/nebula`。
-
-5. 文件修改完成后，输入 `:wq`，保存文件并退出。
-
-6. 输入 `docker-compose pull && docker-compose up` 启动 **Nebula Graph Studio** 服务。
+3. 输入 `docker-compose pull && docker-compose up` 启动 **Nebula Graph Studio** 服务。
 
 ```bash
     Creating docker_importer_1 ... done
@@ -40,6 +32,8 @@ $ git clone https://github.com/vesoft-inc/nebula-web-docker
     Creating docker_web_1      ... done
     Creating docker_nginx_1    ... done
 ```
+
+4. 启动成功，访问: http://0.0.0.0:7001
 
 **说明**：出现以上信息则表示 **Nebula Graph Studio** 启动成功。
 

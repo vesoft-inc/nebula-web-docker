@@ -10,11 +10,9 @@ This guide will walk you through the process of creating graph spaces, tags, edg
 
 Please ensure that the following requirements are met before using **Nebula Graph Studio**:
 
-1. Ensure that docker, **Nebula Graph Studio** and Chrome explorer are installed on the same host, otherwise, the data importing function will not work. For example, if you install docker, Chrome explorer on your Mac, but **Nebula Graph Studio** is installed in a virtual machine, then you cannot import data to **Nebula Graph**.
+1. [Installed Nebula Graph](https://github.com/vesoft-inc/nebula-docker-compose/blob/master/README.md) services and started **Nebula Graph**.
 
-2. [Installed Nebula Graph](https://github.com/vesoft-inc/nebula-docker-compose/blob/master/README.md) services and started **Nebula Graph**.
-
-3. [Installed docker](https://docs.docker.com/install/) and started docker.
+2. [Installed docker](https://docs.docker.com/install/) and started docker.
 
 ## Installing and Starting **Nebula Graph Studio**
 
@@ -26,13 +24,9 @@ $ git clone https://github.com/vesoft-inc/nebula-web-docker
 
 2. Change your current directory to the `nebula-web-docker` directory.
 
-3. Enter the `ls -a` command to display all the hidden files in the instllation directory.
+3. Enter the `docker-compose pull && docker-compose up` command to start **Nebula Graph Studio** services.
 
-4. Enter the `vi .env` command to modify the directory for the files to be imported in the `.env` file. For example, if the files to be imported is stored in the `/User/nebula/` directory, then the directory must be changed to `UPLOAD_DIR=/Users/nebula`.
-
-5. After the file is modified, enter the `:wq` command to save the file and exit.
-
-6. Enter the `docker-compose pull && docker-compose up` command to start **Nebula Graph Studio** services.
+4. Sucess，visit: http://0.0.0.0:7001
 
 ```bash
     Creating docker_importer_1 ... done
