@@ -19,3 +19,5 @@
 - 功能
   - 导入功能优化, 支持将Studio部署在远端，用户可以从本地访问并导入数据，不再限制导入数据必须与服务共同部署在本机
   - 图探索节点拓展，支持用户选择正反向查询节点，选择拓展出新节点的颜色显示逻辑(步骤or类型)
+- 不兼容变更
+  - 为了适应项目可以远端部署，修改了文件结构[仓库](https://github.com/vesoft-inc/nebula-web-docker)有更新，需要拉取最新代码：`git pull origin master && docker-compose pull`
