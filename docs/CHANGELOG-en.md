@@ -19,3 +19,6 @@
 - New Features
    - Import - You can now deploy the Nebula Studio service on remote servers, access it and import data to it remotely. The restriction of deploying Nebula Studio on your local host has been removed.
    - Explore - You can perform BIDIRECT query in Nebula Studio and select the color schemes by steps or tags to display newly-discovered nodes.
+
+- Breaking Changes
+  - Modified the project structure to enable to be deployed remote, please update the [repo](https://github.com/vesoft-inc/nebula-web-docker) by `git pull origin master && docker-compose pull`.
