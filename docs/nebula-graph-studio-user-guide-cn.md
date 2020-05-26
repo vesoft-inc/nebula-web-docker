@@ -4,7 +4,7 @@
 
 ## 概述
 
-**Nebula Graph Studio** 集 `ngql` 查询语言，数据导入以及图探索功能于一身，极大降低了使用 **Nebula Graph** 的门槛。**Nebula Graph Studio** 可以让您随时连接本地或其他设备上的 **Nebula Graph** 服务。
+**Nebula Graph Studio** 集 nGQL 查询语言，数据导入以及图探索功能于一身，极大降低了使用 **Nebula Graph** 的门槛。**Nebula Graph Studio** 可以让您随时连接本地或其他设备上的 **Nebula Graph** 服务。
 
 ## 前提条件
 

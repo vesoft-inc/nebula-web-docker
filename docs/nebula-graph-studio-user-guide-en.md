@@ -4,7 +4,7 @@ This guide will walk you through the process of creating graph spaces, tags, edg
 
 ## Overview
 
-**Nebula Graph Studio** integrates `ngql` query language, data importing and graph exploration, which greatly lowers the entrance to using **Nebula Graph**. **Nebula Graph Studio** allows you to connect to the **Nebula Graph** services on your local computer or other devices at any time.
+**Nebula Graph Studio** integrates nGQL query language, data importing and graph exploration, which greatly lowers the entrance to using **Nebula Graph**. **Nebula Graph Studio** allows you to connect to the **Nebula Graph** services on your local computer or other devices at any time.
 
 ## Requirements
 
