@@ -30,7 +30,7 @@
 ## 联系方式
 
 - [官方论坛](https://discuss.nebula-graph.com.cn/)
-- 访问官网 [Home Page](http://nebula-graph.io/)。
+- 访问官网 [Home Page](http://nebula-graph.io/)
 - [![WeiXin](https://img.shields.io/badge/WeChat-%E5%BE%AE%E4%BF%A1-brightgreen)](https://user-images.githubusercontent.com/38887077/67449282-4362b300-f64c-11e9-878f-7efc373e5e55.jpg)
 - [![Sina Weibo](https://img.shields.io/badge/Weibo-%E5%BE%AE%E5%8D%9A-red)](https://weibo.com/p/1006067122684542/home?from=page_100606&mod=TAB#place)
 - email: info@vesoft.com
