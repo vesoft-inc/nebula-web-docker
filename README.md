@@ -2,13 +2,13 @@
 
 ## Overview
 
-**Nebula Graph Studio** is a visualization application that combines data import and graph exploration. 
+**Nebula Graph Studio** is a visualization application that combines data import and graph exploration.
 
 ![studio](https://user-images.githubusercontent.com/40747875/73912446-7d9c4b80-48ef-11ea-8fd2-14af27de8a69.png)
 
-## Manipulation of nGQL 
+## Manipulation of nGQL
 
-After entering **Nebula Graph Studio** UI, you can see the default `console` tab where you can enter `ngql` statements to create schemas or query data from your graph database.
+After entering **Nebula Graph Studio** UI, you can see the default `console` tab where you can enter nGQL statements to create schemas or query data from your graph database.
 
 <img width="1440" alt="console" src="https://user-images.githubusercontent.com/40747875/73910282-d5d04f00-48e9-11ea-894c-4df65e6d57bc.png">
 
