@@ -29,8 +29,8 @@
 
 ## 联系方式
 
-- Twitter: [@NebulaGraph](https://twitter.com/NebulaGraph)
-- [Facebook page](https://www.facebook.com/NebulaGraph/)
-- [LinkedIn page](https://www.linkedin.com/company/vesoft-nebula-graph/)
-- [Slack channel](https://join.slack.com/t/nebulagraph/shared_invite/enQtNjIzMjQ5MzE2OTQ2LTM0MjY0MWFlODg3ZTNjMjg3YWU5ZGY2NDM5MDhmOGU2OWI5ZWZjZDUwNTExMGIxZTk2ZmQxY2Q2MzM1OWJhMmY#)
+- [官方论坛](https://discuss.nebula-graph.com.cn/)
+- 访问官网 [Home Page](http://nebula-graph.io/)
+- [![WeiXin](https://img.shields.io/badge/WeChat-%E5%BE%AE%E4%BF%A1-brightgreen)](https://user-images.githubusercontent.com/38887077/67449282-4362b300-f64c-11e9-878f-7efc373e5e55.jpg)
+- [![Sina Weibo](https://img.shields.io/badge/Weibo-%E5%BE%AE%E5%8D%9A-red)](https://weibo.com/p/1006067122684542/home?from=page_100606&mod=TAB#place)
 - email: info@vesoft.com

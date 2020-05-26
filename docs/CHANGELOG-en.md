@@ -1,23 +1,14 @@
 # Change Log
 
-## 2020.1.16 - v1.0.0-beta
-
-- New Features:
-  - Console
-  - Import Data
-  - Visualization
-- [User Manual](nebula-graph-studio-user-guide-en.md)
-
-## 2020.3.2 - v1.0.1-beta
+## 2020.4.23 - v1.0.4-beta
 
 - Feature Enhancements:
-  - Support spaces select and cache when executing in Console
-  - Add more lines to show in Console
-
-## 2020.3.31 - v1.0.2-beta
-
-- New Features:
-  - Visualization explore add edge attributes show && config tag fields show on graph
+  - Explore:
+    - Support remove vertex explored
+    - Support select multi edge to explore at same time
+    - Support select multi select vertex by click with cmd/win key pressed down
+  - Others:
+    - Fix some experience bugs
 
 ## 2020.4.15 - v1.0.3-beta
 
@@ -28,12 +19,22 @@
 - Breaking Changes
   - Modified the project structure to enable to be deployed remote, please update the [repo](https://github.com/vesoft-inc/nebula-web-docker) by `git pull origin master && docker-compose pull`.
 
-## 2020.4.23 - v1.0.4-beta
+
+## 2020.3.31 - v1.0.2-beta
+
+- New Features:
+  - Visualization explore add edge attributes show && config tag fields show on graph
+
+## 2020.3.2 - v1.0.1-beta
 
 - Feature Enhancements:
-  - Explore:
-    - Support remove vertex explored
-    - Support select multi edge to explore at same time
-    - Support select multi select vertex by click with cmd/win key pressed down
-  - Others:
-    - Fix some experience bugs
+  - Support spaces select and cache when executing in Console
+  - Add more lines to show in Console
+
+## 2020.1.16 - v1.0.0-beta
+
+- New Features:
+  - Console
+  - Import Data
+  - Visualization
+- [User Manual](nebula-graph-studio-user-guide-en.md)
