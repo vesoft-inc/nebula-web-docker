@@ -1,6 +1,6 @@
 # Change Log
 
-## 2020.5.29 - v
+## 2020.5.29 - v1.0.5-beta
 - Feature Enhancements:
   - Imporve the interaction of Explore
   - Support long time connection
