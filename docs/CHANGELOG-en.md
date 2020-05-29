@@ -1,5 +1,12 @@
 # Change Log
 
+## 2020.5.29 - v
+- Feature Enhancements:
+  - Imporve The interaction of Explore.
+  - Support long time connection .
+  - Change multi select select to click with shift.
+  - Improve text && interaction.
+
 ## 2020.4.23 - v1.0.4-beta
 
 - Feature Enhancements:
