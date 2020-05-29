@@ -1,5 +1,12 @@
 # Change Log
 
+## 2020.5.29 - v
+- Feature Enhancements:
+  - Imporve the interaction of Explore
+  - Support long time connection
+  - Modify the hotkey conflict of selecting multiple vertices at the same time. Drag to select with shift + click
+  - Improve text && interaction
+
 ## 2020.4.23 - v1.0.4-beta
 
 - Feature Enhancements:
