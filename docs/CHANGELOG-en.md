@@ -1,6 +1,12 @@
 # Change Log
 
+## 2020.6.13 - v1.0.6-beta
+
+- Feature Enhancements:
+  - Improve the display of Explore
+
 ## 2020.5.29 - v1.0.5-beta
+
 - Feature Enhancements:
   - Imporve the interaction of Explore
   - Support long time connection
