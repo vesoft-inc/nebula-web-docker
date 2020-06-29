@@ -10,7 +10,7 @@ This guide will walk you through the process of creating graph spaces, tags, edg
 
 Please ensure that the following requirements are met before using **Nebula Graph Studio**:
 
-1. [Installed Nebula Graph](https://github.com/vesoft-inc/nebula-docker-compose/blob/master/README.md) services and started **Nebula Graph**.
+1. [Installed Nebula Graph](https://github.com/vesoft-inc/nebula-docker-compose/blob/master/README.md) services and started **Nebula Graph**. Here we recommend using [Nebula Graph Docker](https://github.com/vesoft-inc/nebula-docker-compose/blob/master/README.md) for installation.
 
 2. [Installed docker](https://docs.docker.com/install/) and started docker.
 
@@ -59,27 +59,21 @@ After installing **Nebula Graph Studio**, you need to configure the **Nebula Gra
 
 After successfully connecting to the **Nebula Graph** database, you will be automatically taken to the console page. Entering the `ngql` statement to create a graph schema in the console is similar to create a graph schema on the command line. In this document, we will create a graph space named `NBA`. This graph space contains two tags (also called vertex types), which are `player` and `team`, and two edge types, which are `follow` and `serve`.
 
-Before creating the graph schema, click the **Clear** <img width="39" alt="clear_icon" src="https://user-images.githubusercontent.com/40747875/72044761-9e24b600-32ef-11ea-8913-c5e8ca8f2812.png">  icon on the right to clear the default query in the input box.
+Before creating the graph schema, click the **Clear** <img width="39" alt="clear_icon" src="https://user-images.githubusercontent.com/42762957/85966745-44c25780-b9f3-11ea-862c-335c1525cae6.png">  icon on the right to clear the default query in the input box.
 
 1. Enter the following statement in the input box of the console to create the `NBA` graph space and click the **Run** <img width="39" alt="run_icon" src="https://user-images.githubusercontent.com/40747875/72045829-04123d00-32f2-11ea-80a8-b796daaa8583.png"> icon.
 
-```
+```ngql
 CREATE SPACE NBA;
 ```
 
 **Note**: After successfully creating the `NBA` graph space, you need to click the **Clear** icon on the right again to clear the statement.
 
-2. Enter the following statement in the input box of the console to use the `NBA` graph space you just created and click the **Run** icon.
-
-```
-USE NBA;
-```
-
-**Note**: This statement cannot be cleared, because the **USE NBA** statement will be used in step 3.
+2. Choose the `NBA` graph space you just created in the Current Space column to use it. This operation is equivalent to entering the statement `USE NBA` in the console input box and clicking the **Run** icon.
 
 3. Enter the following statements in the input box of the console to create the `player` and `team` tags, `follow` and `serve` edge types, and click the **Run** icon.
 
-```
+```ngql
 CREATE TAG player (name string, age int);
 CREATE TAG team (name string);
 CREATE EDGE follow (degree int);
@@ -98,47 +92,45 @@ After the graph schema is created, you can import the required data. In this exa
 
 1. Click the **import** tab and enter **Init**. Select the required graph space in the **Spaces** drop-down list. We select `NBA` here. Click **Next**.
 
-![select_graph](https://user-images.githubusercontent.com/40747875/72596032-22a5b300-3946-11ea-8001-7e27fc005013.png)
+![select_graph](https://user-images.githubusercontent.com/42762957/85967488-28271f00-b9f5-11ea-889f-334eff7a164b.png)
 
-2. In the **Select Files** tab, click the **Select Files** button. We select four files: `player.csv`, `team.csv`, `follow.csv` and `serve.csv`.
+2. In the **Select Files** tab, click the **Select Files** button. We select four files: `player.csv`, `team.csv`, `follow.csv` and `serve.csv`. Click **Next**.
 
 ![select_files](https://user-images.githubusercontent.com/40747875/72596622-3998d500-3947-11ea-9347-016ef8fc7768.png)
 
-3. Select the data type in the **Type** column. In this example, the `follow.csv` and `serve.csv` files correspond to the edge type, and the `player.csv` and `team.csv` files correspond to the vertex type. Click **Next**.
-
 **Note**: You can also click **Preview** under the **Operation** column to view some data of the file, or click **Delete** to delete the selected file.
 
-![match_type](https://user-images.githubusercontent.com/40747875/72597090-fe4ad600-3947-11ea-8681-adf49fc64f4d.png)
+![match_type](https://user-images.githubusercontent.com/42762957/85967696-a1bf0d00-b9f5-11ea-9ef1-9e6e09fe66df.png)
 
-4. In the **Config Vertices** tab, click **Add Vertex**. In the pop-up window, select the file name from the **Name** drop-down list. Select `player.csv` here, and click **Confirm**.
+3. In the **Map Vertices** tab, click **Bind Datasource**. In the pop-up window, select the file name from the **Name** drop-down list. Select `player.csv` here, and click **Confirm**.
 
 ![add_vertex](https://user-images.githubusercontent.com/40747875/72597466-d314b680-3948-11ea-92fd-6e40ee1097c4.png)
 
-5. Click the **+Tag** button at the bottom of the page and select the column name corresponding to vertexId under **VertexId**. Here, we select `column 0` and keep **ID Hash** as the default option: `Primitive`.
+4. Click the **+Tag** button at the bottom of the page and select the column name corresponding to vertexId under **VertexId**. Here, we select `column 0` and keep **ID Hash** as the default option: `Primitive`.
 
-![add_tag](https://user-images.githubusercontent.com/40747875/72597655-24bd4100-3949-11ea-9822-e4c0b97bc772.png)
+![add_tag](https://user-images.githubusercontent.com/42762957/85968736-712ca280-b9f8-11ea-87c3-055555038e90.png)
 
-6. Select `player` in the **TAG** drop-down list. Then select the columns corresponding to the `player` attributes in the corresponding columns. Here, `name` corresponds to `column 1` and `age` corresponds to `column 2`.
+5. Select `player` in the **TAG** drop-down list. Then select the columns corresponding to the `player` attributes in the corresponding columns. Here, `vertexId` corresponds to `column 0`, `name` corresponds to `column 1` and `age` corresponds to `column 2`.
 
-![vertex-schema-match](https://user-images.githubusercontent.com/40747875/72598125-23d8df00-394a-11ea-866e-78521a124582.png)
+![vertex-schema-match](https://user-images.githubusercontent.com/42762957/85969254-b1d8eb80-b9f9-11ea-847f-a4e328fe990c.png)
 
-**Note**: Repeat step 4, 5 and 6 to add the `VertexId` mapping and attributes mapping of `team.csv`, and click **Next** after the configuration is complete.
+**Note**: Repeat step 3, 4 and 5 to add the `VertexId` mapping and attributes mapping of `team.csv`, and click **Next** after the configuration is complete.
 
-7. In the **Config Edges** tab, click **Add Edge**. In the pop-up window, select the file name from the **Name** drop-down list. Select `follow.csv` here, and click **Confirm**.
+6. In the **Map Edges** tab, click **Bind Datasource**. In the pop-up window, select the file name from the **Name** drop-down list. Select `follow.csv` here, and click **Confirm**.
 
 ![select_edge](https://user-images.githubusercontent.com/40747875/72598592-0bb58f80-394b-11ea-9298-a36ef1786a9b.png)
 
-8. Select the edge type corresponding to the file in the **Type** drop-down list. We select `follow` here.
+7. Select the edge type corresponding to the file in the **Type** drop-down list. We select `follow` here.
 
-9. Select the column name corresponding to the attribute of the edge in the corresponding column. Here `srcId` corresponds to `column 0` and `dstId` corresponds to `column 1`, `rank` attribute is ignored by default, and `degree` attribute corresponds to `column 2`.
+8. Select the column name corresponding to the attribute of the edge in the corresponding column. Here `srcId` corresponds to `column 0` and `dstId` corresponds to `column 1`, `rank` attribute is ignored by default, and `degree` attribute corresponds to `column 2`.
 
-![edge-schema-match](https://user-images.githubusercontent.com/40747875/72598965-d3fb1780-394b-11ea-99c8-2fff915f9c9a.png) 
+![edge-schema-match](https://user-images.githubusercontent.com/42762957/85969902-9078ff00-b9fb-11ea-8cce-119a03238188.png)
 
-**Note**: Repeat step 7, 8 and 9 to add the attributes mapping for the `serve` edge type. Click **Next** after the configuration is complete.
+**Note**: Repeat step 6, 7 and 8 to add the attributes mapping for the `serve` edge type. Click **Next** after the configuration is complete.
 
-10. Click **Run Import** to start importing data. You can see the log information after the import is successful.
+9. Click **Run Import** to start importing data. You can see the log information after the import is successful.
 
-![log](https://user-images.githubusercontent.com/40747875/72599516-d27e1f00-394c-11ea-8d1a-a0c522372761.png)
+![log](https://user-images.githubusercontent.com/42762957/85970290-a1764000-b9fc-11ea-835b-62e6573306e2.png)
 
 ## Graph Exploration
 
@@ -150,25 +142,35 @@ After the data importing is complete, you can start exploring the graph data in 
 
 3. Click **Add Vertices**.
 
-![graph_explore](https://user-images.githubusercontent.com/40747875/72599911-8da6b800-394d-11ea-8d3b-f9437bc75645.png)
+![graph_explore](https://user-images.githubusercontent.com/42762957/85970736-ef3f7800-b9fd-11ea-87b0-eec82fd19fae.png)
 
 **Note**: You can select a starting vertex or multiple starting vertices to find the vertices associated with it (them). In this example, we select a starting vertex with a VertexID of 100. If you select multiple starting vertices, enter them as follows:
-```
+
+```ngql
 100
 200
 300
 ```
 
+If the selected vertex does not exist, **Studio** will prompt that the vertex does not exist and it cannot be added.
+
 4. Enter the VertexId value of the starting vertex in the pop-up window. We enter 100 here. Click **Add**.
 
-![starting-vertex](https://user-images.githubusercontent.com/40747875/72600217-2e957300-394e-11ea-86dd-cdad5460a708.png)
+![starting-vertex](https://user-images.githubusercontent.com/42762957/85970996-9d4b2200-b9fe-11ea-88d2-fb1c139139ad.png)
 
 5. Click vertex 100 and then click **Expand**.
 
-![vertex-expand](https://user-images.githubusercontent.com/40747875/72600859-5df8af80-394f-11ea-8989-6c6654fd4609.png)
+![vertex-expand](https://user-images.githubusercontent.com/42762957/85971159-f87d1480-b9fe-11ea-902a-a8f516fa3916.png)
 
 6. Select `follow` from the **Edge Type** drop-down list and click **Expand** to display the following related vertices.
 
-![show-relation](https://user-images.githubusercontent.com/40747875/72600748-31449800-394f-11ea-8c0b-f95c46f28b60.png)
+![show-relation](https://user-images.githubusercontent.com/42762957/85971496-dafc7a80-b9ff-11ea-8a62-0c18c84bdde3.png)
 
 **Note**: When you move your cursor over vertex 102, all the attributes of it are displayed.
+
+7. Click **Show**, select the name property of the tag player. Now the selected property is displayed.
+
+![show](https://user-images.githubusercontent.com/42762957/85976870-06866180-ba0e-11ea-8edd-28a034d4d248.png)
+
+
+
