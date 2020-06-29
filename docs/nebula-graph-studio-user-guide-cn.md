@@ -10,7 +10,7 @@
 
 使用 **Nebula Graph Studio** 前请确保您已：
 
-1. [安装 Nebula Graph](https://github.com/vesoft-inc/nebula-docker-compose/blob/master/README_zh-CN.md) 服务且启动 **Nebula Graph**。
+1. [安装 Nebula Graph](https://github.com/vesoft-inc/nebula-docker-compose/blob/master/README_zh-CN.md) 服务且启动 **Nebula Graph**。此处我们推荐使用 [Nebula Graph Docker](https://github.com/vesoft-inc/nebula-docker-compose/blob/master/README_zh-CN.md)安装。
 
 2. [安装 docker](https://docs.docker.com/install/) 且启动 docker。
 
@@ -59,27 +59,25 @@ $ git clone https://github.com/vesoft-inc/nebula-web-docker
 
 在成功连接到 **Nebula Graph** 图数据库后，将自动进入到控制台页面。在控制台中输入 `ngql` 语句来创建图 schema 和命令行中输入 `ngql` 语句来创建图 schema 类似。在本文档示例中我们将创建一个名叫 `NBA` 的图空间，该图空间包含了两个 tag（也称作点类型）分别是 `player`、`team`，以及两个边类型分别是 `follow`、`serve`。
 
-在创建图 schema 前，单击右侧的**清除** <img width="39" alt="clear_icon" src="https://user-images.githubusercontent.com/40747875/72044761-9e24b600-32ef-11ea-8913-c5e8ca8f2812.png">  图标，清除控制台输入框中的默认查询语句。
+在创建图 schema 前，单击右侧的**清除** <img width="39" alt="clear_icon" src="https://user-images.githubusercontent.com/42762957/85966745-44c25780-b9f3-11ea-862c-335c1525cae6.png">  图标，清除控制台输入框中的默认查询语句。
 
 1. 在控制台输入框中输入以下语句创建 `NBA` 图空间，并单击**运行** <img width="39" alt="run_icon" src="https://user-images.githubusercontent.com/40747875/72045829-04123d00-32f2-11ea-80a8-b796daaa8583.png"> 图标。
 
-```
+```ngql
 CREATE SPACE NBA;
 ```
 
 **注意**：成功创建 `NBA` 图空间后需要再次单击右侧的**清除**图标来清除该语句。
 
-2. 在控制台输入框中输入以下语句来使用刚刚创建的 `NBA` 图空间，并单击**运行**图标。
+2. 在当前 Space 选择刚创建的 `NBA` 图空间，这相当于在控制台输入框中输入以下语句使用图空间，并单击**运行**图标。
 
-```
+```ngql
 USE NBA;
 ```
 
-**注意**：该语句不能清除，在第3步中将继续使用 **USE NBA** 语句。
-
 3. 在控制台输入框中输入以下语句创建 `player`、`team` 点类型，`follow`、`serve` 边类型，并单击**运行**图标。
 
-```
+```ngql
 CREATE TAG player (name string, age int);
 CREATE TAG team (name string);
 CREATE EDGE follow (degree int);
@@ -88,7 +86,7 @@ CREATE EDGE serve (start_year int, end_year int);
 
 **说明**：到此就完成了图 schema 的创建。
 
-<img width="1545" alt="create_schema" src="https://user-images.githubusercontent.com/40747875/72046081-9f0b1700-32f2-11ea-8d4d-e586a404c065.png">   
+<img width="1545" alt="create_schema" src="https://user-images.githubusercontent.com/40747875/72046081-9f0b1700-32f2-11ea-8d4d-e586a404c065.png">
 
 ## 导入数据
 
@@ -98,45 +96,43 @@ CREATE EDGE serve (start_year int, end_year int);
 
 1. 单击**导入**选项卡，进入**初始化**，在 **Spaces** 下拉列表中选择需要的图空间，此处选择 `NBA`。单击**下一步**。
 
-<img width="1545" alt="init" src="https://user-images.githubusercontent.com/40747875/72046564-ab43a400-32f3-11ea-804b-94fbb15af940.png">
+<img width="1545" alt="init" src="https://user-images.githubusercontent.com/42762957/85967401-f1e99f80-b9f4-11ea-9b45-6fe900c86da8.png">
 
-2. 在**选择文件**中，单击**选择文件**。此处选中四个文件，分别是 `player.csv`、`team.csv`、`follow.csv` 以及 `serve.csv`。
+2. 在**选择文件**中，单击**选择文件**。此处选中四个文件，分别是 `player.csv`、`team.csv`、`follow.csv` 以及 `serve.csv`。单击**下一步**。
 
 <img width="1545" alt="select_files" src="https://user-images.githubusercontent.com/40747875/72047071-b0552300-32f4-11ea-9b20-bcc0b210850f.png">
 
-3. 在**类型**列中选择数据类型。在本示例中 `follow.csv` 和 `serve.csv` 文件对应边类型，`player.csv` 和 `team.csv` 文件对应点类型。单击**下一步**。
-
 **说明**：您也可以在**操作**栏下单击**预览**来查看文件的部分数据，或点击**删除**来删除选中的文件。
 
-<img width="1545" alt="file_to_type" src="https://user-images.githubusercontent.com/40747875/72047582-d29b7080-32f5-11ea-8a66-953b23fc2036.png">
+<img width="1545" alt="file_to_type" src="https://user-images.githubusercontent.com/42762957/85967772-cfa45180-b9f5-11ea-894e-1a26cd98941f.png">
 
-4. 在**配置 Vertex** 中，单击**添加 Vertex**。在弹出的窗口中，从**文件名**下拉列表中选择文件名，此处选择 `player.csv`，然后单击**确认**。
+3. 在**关联点** 中，单击**绑定数据源**。在弹出的窗口中，从**文件名**下拉列表中选择文件名，此处选择 `player.csv`，然后单击**确认**。
 
 <img width="1545" alt="configure_vertex" src="https://user-images.githubusercontent.com/40747875/72048030-d8458600-32f6-11ea-8a78-ca698eb27f6a.png">
 
-5. 单击页面底部的 **+Tag** 按钮，在 **VertexId** 下选择 vertexId 对应的列名，此处我们选择 `column 0`。ID Hash 保留默认选项：`保留原值`。
+4. 单击页面底部的 **+Tag** 按钮，在 **VertexId** 下选择 vertexId 对应的列名，此处我们选择 `column 0`。ID Hash 保留默认选项：`保留原值`。
 
-<img width="1545" alt="vertex_id" src="https://user-images.githubusercontent.com/40747875/72048605-21e2a080-32f8-11ea-8d28-eea5762055a0.png">
+<img width="1545" alt="vertex_id" src="https://user-images.githubusercontent.com/42762957/85968468-d16f1480-b9f7-11ea-8413-85fef81a3198.png">
 
-6. 在 **TAG** 下拉列表中选择 `player`。然后在对应列中选择 `player` 属性所对应的列。此处 `name` 对应 `column 1`、`age` 对应 `column 2`。
+5. 在 **TAG** 下拉列表中选择 `player`。然后在对应列中选择 `player` 属性所对应的列。此处 `vertexId` 对应 `column 0`、`name` 对应 `column 1`、`age` 对应 `column 2`。
 
-<img width="1545" alt="vertex_prop_map" src="https://user-images.githubusercontent.com/40747875/72048826-9cabbb80-32f8-11ea-9889-882ddd6f19b4.png">
+<img width="1545" alt="vertex_prop_map" src="https://user-images.githubusercontent.com/42762957/85968829-aa651280-b9f8-11ea-9d10-e2a99be787f4.png">
 
-**说明**：重复第4、5、6步，添加 `team.csv` 的 `VertexId` 映射和属性映射，配置完成后单击**下一步**。
+**说明**：重复第 3、4、5 步，添加 `team.csv` 的 `VertexId` 映射和属性映射，配置完成后单击**下一步**。
 
-7. 在**配置边**中，单击**添加 Edge**。在弹出的窗口中，从**文件名**下拉列表中选择文件名，此处选择 `follow.csv`，然后单击**确认**。
+6. 在**关联边**中，单击**绑定数据源**。在弹出的窗口中，从**文件名**下拉列表中选择文件名，此处选择 `follow.csv`，然后单击**确认**。
 
 <img width="1545" alt="edge_config" src="https://user-images.githubusercontent.com/40747875/72049268-881bf300-32f9-11ea-8014-7011f2258243.png">
 
-8. 在**类型**下拉列表中选择文件对应的边类型，此处选择 `follow`。
+7. 在**类型**下拉列表中选择文件对应的边类型，此处选择 `follow`。
 
-9. 在对应列中选择边的属性所对应的文件列名。此处 `srcId` 对应 `column 0`， `dstId` 对应 `column 1`， `rank` 属性默认忽略，`degree` 属性对应 `column 2`。
+8. 在对应列中选择边的属性所对应的文件列名。此处 `srcId` 对应 `column 0`， `dstId` 对应 `column 1`， `rank` 属性默认忽略，`degree` 属性对应 `column 2`。
 
-<img width="1545" alt="edge_prop_map" src="https://user-images.githubusercontent.com/40747875/72049409-dfba5e80-32f9-11ea-91ed-b7bb092f12b8.png"> 
+<img width="1545" alt="edge_prop_map" src="https://user-images.githubusercontent.com/42762957/85969686-f5802500-b9fa-11ea-8047-ed67e7d7bfcd.png">
 
-**说明**：重复第7、8、9步，添加 `serve` 边类型的属性映射，配置完成后单击**下一步**。
+**说明**：重复第 6、7、8 步，添加 `serve` 边类型的属性映射，配置完成后单击**下一步**。
 
-10. 单击**导入**，开始导入数据。导入成功后可以看到日志信息。
+9. 单击**导入**，开始导入数据。导入成功后可以看到日志信息。
 
 <img width="1545" alt="import_data" src="https://user-images.githubusercontent.com/40747875/72049709-7b4bcf00-32fa-11ea-9851-2b5f619e2c83.png">
 
@@ -150,27 +146,32 @@ CREATE EDGE serve (start_year int, end_year int);
 
 3. 单击**添加起点**。
 
-<img width="1545" alt="data_explore" src="https://user-images.githubusercontent.com/40747875/72049921-ec8b8200-32fa-11ea-8026-ba0d04fe3eac.png">
+<img width="1545" alt="data_explore" src="https://user-images.githubusercontent.com/42762957/85970352-d5516580-b9fc-11ea-8641-a3311fc58aaf.png">
 
 **说明**：您可以选择一个起点或多个起点来查找与之相关联的点。本示例中选择一个起点，该起点的 VertexID 为100。如果您选择多个起点，则按照以下方式输入：
 
-```
+```ngql
 100
 200
 300
 ```
 
+如果所选点不存在，则会提示不存在，且无法添加。
+
 4. 在弹出的窗口中输入起点的 VertexId 值，此处输入100。单击**确认添加**。
 
-<img width="1545" alt="start_vertex" src="https://user-images.githubusercontent.com/40747875/72050299-c0243580-32fb-11ea-8972-600884420aae.png">
+<img width="1545" alt="start_vertex" src="https://user-images.githubusercontent.com/42762957/85970947-81478080-b9fe-11ea-89d3-078c44ba1346.png">
 
 5. 单击点100，然后单击**拓展**。
 
-<img width="1545" alt="click_to_select_a_vertex" src="https://user-images.githubusercontent.com/40747875/72050395-f82b7880-32fb-11ea-95ba-089666660ecb.png">
+<img width="1545" alt="click_to_select_a_vertex" src="https://user-images.githubusercontent.com/42762957/85971086-d2f00b00-b9fe-11ea-82c0-5464efe8a1a3.png">
 
 6. 在 **Edge Type** 下拉列表中选择 `follow` 并单击**拓展**，显示如下关联点。
 
-![cursor_over](https://user-images.githubusercontent.com/40747875/72673599-dd00fb80-3aa7-11ea-9fe9-7d6abb012801.png)
-
+![cursor_over](https://user-images.githubusercontent.com/42762957/85976248-b2c74880-ba0c-11ea-8d7d-6068f2fc4c42.png)
 
 **说明**：将光标移动到 vertex 102 上时将显示该点的所有属性值。
+
+7. 点击**显示**，此处选中标签 player 的 name 属性，显示效果见下图。
+
+![show](https://user-images.githubusercontent.com/42762957/85976397-12255880-ba0d-11ea-8618-172d0134b6e0.png)
