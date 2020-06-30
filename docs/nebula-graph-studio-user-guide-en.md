@@ -35,9 +35,9 @@ $ git clone https://github.com/vesoft-inc/nebula-web-docker
     Creating docker_nginx_1    ... done
 ```
 
-**Note**: The above informtion indicates that **Nebula Graph Studio** has been started successfully.
+**Note**: The above information indicates that **Nebula Graph Studio** has been started successfully.
 
-## Configurating Database
+## Configuring Database
 
 After installing **Nebula Graph Studio**, you need to configure the **Nebula Graph** database and connect to it.
 
@@ -86,7 +86,7 @@ CREATE EDGE serve (start_year int, end_year int);
 
 ## Importing Data
 
-After the graph schema is created, you can import the required data. In this example we have prepared two vertex files, `player.csv` and `team.csv`, and two edge files, `follow.csv` and `serve.csv`. You can find the four files in the `example` folder.
+After the graph schema is created, you can import the required data. In this example we have prepared two vertex files, `player.csv` and `team.csv`, and two edge files, `follow.csv` and `serve.csv`. You can find the four files in the [example](https://github.com/vesoft-inc/nebula-web-docker/tree/master/example) folder.
 
 **Note**: Only support for importing data from CSV files without header.
 
