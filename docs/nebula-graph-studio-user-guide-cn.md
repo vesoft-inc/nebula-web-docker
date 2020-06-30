@@ -90,7 +90,7 @@ CREATE EDGE serve (start_year int, end_year int);
 
 ## 导入数据
 
-在图 schema 创建完成后，可以导入需要的数据。在本示例中我们准备了两个点数据文件分别是 `player.csv`、`team.csv`，以及两个边文件分别是 `follow.csv`、`serve.csv`。
+在图 schema 创建完成后，可以导入需要的数据。在本示例中我们准备了两个点数据文件分别是 `player.csv`、`team.csv`，以及两个边文件分别是 `follow.csv`、`serve.csv`。示例数据点击[这里](https://github.com/vesoft-inc/nebula-web-docker/tree/master/example)。
 
 **注意**：目前仅支持无 header 的 CSV 文件数据导入。
 
