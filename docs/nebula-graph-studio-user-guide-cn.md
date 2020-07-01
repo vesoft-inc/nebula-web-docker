@@ -175,3 +175,7 @@ CREATE EDGE serve (start_year int, end_year int);
 7. 点击**显示**，此处选中标签 player 的 name 属性，显示效果见下图。
 
 ![show](https://user-images.githubusercontent.com/42762957/85976397-12255880-ba0d-11ea-8618-172d0134b6e0.png)
+
+## Nebula Graph Studio 视频教程
+
+如果相比阅读文档，您更喜欢观看教学视频，请点击 [Nebula Graph Studio 视频教程](https://space.bilibili.com/472621355/channel/detail?cid=121139)。
