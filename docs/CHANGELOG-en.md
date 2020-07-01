@@ -1,5 +1,10 @@
 # Change Log
 
+## 2020.7.1 - v1.0.7-beta
+
+- Fix:
+  - Console shortest|full path show problem fix
+
 ## 2020.6.13 - v1.0.6-beta
 
 - Feature Enhancements:
