@@ -1,5 +1,11 @@
 # Change Log
 
+## 2020.7.3 - v1.0.8-beta
+
+- Feature Enhancements:
+  - Explore - Support edge attributes select to show
+  - Console - Support show gql exec time cost
+
 ## 2020.7.1 - v1.0.7-beta
 
 - Fix:
