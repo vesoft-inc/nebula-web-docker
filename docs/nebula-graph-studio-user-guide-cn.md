@@ -172,9 +172,17 @@ CREATE EDGE serve (start_year int, end_year int);
 
 **说明**：将光标移动到 vertex 102 上时将显示该点的所有属性值。
 
-7. 点击**显示**，此处选中标签 player 的 name 属性，显示效果见下图。
+7. 点击**显示点**，此处选中标签 player 的 name 属性，显示效果见下图。
 
 ![show](https://user-images.githubusercontent.com/42762957/85976397-12255880-ba0d-11ea-8618-172d0134b6e0.png)
+
+显示边与显示点类似。
+
+8. 批量选择
+
+长按鼠标左键拖拽即可批量选择多个点。
+
+![image](https://user-images.githubusercontent.com/42762957/86690932-f4727780-c03a-11ea-9012-fbaa7ba27941.png)
 
 ## Nebula Graph Studio 视频教程
 
