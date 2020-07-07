@@ -168,9 +168,14 @@ If the selected vertex does not exist, **Studio** will prompt that the vertex do
 
 **Note**: When you move your cursor over vertex 102, all the attributes of it are displayed.
 
-7. Click **Show**, select the name property of the tag player. Now the selected property is displayed.
+7. Click **Show Tags**, select the name property of the tag player. Now the selected property is displayed.
 
 ![show](https://user-images.githubusercontent.com/42762957/85976870-06866180-ba0e-11ea-8edd-28a034d4d248.png)
 
+Show Edges is similar to Show Tags.
 
+8. Batch selecting.
 
+Hold down the left mouse button and drag to select multiple vertices in batch.
+
+![image](https://user-images.githubusercontent.com/42762957/86690932-f4727780-c03a-11ea-9012-fbaa7ba27941.png)
