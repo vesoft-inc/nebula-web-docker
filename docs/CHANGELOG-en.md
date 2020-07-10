@@ -1,5 +1,13 @@
 # Change Log
 
+## 2020.7.9 - v1.0.9-beta
+
+- Fix:
+  - Console - Support horizontal scroll bar when returning too many columns
+  - Import - Support searching when selecting files
+  - Import - Support importing timestamp data type
+  - Explore - Fix query stitching problem when clicking the small icon
+
 ## 2020.7.3 - v1.0.8-beta
 
 - Feature Enhancements:
