@@ -69,11 +69,9 @@ CREATE SPACE NBA;
 
 **注意**：成功创建 `NBA` 图空间后需要再次单击右侧的**清除**图标来清除该语句。
 
-2. 在当前 Space 选择刚创建的 `NBA` 图空间，这相当于在控制台输入框中输入以下语句使用图空间，并单击**运行**图标。
+2. 在当前 Space 选择刚创建的 `NBA` 图空间并单击**运行**图标。
 
-```ngql
-USE NBA;
-```
+![image](https://user-images.githubusercontent.com/42762957/87892508-d4e24280-ca6f-11ea-93b7-17d841ed0640.png)
 
 3. 在控制台输入框中输入以下语句创建 `player`、`team` 点类型，`follow`、`serve` 边类型，并单击**运行**图标。
 

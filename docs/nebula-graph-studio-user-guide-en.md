@@ -69,7 +69,9 @@ CREATE SPACE NBA;
 
 **Note**: After successfully creating the `NBA` graph space, you need to click the **Clear** icon on the right again to clear the statement.
 
-2. Choose the `NBA` graph space you just created in the Current Space column to use it. This operation is equivalent to entering the statement `USE NBA` in the console input box and clicking the **Run** icon.
+2. Choose the `NBA` graph space you just created in the Current Space column to use it and click the **Run** icon.
+
+![image](https://user-images.githubusercontent.com/42762957/87892696-5e921000-ca70-11ea-872e-a7cfa5f48022.png)
 
 3. Enter the following statements in the input box of the console to create the `player` and `team` tags, `follow` and `serve` edge types, and click the **Run** icon.
 
