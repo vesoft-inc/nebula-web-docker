@@ -1,5 +1,10 @@
 # Change Log
 
+## 2020.7.31 - v1.0.10-beta
+- Feature Enhancements:
+  - Explore - Add limit when expand
+  - Console - Support csv result export
+
 ## 2020.7.9 - v1.0.9-beta
 
 - Fix:
