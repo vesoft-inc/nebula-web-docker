@@ -1,5 +1,17 @@
 # Change Log
 
+## 2020.8.18 - v1.1.0-beta
+- Feature Enhancements:
+  - Explore 
+    - Add index query
+    - Add pre-process vertex id
+  - Console 
+    - Support vertices import graph exploration board
+- Fix:
+  - Explore - Display problem of boolean attributes fix
+- Optimization
+  - Improve text && interaction
+
 ## 2020.7.31 - v1.0.10-beta
 - Feature Enhancements:
   - Explore - Add `limit` when expand
