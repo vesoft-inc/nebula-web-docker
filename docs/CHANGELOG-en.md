@@ -3,12 +3,13 @@
 ## 2020.8.18 - v1.1.0-beta
 - Feature Enhancements:
   - Explore 
-    - Add index query
-    - Add pre-process vertex id
+    - Support query by index
+    - Support pre-processing VIDs before query by VID
   - Console 
-    - Support vertices import graph exploration board
+    - Support importing the results of vertex query into the graph exploration board
 - Fix:
-  - Explore - Display problem of boolean attributes fix
+  - Explore 
+    - Fixed the display problem for boolean properties
 - Optimization
   - Improve text && interaction
 
