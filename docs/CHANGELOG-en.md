@@ -1,5 +1,18 @@
 # Change Log
 
+## 2020.8.18 - v1.1.0-beta
+- Feature Enhancements:
+  - Explore 
+    - Support query by index
+    - Support pre-processing VIDs before query by VID
+  - Console 
+    - Support importing the results of vertex query into the graph exploration board
+- Fix:
+  - Explore 
+    - Fixed the display problem for boolean properties
+- Optimization
+  - Improve text && interaction
+
 ## 2020.7.31 - v1.0.10-beta
 - Feature Enhancements:
   - Explore - Add `limit` when expand
