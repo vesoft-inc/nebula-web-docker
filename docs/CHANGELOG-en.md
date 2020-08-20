@@ -1,5 +1,13 @@
 # Change Log
 
+## 2020.8.20 - v1.1.1-beta
+- Feature Enhancements:
+  - Add the link to the Nebula Graph repo on the navigation bar 
+- Fix
+  - Explore 
+    - Support using hash or uuid to pre-process strings to generate VIDs 
+    - Fix precision of a double data for the query result
+
 ## 2020.8.18 - v1.1.0-beta
 - Feature Enhancements:
   - Explore 
