@@ -6,7 +6,7 @@
 - Fix
   - Explore 
     - Support using hash or uuid to pre-process strings to generate VIDs 
-    - Fix precision of a double data for the query result
+    - Fix precision of double data for the query result
 
 ## 2020.8.18 - v1.1.0-beta
 - Feature Enhancements:
