@@ -1,5 +1,13 @@
 # Change Log
 
+## 2020.8.20 - v1.1.1-beta
+- 功能增强:
+  - 在导航栏中添加Nebula Graph源码库链接 
+- 修复
+  - 图探索 
+    - 支持使用hash和uuid预处理string类型数据生成VID（或者支持输入string类型生成VID）
+    - 修正double类型数据查询结果的精度
+    
 ## 2020.8.18 - v1.1.0-beta
 - 功能增强:
   - 图探索 
