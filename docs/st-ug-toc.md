@@ -16,8 +16,8 @@
   - [创建图数据模式](docs/quick-start/st-ug-create-schema.md)
   - [导入数据](docs/quick-start/st-ug-import-data.md)
   - [查询图数据](docs/quick-start/st-ug-explore.md)
-- 操作指南【TODO】
-- 最佳实践【TODO】
-- 故障排查【TODO】
+- 操作指南 [TODO]
+- 最佳实践 [TODO]
+- 故障排查 [TODO]
   - 连接问题
   - 错误信息

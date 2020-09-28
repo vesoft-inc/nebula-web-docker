@@ -4,7 +4,7 @@ Nebula Graph&reg; Studio（简称 Studio）是由欧若数网开发的一款图�
 
 ## 产品特点
 
-【TODO】
+ [TODO]
 
 ## 适用场景
 
