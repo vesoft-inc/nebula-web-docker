@@ -49,8 +49,8 @@ Nebula Graph&reg; Studio 支持本地访问和云服务访问。本文主要描�
 
     如果您在浏览器窗口中能看到以下登录界面，表示您已经成功安装并启动 Nebula Graph Studio。
 
-    ![Nebula Graph Studio 登录界面](/docs/figs/st-ug-001.png "Nebula Graph Studio 登录界面")
+    ![Nebula Graph Studio 登录界面](docs/figs/st-ug-001.png "Nebula Graph Studio 登录界面")
 
 ## 后续操作
 
-进入 Nebula Graph Studio 登录界面后，您需要连接数据库。详细信息，参考 [连接数据库](/docs/config-database/st-ug-connect.md)。
+进入 Nebula Graph Studio 登录界面后，您需要连接数据库。详细信息，参考 [连接数据库](docs/config-database/st-ug-connect.md)。

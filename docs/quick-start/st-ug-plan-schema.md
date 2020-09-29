@@ -19,4 +19,4 @@
 
 下图说明示例中点与边的关系。
 
-![user 在 MOOC 平台上参加课程](/docs/figs/st-ug-006.png "示例中点与边的关系")
+![user 在 MOOC 平台上参加课程](docs/figs/st-ug-006.png "示例中点与边的关系")
