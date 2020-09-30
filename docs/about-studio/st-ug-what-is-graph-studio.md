@@ -9,7 +9,7 @@ Studio 目前有两个发行版本：
 - 本地版本：您可以在本地部署 Studio，并连接到部署在本地的 Nebula Graph 数据库。详细信息，参考 [安装部署 Studio](docs/install-configure/st-ug-install.md)。
 - 云服务版本：您可以在 Nebula Graph Cloud Service 上创建 Nebula Graph 数据库实例，并一键直连 Studio。详细信息，参考[《Nebula Graph Cloud Service 用户手册》](https://cloud-docs.nebula-graph.com.cn/cn/posts/manage-instances/dbaas-ug-connect-nebulastudio/ "点击前往 Nebula Graph Cloud Service 用户手册")。
 
-两个发行版本功能基本相同。但是，因为部署方式不同，会有不同的使用限制。详细信息，参考 [使用限制](st-ug-limitations.md)
+两个发行版本功能基本相同。但是，因为部署方式不同，会有不同的使用限制。详细信息，参考 [使用限制](st-ug-limitations.md)。
 
 ## 产品功能
 
