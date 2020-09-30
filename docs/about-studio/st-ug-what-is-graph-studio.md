@@ -6,7 +6,7 @@ Nebula Graph&reg; Studio（简称 Studio）是由欧若数网开发的一款可�
 
 Studio 目前有两个发行版本：
 
-- 本地版本：您可以在本地部署 Studio，并连接到部署在本地的 Nebula Graph 数据库。详细信息，参考 [安装部署 Studio](docs/install-configure/st-ug-install.md)。
+- 本地版本：您可以在本地部署 Studio，并连接到部署在本地的 Nebula Graph 数据库。详细信息，参考 [安装部署 Studio](../install-configure/st-ug-install.md)。
 - 云服务版本：您可以在 Nebula Graph Cloud Service 上创建 Nebula Graph 数据库实例，并一键直连 Studio。详细信息，参考[《Nebula Graph Cloud Service 用户手册》](https://cloud-docs.nebula-graph.com.cn/cn/posts/manage-instances/dbaas-ug-connect-nebulastudio/ "点击前往 Nebula Graph Cloud Service 用户手册")。
 
 两个发行版本功能基本相同。但是，因为部署方式不同，会有不同的使用限制。详细信息，参考 [使用限制](st-ug-limitations.md)。
@@ -19,7 +19,7 @@ Studio 提供以下功能：
 - GUI 设计，方便您管理 Nebula Graph 图数据：
   - 借助 Studio 的 **控制台** 功能，您可以使用 nGQL&trade; 语句创建图数据模式（Schema），并对数据执行增删改查操作。
   - 借助 **导入** 功能，通过简单的配置，您即能完成批量点和边数据导入，并能实时查看数据导入日志。
-- 图探索，支持可视化展示图数据，使您更易于发现数据之间的关联性，提高数据分析、解读的效率。
+- 图探索，支持可视化展示图数据，使您更容易发现数据之间的关联性，提高数据分析和解读的效率。
 
 ## 适用场景
 
@@ -31,8 +31,6 @@ Studio 提供以下功能：
 
 ## 身份验证
 
-Nebula Graph 默认不启动身份验证，此时，您可以使用默认账号和密码（`user` 和 `password`）登录 Studio。
-
-如果 Nebula Graph 启用了身份验证，您只能使用指定的账号和密码登录 Studio。
+Nebula Graph 默认不启动身份验证，此时，您可以使用默认账号和密码（`user` 和 `password`）登录 Studio。如果 Nebula Graph 启用了身份验证，您只能使用指定的账号和密码登录 Studio。
 
 关于 Nebula Graph 的身份验证功能，参考[《Nebula Graph 用户手册》](https://docs.nebula-graph.com.cn/manual-CN/3.build-develop-and-administration/4.account-management-statements/authentication/ "点击前往 Nebula Graph 用户手册")。
