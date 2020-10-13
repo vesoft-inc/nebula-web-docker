@@ -1,6 +1,6 @@
 # 规划图数据模式
 
-在使用 Nebula Graph Studio 之前，您需要先根据 Nebula Graph 数据库的要求规划您的图数据模式。
+在使用 Nebula Graph Studio 之前，您需要先根据 Nebula Graph 数据库的要求规划您的图数据模式(Schema）。
 
 图数据模式至少要包含以下要素：
 

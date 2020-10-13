@@ -25,25 +25,19 @@
 3. 在命令行中，依次输入以下语句，并点击 ![表示运行的图标](../figs/st-ug-008.png "Run 图标") 图标。一次只能运行一条语句。
 
    ```nGQL
-    # 创建标签 user，带有 1 个属性
-    CREATE TAG user (useId int);
-    # 创建标签 course，带有两个属性
-    CREATE TAG course (courseId int, courseName string);
-    # 创建边类型，带有 7 个属性
-    CREATE EDGE action (actionId int, duration double, label bool, feature0 double, feature1 double, feature2 double, feature3 double);
+    CREATE TAG user (userId int); -- 创建标签 user，带有 1 个属性
+    CREATE TAG course (courseId int, courseName string); -- 创建标签 course，带有两个属性
+    CREATE EDGE action (actionId int, duration double, label bool, feature0 double, feature1 double, feature2 double, feature3 double); -- 创建边类型，带有 7 个属性
     ```
 
 至此，您已经完成了图数据模式创建。您可以运行以下语句查看标签与边类型的定义是否正确、完整。
 
 ```nGQL
-# 列出当前图空间中所有标签
-SHOW TAGS;
-# 列出当前图空间中所有边类型
-SHOW EDGES;
-# 查看每种标签和边类型的结构是否正确
+SHOW TAGS; -- 列出当前图空间中所有标签
+SHOW EDGES; -- 列出当前图空间中所有边类型
 DESCRIBE TAG user;
 DESCRIBE TAG course;
-DESCRIBE EDGE action;
+DESCRIBE EDGE action; -- 查看每种标签和边类型的结构是否正确
 ```
 
 ## 后续操作
