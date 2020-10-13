@@ -28,7 +28,7 @@
    ![在数据源中点击“选择”](../figs/st-ug-009.png "为 vertexId 选择数据源")
    b. 在弹出对话框中，选择数据列。在本示例中，user.csv 中仅有一列数据用于生成代表用户的 VID，course.csv 中选择表示 `courseName` 信息的 **Column 1** 用于生成代表课程的 VID。
    > **说明**：在同一个图空间中，VID 始终唯一，不可重复。关于 VID 的信息，参考 [Nebula Graph 的点标识符和分区](https://docs.nebula-graph.com.cn/manual-CN/5.appendix/vid-partition/ "点击进入 Nebula Graph 用户手册")。
-   c. 在 **ID Hash** 列，选择 VID 预处理方式：如果源数据是 `int` 类型数据，选择 **保持原值**；如果源数据是 `string`、`double` 或者 `bool` 类型数据，选择 **Hash** 或者 **UUID**。
+   c. 在 **ID Hash** 列，选择 VID 预处理方式：如果源数据是 `int` 类型数据，选择 **保持原值**；如果源数据是 `string`、`double` 或者 `bool` 类型数据，选择 **Hash**。
 8. 在 **TAG 1** 部分，完成以下操作：
    a. 在 **TAG** 下拉列表中，选择数据源对应的标签名称。在本示例中，user.csv 文件对应选择 **user**；course.csv 文件对应选择 **course**。
    b. 在显示的属性列表中，点击 **选择**，为标签属性绑定源数据。在本示例中，`user` 标签没有属性，不需要选择数据源；`course` 标签的 `courseId` 属性对应 course.csv 文件中的 **Column 0** 列，**类型** 为 **int**，`courseName` 属性对应文件中的 **Column 1** 列，**类型** 为 **string**。  
