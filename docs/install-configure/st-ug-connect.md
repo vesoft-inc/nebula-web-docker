@@ -11,7 +11,7 @@
 - 部署了 Nebula Graph 查询引擎的服务器 IP 地址以及服务所用端口。
 
 - Nebula Graph 数据库登录账号信息，包括用户名和密码。
-  > **说明**：如果在部署 Nebula Graph 时已经启用了身份验证，并且已经创建了不同角色的用户，您只能使用被分配到的账号和密码登录数据库。如果未启用身份验证，您必须使用 _user_ 和 _password_ 登录数据库。关于启用身份验证，参考 [Nebula Graph 用户手册](https://docs.nebula-graph.com.cn/ "点击进入 Nebula Graph 用户手册")。
+  > **说明**：如果在部署 Nebula Graph 时已经启用了身份验证，并且已经创建了不同角色的用户，您只能使用被分配到的账号和密码登录数据库。如果未启用身份验证，您可以使用默认用户名（`user`）和默认密码（`password`）登录数据库。关于启用身份验证，参考 [Nebula Graph 用户手册](https://docs.nebula-graph.com.cn/ "点击进入 Nebula Graph 用户手册")。
 
 ## 操作步骤
 
@@ -20,14 +20,16 @@
 1. 在 Studio 的 **配置数据库** 页面上，输入以下信息：
    - **Host**：填写 Nebula Graph 查询引擎的服务器 IP 地址及端口。格式为 `IP地址:3699`。
      > **说明**：如果 Nebula Graph 数据库与 Studio 部署在同一台服务器上，您必须在 **Host** 字段填写这台服务器的真实 IPv4 地址。
-   - **用户名** 和 **密码**：填写 Nebula Graph 的登录账号和密码。
-     - 如果未启用身份验证，填写 `user` 和 `password`。
-     - 如果已启用身份验证，但是未创建账号信息，您只能以 GOD 角色登录，填写 `root` 和 `nebula`。
+   - **用户名** 和 **密码**：根据 Nebula Graph 的身份验证设置填写登录账号和密码。
+     - 如果未启用身份验证，可以填写默认用户名 `user` 和默认密码 `password`。
+     - 如果已启用身份验证，但是未创建账号信息，您只能以 GOD 角色登录，必须填写 `root` 及对应的密码 `nebula`。
      - 如果已启用身份验证，同时又创建了不同的用户并分配了角色，不同角色的用户使用自己的账号和密码登录。
-   ![显示 Nebula Graph Studio 界面，表示连接成功](../figs/st-ug-002.png "Nebula Graph Studio 连接成功")
+
+      ![显示 Nebula Graph Studio 界面，表示连接成功](../figs/st-ug-002.png "Nebula Graph Studio 连接成功")
 2. 完成设置后，点击 **连接** 按钮。  
    如果您能看到如下图所示界面，表示您已经成功连接到 Nebula Graph 数据库。
-   ![显示 Nebula Graph Studio 界面，表示连接成功](../figs/st-ug-003.png "Nebula Graph Studio 连接成功")
+
+    ![显示 Nebula Graph Studio 界面，表示连接成功](../figs/st-ug-003.png "Nebula Graph Studio 连接成功")
 
 一次连接会话持续 30 分钟。如果您超过 30 分钟没有操作，会话会断开，您需要重新登录数据库。
 
@@ -35,6 +37,6 @@
 
 成功连接 Nebula Graph 数据库后，根据账号的权限，您可以选择执行以下操作：
 
-- 如果您以 _user_、_root_ 或者指定图空间的 ADMIN 角色账号登录，可以使用 **控制台** [创建图数据模式](../quick-start/st-ug-create-schema.md)。
-- 如果您以 _user_、_root_、指定图空间的 ADMIN、DBA 或者 USER 角色账号登录，可以 [导入数据](../quick-start/st-ug-import-data.md) 或者使用 **控制台** 写入数据。
-- 如果您以 _user_、_root_、指定图空间的 ADMIN、DBA、USER、GUEST 角色账号登录，可以使用 **控制台** 完成查询操作或者使用 **图探索** 完成图探索或数据分析。
+- 如果您以 `user`、`root` 用户或者指定图空间的 ADMIN 角色账号登录，可以使用 **控制台** [创建图数据模式](../quick-start/st-ug-create-schema.md)。
+- 如果您以 `user`、`root` 用户或者指定图空间的 ADMIN、DBA、USER 角色账号登录，可以 [导入数据](../quick-start/st-ug-import-data.md) 或者使用 **控制台** 写入数据。
+- 如果您以 `user`、`root` 用户或者指定图空间的 ADMIN、DBA、USER、GUEST 角色账号登录，可以使用 **控制台** 完成查询操作或者使用 **图探索** 完成图探索和数据分析。

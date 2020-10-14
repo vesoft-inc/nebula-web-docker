@@ -9,7 +9,7 @@ Nebula Graph&reg; Studio 支持本地访问和云服务访问。本文主要描�
 在安装 Studio 之前，您需要确认以下信息：
 
 - Nebula Graph 服务已经部署并启动。详细信息，参考[《Nebula Graph 用户手册》](https://docs.nebula-graph.io/manual-EN/3.build-develop-and-administration/2.install/1.install-with-rpm-deb/ "点击前往 Nebula Graph 用户手册")。
-  > **说明**：您可以使用多种方式部署并启动 Nebula Graph 服务。如果您是刚开始使用 Nebula Graph，建议您使用 Docker Compose 部署 Nebula Graph。详细信息，参考 [使用 Docker Compose 部署 Nebula Graph](https://github.com/vesoft-inc/nebula-docker-compose/blob/master/README_zh-CN.md "点击前往 GitHub 网站")。
+  > **说明**：您可以使用多种方式部署并启动 Nebula Graph 服务。如果您刚开始使用 Nebula Graph，建议您使用 Docker Compose 部署 Nebula Graph。详细信息，参考 [使用 Docker Compose 部署 Nebula Graph](https://github.com/vesoft-inc/nebula-docker-compose/blob/master/README_zh-CN.md "点击前往 GitHub 网站")。
   >
 
 - 在即将运行 Studio 的机器上安装并启动 Docker Compose。详细信息，参考 [Docker Compose 文档](https://docs.docker.com/compose/install/ "点击即进入 Docker 文档中心")。
@@ -24,7 +24,7 @@ Nebula Graph&reg; Studio 支持本地访问和云服务访问。本文主要描�
     git clone https://github.com/vesoft-inc/nebula-web-docker
     ```
 
-2. 切换到 _nebula-web-docker_ 路径。
+2. 切换到 `nebula-web-docker` 路径。
 
     ```bash
     cd path/to/nebula-web-docker
@@ -53,4 +53,4 @@ Nebula Graph&reg; Studio 支持本地访问和云服务访问。本文主要描�
 
 ## 后续操作
 
-进入 Nebula Graph Studio 登录界面后，您需要连接数据库。详细信息，参考 [连接数据库](st-ug-connect.md)。
+进入 Studio 登录界面后，您需要连接 Nebula Graph 数据库。详细信息，参考 [连接数据库](st-ug-connect.md)。
