@@ -2,4 +2,4 @@
 
 如果您需要重新连接 Nebula Graph 数据库，可以清除当前连接后再重新配置数据库。
 
-Nebula Graph&reg; Studio 连接到某个 Nebula Graph 数据库时，在工具栏中，选择 **设置** > **清除连接**。之后，如果浏览器上显示 **配置数据库** 页面，表示您已经成功断开了与 Nebula Graph 数据库的连接。
+在 Studio 连接到某个 Nebula Graph 数据库时，在工具栏中，选择 **设置** > **清除连接**。之后，如果浏览器上显示 **配置数据库** 页面，表示 Studio 已经成功断开了与 Nebula Graph 数据库的连接。
