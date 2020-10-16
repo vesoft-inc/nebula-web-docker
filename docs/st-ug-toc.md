@@ -11,9 +11,9 @@
   - [连接数据库](install-configure/st-ug-connect.md)
   - [断开连接](install-configure/st-ug-reset-connection.md)
 - 快速开始
-  - [规划图数据 Schema](docs/quick-start/st-ug-plan-schema.md)
+  - [规划 Schema](docs/quick-start/st-ug-plan-schema.md)
   - [准备 CSV 文件](docs/quick-start/st-ug-prepare-csv.md)
-  - [创建图数据 Schema](docs/quick-start/st-ug-create-schema.md)
+  - [创建 Schema](docs/quick-start/st-ug-create-schema.md)
   - [导入数据](docs/quick-start/st-ug-import-data.md)
   - [查询图数据](docs/quick-start/st-ug-explore.md)
 - 操作指南

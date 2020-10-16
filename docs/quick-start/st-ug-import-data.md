@@ -1,14 +1,14 @@
 # 导入数据
 
-准备好 CSV 文件，创建了图数据 Schema 后，您可以使用 **导入** 功能将所有点和边数据上传到 Nebula Graph Studio，用于数据查询、图探索和数据分析。
+准备好 CSV 文件，创建了 Schema 后，您可以使用 **导入** 功能将所有点和边数据上传到 Studio，用于数据查询、图探索和数据分析。
 
 ## 前提条件
 
 导入数据之前，需要确认以下信息：
 
-- Nebula Graph Studio 已经连接到 Nebula Graph 数据库。
-- Nebula Graph 数据库里已经创建了图数据 Schema。
-- CSV 文件符合图数据 Schema 要求。
+- Studio 已经连接到 Nebula Graph 数据库。
+- Nebula Graph 数据库里已经创建了 Schema。
+- CSV 文件符合 Schema 要求。
 - 您的账号拥有 GOD、ADMIN、DBA 或者 USER 的权限，能往图空间中写入数据。
 
 ## 操作步骤
