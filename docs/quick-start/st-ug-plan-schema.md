@@ -19,4 +19,4 @@
 
 下图说明示例中 **user** 类点与 **course** 类点之间如何发生关系（**action**）。
 
-![用户在 MOOC 平台上参加课程](../figs/st-ug-006.png "示例中 user 与 course 的关系")
+![用户在 MOOC 平台上参加课程](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-006.png "示例中 user 与 course 的关系")

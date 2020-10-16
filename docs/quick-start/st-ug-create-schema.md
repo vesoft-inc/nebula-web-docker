@@ -22,8 +22,8 @@
 1. 在工具栏里，点击 **控制台** 页签。
 2. 在 **当前Space** 中选择一个图空间。在本示例中，选择 **mooc_actions**。
 
-   ![在 当前Space 中选择一个图空间](../figs/st-ug-007.png "选择图空间")
-3. 在命令行中，依次输入以下语句，并点击 ![表示运行的图标](../figs/st-ug-008.png "Run 图标") 图标。
+   ![在 当前Space 中选择一个图空间](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-007.png "选择图空间")
+3. 在命令行中，依次输入以下语句，并点击 ![表示运行的图标](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-008.png "Run 图标") 图标。
 
    ```nGQL
     CREATE TAG user (userId int); -- 创建标签 user，带有 1 个属性
