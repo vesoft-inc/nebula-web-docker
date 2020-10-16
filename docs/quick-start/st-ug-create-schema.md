@@ -1,29 +1,17 @@
 # 创建图数据 Schema
 
-<<<<<<< HEAD
-在 Nebula Graph 中，您必须先有图数据模式，再向其中写入点数据和边数据。本文描述如何使用 Nebula Graph Studio 的 **控制台** 功能创建图数据模式。
-=======
 在 Nebula Graph 中，您必须先有图数据 Schema，再向其中写入点数据和边数据。本文描述如何使用 Nebula Graph 的 **控制台** 或 **Schema管理** 功能创建图数据 Schema。
->>>>>>> updated
 
 > **说明**：您也可以使用 nebula-console 创建图数据 Schema。详细信息，参考 [使用 Docker Compose 部署 Nebula Graph
 ](https://github.com/vesoft-inc/nebula-docker-compose/blob/master/README_zh-CN.md) 和 [Nebula Graph 快速开始](https://docs.nebula-graph.com.cn/manual-CN/1.overview/2.quick-start/1.get-started/)。
 
 ## 前提条件
 
-<<<<<<< HEAD
-在 Studio 上创建图数据模式之前，您需要确认以下信息：
-
-- Studio 已经连接到 Nebula Graph 数据库。
-- 您登录的账号拥有 GOD、ADMIN 或 DBA 权限。详细信息，参考 [Nebula Graph 内置角色](https://docs.nebula-graph.com.cn/manual-CN/3.build-develop-and-administration/4.account-management-statements/built-in-roles/)。
-- 您已经规划好了图数据模式的要素。
-=======
 在 Studio 上创建图数据 Schema 之前，您需要确认以下信息：
 
 - Studio 已经连接到 Nebula Graph 数据库。
 - 您的账号拥有 GOD、ADMIN 或 DBA 权限。详细信息，参考 [Nebula Graph 内置角色](https://docs.nebula-graph.com.cn/manual-CN/3.build-develop-and-administration/4.account-management-statements/built-in-roles/)。
 - 您已经规划好了图数据 Schema 的要素。
->>>>>>> updated
 - 已经创建了图空间。
   > **说明**：本示例假设已经创建了图空间。如果您的账号拥有 GOD 权限，也可以在 **控制台** 或 **Schema管理** 上创建一个图空间。
 
