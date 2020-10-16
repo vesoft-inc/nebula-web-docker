@@ -18,7 +18,9 @@ Studio 连接到 Nebula Graph 数据库后，您可以创建或删除图空间�
 1. 在工具栏里，点击 **Schema管理** 页签。
 2. 在图空间列表上方，点击 **+ 创建** 按钮。
 3. 在 **创建** 页面，完成以下配置：
-   a. **名称**：指定图空间名称，本示例中设置为 `mooc_actions`。不可与已有的图空间名称重复。名称命名规则，参考 [nGQL 用户手册](https://docs.nebula-graph.com.cn/manual-CN/2.query-language/3.language-structure/schema-object-names/ "点击前往 Nebula Graph 网站")。  
+
+   a. **名称**：指定图空间名称，本示例中设置为 `mooc_actions`。不可与已有的图空间名称重复。名称命名规则，参考 [nGQL 用户手册](https://docs.nebula-graph.com.cn/manual-CN/2.query-language/3.language-structure/schema-object-names/ "点击前往 Nebula Graph 网站")。
+
    b. **选填参数**：分别设置 `partition_num`、`replica_factor`、`charset` 或者 `collate` 的值。在本示例中，四个参数分别设置为 `10`、`1`、`utf8` 和 `utf8_bin`。详细信息，参考 [`CREATE SPACE` 语法](https://docs.nebula-graph.com.cn/manual-CN/2.query-language/4.statement-syntax/1.data-definition-statements/create-space-syntax/ "点击前往 Nebula Graph 网站")。
 
    在 **对应的nGQL语句**面板，您能看到上述设置对应的 nGQL 语句。如下所示：
