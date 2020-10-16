@@ -23,7 +23,7 @@ Studio 连接到 Nebula Graph 数据库后，您可以创建或删除图空间�
 
    b. **选填参数**：分别设置 `partition_num`、`replica_factor`、`charset` 或者 `collate` 的值。在本示例中，四个参数分别设置为 `10`、`1`、`utf8` 和 `utf8_bin`。详细信息，参考 [`CREATE SPACE` 语法](https://docs.nebula-graph.com.cn/manual-CN/2.query-language/4.statement-syntax/1.data-definition-statements/create-space-syntax/ "点击前往 Nebula Graph 网站")。
 
-   在 **对应的nGQL语句**面板，您能看到上述设置对应的 nGQL 语句。如下所示：
+   在 **对应的nGQL语句** 面板上，您能看到上述设置对应的 nGQL 语句。如下所示：
 
       ```ngql
       CREATE SPACE mooc_actions (partition_num = 10, replica_factor = 1, charset = utf8, collate = utf8_bin)
