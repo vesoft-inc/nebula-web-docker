@@ -11,12 +11,20 @@
   - [连接数据库](install-configure/st-ug-connect.md)
   - [断开连接](install-configure/st-ug-reset-connection.md)
 - 快速开始
-  - [规划图数据模式](quick-start/st-ug-plan-schema.md)
-  - [准备 CSV 文件](quick-start/st-ug-prepare-csv.md)
-  - [创建图数据模式](quick-start/st-ug-create-schema.md)
-  - [导入数据](quick-start/st-ug-import-data.md)
-  - [查询图数据](quick-start/st-ug-explore.md)
-- 操作指南 [TODO]
+  - [规划图数据 Schema](docs/quick-start/st-ug-plan-schema.md)
+  - [准备 CSV 文件](docs/quick-start/st-ug-prepare-csv.md)
+  - [创建图数据 Schema](docs/quick-start/st-ug-create-schema.md)
+  - [导入数据](docs/quick-start/st-ug-import-data.md)
+  - [查询图数据](docs/quick-start/st-ug-explore.md)
+- 操作指南
+  - 使用 Schema 管理
+    - [操作图空间](use-studio/manage-schema/st-ug-crud-space.md)
+    - [操作标签](use-studio/manage-schema/st-ug-crud-tag.md)
+    - [操作边类型](use-studio/manage-schema/st-ug-crud-edge-type.md)
+    - [操作索引](use-studio/manage-schema/st-ug-crud-index.md)
+  - 使用图探索[TODO]
+  - 使用控制台[TODO]
+  - [Studio 快捷键](use-studio/st-ug-shortcuts.md)
 - 最佳实践 [TODO]
 - 故障排查 [TODO]
   - 连接问题

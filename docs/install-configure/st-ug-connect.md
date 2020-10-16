@@ -37,6 +37,6 @@
 
 成功连接 Nebula Graph 数据库后，根据账号的权限，您可以选择执行以下操作：
 
-- 如果您以 `user`、`root` 用户或者指定图空间的 ADMIN 角色账号登录，可以使用 **控制台** [创建图数据模式](../quick-start/st-ug-create-schema.md)。
-- 如果您以 `user`、`root` 用户或者指定图空间的 ADMIN、DBA、USER 角色账号登录，可以 [导入数据](../quick-start/st-ug-import-data.md) 或者使用 **控制台** 写入数据。
-- 如果您以 `user`、`root` 用户或者指定图空间的 ADMIN、DBA、USER、GUEST 角色账号登录，可以使用 **控制台** 完成查询操作或者使用 **图探索** 完成图探索和数据分析。
+- 如果您以拥有 GOD 或者 ADMIN 权限的账号登录，可以使用 **控制台** [创建图数据 Schema](../quick-start/st-ug-create-schema.md) 或者 [使用 Schema 管理](../use-studio/manage-schema/st-ug-crud-space.md)。
+- 如果您以拥有 GOD、ADMIN、DBA 或者 USER 权限的账号登录，可以 [导入数据](../quick-start/st-ug-import-data.md) 或者使用 **控制台** 写入数据。
+- 如果您以拥有 GOD、ADMIN、DBA、USER 或者 GUEST 权限的账号登录，可以使用 **控制台** 完成查询操作或者使用 **图探索** 完成图探索或数据分析。
