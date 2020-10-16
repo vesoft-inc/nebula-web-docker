@@ -24,7 +24,6 @@
     - [操作索引](use-studio/manage-schema/st-ug-crud-index.md)
   - 使用图探索[TODO]
   - 使用控制台[TODO]
-  - [Studio 快捷键](use-studio/st-ug-shortcuts.md)
 - 最佳实践 [TODO]
 - 故障排查 [TODO]
   - 连接问题
