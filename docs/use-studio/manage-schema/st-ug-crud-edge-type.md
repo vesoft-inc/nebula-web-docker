@@ -24,10 +24,10 @@
 
    b. （可选）如果边类型需要属性，在 **定义属性**面板的左上角，点击勾选框，并在展开的列表中，完成以下操作：  
       - 输入属性名称、数据类型和默认值。
-      - 如果一个标签有多个属性，可以点击 **添加属性** 按钮，并定义属性。
+      - 如果一个边类型有多个属性，可以点击 **添加属性** 按钮，并定义属性。
       - 如果要删除某个属性，在该属性所在行，点击 ![表示删除的图标](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-020.png "删除") 图标。
 
-   c. （可选）标签未设置索引时，您可以设置 TTL：在 **设置TTL**面板的左上角，点击勾选框，并在展开的列表中设置 `TTL_COL` 和 `TTL_DURATION` 参数信息。关于这两个参数的详细信息，参考 [TTL 配置](https://docs.nebula-graph.com.cn/manual-CN/2.query-language/4.statement-syntax/1.data-definition-statements/TTL/ "点击前往 Nebula Graph 网站")。
+   c. （可选）边类型未设置索引时，您可以设置 TTL：在 **设置TTL**面板的左上角，点击勾选框，并在展开的列表中设置 `TTL_COL` 和 `TTL_DURATION` 参数信息。关于这两个参数的详细信息，参考 [TTL 配置](https://docs.nebula-graph.com.cn/manual-CN/2.query-language/4.statement-syntax/1.data-definition-statements/TTL/ "点击前往 Nebula Graph 网站")。
 
 6. 完成设置后，在 **对应的nGQL语句** 面板上，您能看到与上述配置等价的 nGQL 语句。  
 ![定义边类型 action 的属性](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-022.png "定义边类型")
