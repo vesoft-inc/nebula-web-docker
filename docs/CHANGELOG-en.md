@@ -1,5 +1,13 @@
 # Change Log
 
+## 2020.10.19 - v1.2.0-beta
+- Feature Enhancements:
+  - Support visualized schema operations
+    - Support retrieving, creating, and deleting graph spaces
+    - Support retrieving, creating, updating, and deleting tags in a graph space 
+    - Support retrieving, creating, updating, and deleting edge types in a graph space 
+    - Support retrieving, creating, and deleting indexes in a graph space 
+
 ## 2020.8.20 - v1.1.1-beta
 - Feature Enhancements:
   - Add the link to the Nebula Graph repo on the navigation bar 
