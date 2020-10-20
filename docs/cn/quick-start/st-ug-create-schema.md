@@ -1,6 +1,6 @@
 # 创建 Schema
 
-在 Nebula Graph 中，您必须先有 Schema，再向其中写入点数据和边数据。本文描述如何使用 Nebula Graph 的 **控制台** 或 **Schema管理** 功能创建 Schema。
+在 Nebula Graph 中，您必须先有 Schema，再向其中写入点数据和边数据。本文描述如何使用 Nebula Graph 的 **控制台** 或 **Schema** 功能创建 Schema。
 
 > **说明**：您也可以使用 nebula-console 创建 Schema。详细信息，参考 [使用 Docker Compose 部署 Nebula Graph
 ](https://github.com/vesoft-inc/nebula-docker-compose/blob/master/README_zh-CN.md) 和 [Nebula Graph 快速开始](https://docs.nebula-graph.com.cn/manual-CN/1.overview/2.quick-start/1.get-started/)。
@@ -13,11 +13,11 @@
 - 您的账号拥有 GOD、ADMIN 或 DBA 权限。详细信息，参考 [Nebula Graph 内置角色](https://docs.nebula-graph.com.cn/manual-CN/3.build-develop-and-administration/4.account-management-statements/built-in-roles/)。
 - 您已经规划好了 Schema 的要素。
 - 已经创建了图空间。
-  > **说明**：本示例假设已经创建了图空间。如果您的账号拥有 GOD 权限，也可以在 **控制台** 或 **Schema管理** 上创建一个图空间。
+  > **说明**：本示例假设已经创建了图空间。如果您的账号拥有 GOD 权限，也可以在 **控制台** 或 **Schema** 上创建一个图空间。
 
-## 使用 Schema 管理创建 Schema
+## 使用 Schema 管理功能创建 Schema
 
-按以下步骤使用 **Schema管理** 创建 Schema：
+按以下步骤使用 **Schema** 创建 Schema：
 
 1. 创建标签。详细信息，参考 [操作标签](../use-studio/manage-schema/st-ug-crud-tag.md)。
 2. 创建边类型。详细信息，参考 [操作边类型](../use-studio/manage-schema/st-ug-crud-edge-type.md)。

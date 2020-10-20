@@ -11,13 +11,13 @@
   - [连接数据库](install-configure/st-ug-connect.md)
   - [断开连接](install-configure/st-ug-reset-connection.md)
 - 快速开始
-  - [规划 Schema](docs/quick-start/st-ug-plan-schema.md)
-  - [准备 CSV 文件](docs/quick-start/st-ug-prepare-csv.md)
-  - [创建 Schema](docs/quick-start/st-ug-create-schema.md)
-  - [导入数据](docs/quick-start/st-ug-import-data.md)
-  - [查询图数据](docs/quick-start/st-ug-explore.md)
+  - [规划 Schema](quick-start/st-ug-plan-schema.md)
+  - [准备 CSV 文件](quick-start/st-ug-prepare-csv.md)
+  - [创建 Schema](quick-start/st-ug-create-schema.md)
+  - [导入数据](quick-start/st-ug-import-data.md)
+  - [查询图数据](quick-start/st-ug-explore.md)
 - 操作指南
-  - 使用 Schema 管理
+  - 管理 Schema
     - [操作图空间](use-studio/manage-schema/st-ug-crud-space.md)
     - [操作标签](use-studio/manage-schema/st-ug-crud-tag.md)
     - [操作边类型](use-studio/manage-schema/st-ug-crud-edge-type.md)

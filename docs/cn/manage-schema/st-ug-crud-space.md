@@ -1,6 +1,6 @@
 # 操作图空间
 
-Studio 连接到 Nebula Graph 数据库后，您可以创建或删除图空间。您可以使用 **控制台** 或者 **Schema管理** 操作图空间。本文仅说明如何使用 **Schema管理** 操作图空间。
+Studio 连接到 Nebula Graph 数据库后，您可以创建或删除图空间。您可以使用 **控制台** 或者 **Schema** 操作图空间。本文仅说明如何使用 **Schema** 操作图空间。
 
 ## 前提条件
 
@@ -13,13 +13,13 @@ Studio 连接到 Nebula Graph 数据库后，您可以创建或删除图空间�
 
 ## 创建图空间
 
-按以下步骤使用 **Schema管理** 创建图空间：
+按以下步骤使用 **Schema** 创建图空间：
 
-1. 在工具栏里，点击 **Schema管理** 页签。
+1. 在工具栏里，点击 **Schema** 页签。
 2. 在图空间列表上方，点击 **+ 创建** 按钮。
 3. 在 **创建** 页面，完成以下配置：
 
-   a. **名称**：指定图空间名称，本示例中设置为 `mooc_actions`。不可与已有的图空间名称重复。名称命名规则，参考 [nGQL 用户手册](https://docs.nebula-graph.com.cn/manual-CN/2.query-language/3.language-structure/schema-object-names/ "点击前往 Nebula Graph 网站")。
+   a. **名称**：指定图空间名称，本示例中设置为 `mooc_actions`。不可与已有的图空间名称重复。名称命名规则，参考[《nGQL 用户手册》](https://docs.nebula-graph.com.cn/manual-CN/2.query-language/3.language-structure/schema-object-names/ "点击前往 Nebula Graph 网站")。
 
    b. **选填参数**：分别设置 `partition_num`、`replica_factor`、`charset` 或者 `collate` 的值。在本示例中，四个参数分别设置为 `10`、`1`、`utf8` 和 `utf8_bin`。详细信息，参考 [`CREATE SPACE` 语法](https://docs.nebula-graph.com.cn/manual-CN/2.query-language/4.statement-syntax/1.data-definition-statements/create-space-syntax/ "点击前往 Nebula Graph 网站")。
 
@@ -36,9 +36,9 @@ Studio 连接到 Nebula Graph 数据库后，您可以创建或删除图空间�
 
 ## 删除图空间
 
-按以下步骤使用 **Schema管理** 删除图空间：
+按以下步骤使用 **Schema** 删除图空间：
 
-1. 在工具栏里，点击 **Schema管理** 页签。
+1. 在工具栏里，点击 **Schema** 页签。
 2. 在图空间列表里，找到需要删除的图空间，并在 **操作** 列中，点击 ![表示删除的图标](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-017.png "删除") 图标。
 
    ![在图空间列表中删除指定的图空间](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-016.png "删除图空间")
