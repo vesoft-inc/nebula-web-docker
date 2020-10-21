@@ -1,0 +1,30 @@
+# Nebula Graph&reg; Studio User Guide
+
+- About Nebula Graph&reg; Studio
+  - [What is Nebula Graph&reg; Studio](../nebula-graph-studio-user-guide-en.md)
+  - [Glossary] [TODO]
+  - [Limitations] [TODO]
+  - [Updates] [TODO]
+  - [FAQ] [TODO]
+- Insall and connect
+  - [Install Studio](../nebula-graph-studio-user-guide-en.md)
+  - [Connect to Nebula Graph](../nebula-graph-studio-user-guide-en.md)
+  - [Clear connection] [TODO]
+- Quick start
+  - [Design a schema] [TODO]
+  - [Prepare CSV files] [TODO]
+  - [Create a schema](../nebula-graph-studio-user-guide-en.md)
+  - [Import data](../nebula-graph-studio-user-guide-en.md)
+  - [Query data] [TODO]
+- Operation guide
+  - Use Schema
+    - [Operate graph spaces](manage-schema/st-ug-crud-space.md)
+    - [Operate tags](manage-schema/st-ug-crud-tag.md)
+    - [Operate edge types](manage-schema/st-ug-crud-edge-type.md)
+    - [Operate indexes](manage-schema/st-ug-crud-index.md)
+  - [Use Explore] [TODO]
+  - [Use Console] [TODO]
+- Best practices [TODO]
+- Troubleshooting [TODO]
+  - Connection
+  - Error messages
