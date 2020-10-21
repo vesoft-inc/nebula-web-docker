@@ -17,7 +17,7 @@ Studio 提供以下功能：
 
 - 灵活的部署方式，满足您的不同需求。您可以在本地部署 Studio 连接 Nebula Graph 数据库，或者在 Nebula Graph Cloud Service 上一键直连云端 Nebula Graph 数据库实例。
 - GUI 设计，方便您管理 Nebula Graph 图数据：
-  - 借助 **Schema管理** 功能，您可以使用图形界面完成 Schema（模式）创建，使您能快速上手 Nebula Graph 数据库。
+  - 借助 **Schema** 管理功能，您可以使用图形界面完成 Schema（模式）创建，使您能快速上手 Nebula Graph 数据库。
   - 借助 **控制台** 功能，您可以使用 nGQL&trade; 语句创建 Schema，并对数据执行增删改查操作。
   - 借助 **导入** 功能，通过简单的配置，您即能完成批量点和边数据导入，并能实时查看数据导入日志。
 - 图探索，支持可视化展示图数据，使您更容易发现数据之间的关联性，提高数据分析和解读的效率。

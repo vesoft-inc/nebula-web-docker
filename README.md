@@ -1,33 +1,24 @@
-# Nebula Graph Studio
+# Nebula Graph&reg; Studio
 
-## Overview
+Neubla Graph&reg; Studio (Studio for short) is a web-based visualization tool for Nebula Graph. With Studio, you can create a graph schema, import data, edit nGQL&trade; statements for data queries, and expore graphs in one stop.
 
-**Nebula Graph Studio** is a visualization application that combines data import and graph exploration.
-
-![studio](https://user-images.githubusercontent.com/40747875/73912446-7d9c4b80-48ef-11ea-8fd2-14af27de8a69.png)
-
-## Manipulation of nGQL
-
-After entering **Nebula Graph Studio** UI, you can see the default `console` tab where you can enter nGQL statements to create schemas or query data from your graph database.
-
-<img width="1440" alt="console" src="https://user-images.githubusercontent.com/40747875/73910282-d5d04f00-48e9-11ea-894c-4df65e6d57bc.png">
-
-## Data Import
-
-You can import data from your local CSV files into the **Nebula Graph** database with **Nebula Graph Studio**.
-
-<img width="1440" alt="import" src="https://user-images.githubusercontent.com/40747875/73910532-93f3d880-48ea-11ea-908a-14acda2da28e.png">
-
-## Graph Visualization
-
-Graph visualization provides a better understanding of your data than textual formats can support. When importing your data, you can see how your data looks and explore connections that you never know.
-
-<img width="1440" alt="explore" src="https://user-images.githubusercontent.com/40747875/73910918-9e62a200-48eb-11ea-80fc-b46b3c1af98e.png">
+![Screenshot of Studio user interface](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-025.png "Studio user interface")
 
 ## Documentation
 
 - [User Manual](./docs/nebula-graph-studio-user-guide-en.md)
-- [用户手册](./docs/nebula-graph-studio-user-guide-cn.md)
+- [用户手册](docs/cn/st-ug-toc.md)
+
+## Updates
+
+Do a check of these documents for the latest updates to Studio:
+
+- [Change log](docs/CHANGELOG-en.md)
+- [更新日志](docs/CHANGELOG-zh.md)
+
+## Feedbacks
+
+If you have any questions about Studio, please feel free to leave your feedbacks on [Nebula Graph Forum](https://discuss.nebula-graph.io/ "Click to go to Nebula Graph Forum").
 
 ## Contact
 

@@ -6,5 +6,5 @@
 
 1. 确认 Nebula Graph 是最新版本。如果您使用 Docker Compose 部署 Nebula Graph 数据库，建议您运行 `docker-compose pull && docker-compose up -d` 拉取最新的 Docker 镜像，并启动容器。
 2. 确认 Nebula Graph Studio 是最新版本。具体操作，参考 [版本更新](st-ug-check-updates.md)。
-3. 搜索 [论坛](https://discuss.nebula-graph.com.cn/) 或 GitHub 的 [nebula](https://github.com/vesoft-inc/nebula) 和 [nebula-web-docker](https://github.com/vesoft-inc/nebula-web-docker/issues)，确认是否已经有类似的问题。
-4. 如果上述操作均未解决您的问题，欢迎您在论坛或 GitHub 上提交问题。
+3. 搜索 [论坛](https://discuss.nebula-graph.com.cn/) 或 GitHub 的 [nebula](https://github.com/vesoft-inc/nebula) 和 [nebula-web-docker](https://github.com/vesoft-inc/nebula-web-docker/issues) 项目，确认是否已经有类似的问题。
+4. 如果上述操作均未解决您的问题，欢迎您在论坛上提交问题。
