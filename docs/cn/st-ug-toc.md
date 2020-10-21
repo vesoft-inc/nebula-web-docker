@@ -18,10 +18,10 @@
   - [查询图数据](quick-start/st-ug-explore.md)
 - 操作指南
   - 管理 Schema
-    - [操作图空间](use-studio/manage-schema/st-ug-crud-space.md)
-    - [操作标签](use-studio/manage-schema/st-ug-crud-tag.md)
-    - [操作边类型](use-studio/manage-schema/st-ug-crud-edge-type.md)
-    - [操作索引](use-studio/manage-schema/st-ug-crud-index.md)
+    - [操作图空间](manage-schema/st-ug-crud-space.md)
+    - [操作标签](manage-schema/st-ug-crud-tag.md)
+    - [操作边类型](manage-schema/st-ug-crud-edge-type.md)
+    - [操作索引](manage-schema/st-ug-crud-index.md)
   - 使用图探索[TODO]
   - 使用控制台[TODO]
 - 最佳实践 [TODO]
