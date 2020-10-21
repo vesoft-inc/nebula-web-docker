@@ -11,7 +11,7 @@
   - [Connect to Nebula Graph](../nebula-graph-studio-user-guide-en.md)
   - [Clear connection] [TODO]
 - Quick start
-  - [Design a schema] [TODO]
+  - [Design a schema]()
   - [Prepare CSV files] [TODO]
   - [Create a schema](../nebula-graph-studio-user-guide-en.md)
   - [Import data](../nebula-graph-studio-user-guide-en.md)
