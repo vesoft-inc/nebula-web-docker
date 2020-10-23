@@ -1,11 +1,11 @@
 # 规划 Schema
 
-在使用 Nebula Graph Studio 之前，您需要先根据 Nebula Graph 数据库的要求规划您的 Schema（模式）。
+在使用 Studio 之前，您需要先根据 Nebula Graph 数据库的要求规划您的 Schema（模式）。
 
  Schema 至少要包含以下要素：
 
-* 标签（TAG，即点类型），以及每种标签的属性。
-* 边类型（EDGE TYPE），以及每种边类型的属性。
+* 标签（Tag，即点类型），以及每种标签的属性。
+* 边类型（Edge Type），以及每种边类型的属性。
 
 本文以美国 Stanford Network Analysis Platform (SNAP) 提供的 [Social Network: MOOC User Action Dataset](https://snap.stanford.edu/data/act-mooc.html "点击前往 Stanford Network Analysis Platform (SNAP)网站") 为基础，并在其中加入由公开网络上获取的不重复的 97 个课程名称，说明如何规划 Schema。
 

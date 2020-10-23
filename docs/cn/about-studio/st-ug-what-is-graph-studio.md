@@ -1,6 +1,6 @@
-# 什么是 Nebula Graph&reg; Studio
+# 什么是 Nebula Graph Studio
 
-Nebula Graph&reg; Studio（简称 Studio）是由欧若数网开发的一款可以通过 Web 访问的图数据库可视化工具，搭配 Nebula Graph DBMS 使用，为您提供构图、数据导入、编写 nGQL&trade; 查询、图探索等一站式服务。即使没有图数据库操作经验，您也可以快速成为图专家。
+Nebula Graph Studio（简称 Studio）是一款可以通过 Web 访问的图数据库可视化工具，搭配 Nebula Graph DBMS 使用，为您提供构图、数据导入、编写 nGQL 查询、图探索等一站式服务。即使没有图数据库操作经验，您也可以快速成为图专家。
 
 ## 发行版本
 
@@ -18,7 +18,7 @@ Studio 提供以下功能：
 - 灵活的部署方式，满足您的不同需求。您可以在本地部署 Studio 连接 Nebula Graph 数据库，或者在 Nebula Graph Cloud Service 上一键直连云端 Nebula Graph 数据库实例。
 - GUI 设计，方便您管理 Nebula Graph 图数据：
   - 借助 **Schema** 管理功能，您可以使用图形界面完成 Schema（模式）创建，使您能快速上手 Nebula Graph 数据库。
-  - 借助 **控制台** 功能，您可以使用 nGQL&trade; 语句创建 Schema，并对数据执行增删改查操作。
+  - 借助 **控制台** 功能，您可以使用 nGQL 语句创建 Schema，并对数据执行增删改查操作。
   - 借助 **导入** 功能，通过简单的配置，您即能完成批量点和边数据导入，并能实时查看数据导入日志。
 - 图探索，支持可视化展示图数据，使您更容易发现数据之间的关联性，提高数据分析和解读的效率。
 
@@ -28,7 +28,7 @@ Studio 提供以下功能：
 
 - 您有一份数据集，想进行可视化图探索或者数据分析。您可以使用 Docker Compose 或者得 Nebula Graph Cloud Service 部署 Nebula Graph 数据库，再使用 Studio 完成可视化操作。
 - 您已经安装部署了 Nebula Graph 数据库，并且已经导入数据集，想使用 GUI 工具执行 nGQL 语句查询、可视化图探索或者数据分析。
-- 您刚开始学习 nGQL&trade;（Nebula Graph Query Language），但是不习惯用命令行工具，更希望使用 GUI 工具查看语句输出的结果。
+- 您刚开始学习 nGQL（Nebula Graph Query Language），但是不习惯用命令行工具，更希望使用 GUI 工具查看语句输出的结果。
 
 ## 身份验证
 

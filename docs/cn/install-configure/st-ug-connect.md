@@ -1,6 +1,6 @@
 # 连接数据库
 
-安装并启动 Nebula Graph&reg; Studio 后，您需要连接 Nebula Graph 数据库。本文主要描述如何在本地连接 Nebula Graph 数据库。
+安装并启动 Studio 后，您需要连接 Nebula Graph 数据库。本文主要描述如何在本地连接 Nebula Graph 数据库。
 
 使用云服务时，参考[《Nebula Graph Cloud Service 用户手册》](https://cloud-docs.nebula-graph.com.cn/cn/posts/manage-instances/dbaas-ug-connect-nebulastudio/ "点击进入 Nebula Graph Cloud Service 用户手册")。
 
