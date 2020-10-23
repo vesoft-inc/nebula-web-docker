@@ -1,7 +1,7 @@
-# Nebula Graph&reg; Studio User Guide
+# Nebula Graph Studio User Guide
 
-- About Nebula Graph&reg; Studio
-  - [What is Nebula Graph&reg; Studio](../nebula-graph-studio-user-guide-en.md)
+- About Nebula Graph Studio
+  - [What is Nebula Graph Studio](../nebula-graph-studio-user-guide-en.md)
   - [Glossary] [TODO]
   - [Limitations] [TODO]
   - [Updates] [TODO]

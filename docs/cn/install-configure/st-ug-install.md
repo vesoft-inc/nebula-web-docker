@@ -1,6 +1,6 @@
-# 安装 Nebula Graph&reg; Studio
+# 安装 Studio
 
-Nebula Graph&reg; Studio 支持本地访问和云服务访问。本文主要描述如何在本地安装 Nebula Graph&reg; Studio。
+Studio 支持本地访问和云服务访问。本文主要描述如何在本地安装 Studio。
 
 使用云服务访问时，您不需要安装 Studio，详细信息，参考[《Nebula Graph Cloud Service 用户手册》](https://cloud-docs.nebula-graph.com.cn/cn/posts/manage-instances/dbaas-ug-connect-nebulastudio/ "点击前往 Nebula Graph Cloud Service 用户手册")。
 
@@ -47,7 +47,7 @@ Nebula Graph&reg; Studio 支持本地访问和云服务访问。本文主要描�
 
 4. 启动成功后，在浏览器地址栏输入 `http://localhost:7001`。
 
-    如果您在浏览器窗口中能看到以下登录界面，表示您已经成功安装并启动 Nebula Graph Studio。
+    如果您在浏览器窗口中能看到以下登录界面，表示您已经成功安装并启动 Studio。
 
     ![Nebula Graph Studio 登录界面](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-001.png "Nebula Graph Studio 登录界面")
 

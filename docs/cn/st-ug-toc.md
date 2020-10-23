@@ -1,13 +1,13 @@
-# Nebula Graph&reg; Studio 用户手册
+# Nebula Graph Studio 用户手册
 
-- 认识 Nebula Graph&reg; Studio
-  - [什么是 Nebula Graph&reg; Studio](about-studio/st-ug-what-is-graph-studio.md)
+- 认识 Nebula Graph Studio
+  - [什么是 Nebula Graph Studio](about-studio/st-ug-what-is-graph-studio.md)
   - [名词解释](about-studio/st-ug-terms.md)
   - [使用限制](about-studio/st-ug-limitations.md)
-  - [版本说明](about-studio/st-ug-check-updates.md)
+  - [版本更新](about-studio/st-ug-check-updates.md)
   - [常见问题](about-studio/st-ug-faq.md)
 - 安装与登录
-  - [安装 Nebula Graph&reg; Studio](install-configure/st-ug-install.md)
+  - [安装 Studio](install-configure/st-ug-install.md)
   - [连接数据库](install-configure/st-ug-connect.md)
   - [断开连接](install-configure/st-ug-reset-connection.md)
 - 快速开始
