@@ -8,3 +8,7 @@
 2. 确认 Studio 是最新版本。具体操作，参考 [版本更新](st-ug-check-updates.md)。
 3. 搜索 [论坛](https://discuss.nebula-graph.com.cn/) 或 GitHub 的 [nebula](https://github.com/vesoft-inc/nebula) 和 [nebula-web-docker](https://github.com/vesoft-inc/nebula-web-docker/issues) 项目，确认是否已经有类似的问题。
 4. 如果上述操作均未解决您的问题，欢迎您在论坛上提交问题。
+
+**Studio 支持 Nebula Graph V2.0 pre 吗？**
+
+不支持。目前 Studio 仅支持 Nebula Graph V1.1.0 及以下版本。

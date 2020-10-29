@@ -4,6 +4,10 @@ Neubla Graph Studio (Studio for short) is a web-based visualization tool for Neb
 
 ![Screenshot of Studio user interface](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-025.png "Studio user interface")
 
+## Supported Nebula Graph versions
+
+Studio now supports Nebula Graph V1.1.0 or earlier versions only, but not Nebula Graph V2.0 pre-release.
+
 ## Documentation
 
 - [User Manual](./docs/nebula-graph-studio-user-guide-en.md)

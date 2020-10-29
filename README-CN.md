@@ -4,6 +4,10 @@ Nebula Graph Studio（简称 Studio）是一款可以通过 Web 访问的图数�
 
 ![Studio 界面截图](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-024.png "Studio 界面一览")
 
+## Nebula Graph 版本支持
+
+目前 Studio 仅支持 Nebula Graph V1.1.0 及以下版本，不支持 Nebula Graph V2.0 pre-release。
+
 ## 用户手册
 
 关于 Studio 的详细操作，参考：
