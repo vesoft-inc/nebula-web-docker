@@ -15,6 +15,8 @@ Nebula Graph Studio（简称 Studio）是一款可以通过 Web 访问的图数�
 - [用户手册](docs/cn/st-ug-toc.md)
 - [User Manual](./docs/nebula-graph-studio-user-guide-en.md)
 
+您也可以观看 [两分钟 Studio 操作介绍视频](https://www.bilibili.com/video/BV1h54y1C7bf "点击前往 bilibili 网站")。
+
 ## 最新更新
 
 查看以下文件确认 Studio 最新功能：
