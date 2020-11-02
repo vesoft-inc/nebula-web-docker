@@ -1,5 +1,11 @@
 # Change Log
 
+## 2020.11.02 - v1.2.1-beta
+- Feature Enhancements:
+  - Console
+    - Supports visualization of FIND PATH
+    - Supports AS clause in the Open In Explore
+
 ## 2020.10.19 - v1.2.0-beta
 - Feature Enhancements:
   - Support visualized schema operations
