@@ -4,7 +4,7 @@
 - Feature Enhancements:
   - Console
     - Supports visualization of FIND PATH
-    - Supports AS clauses in the Open In Explore
+    - Supports AS clause in the Open In Explore
 
 ## 2020.10.19 - v1.2.0-beta
 - Feature Enhancements:
