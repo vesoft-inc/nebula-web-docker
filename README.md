@@ -10,6 +10,10 @@ Studio now supports Nebula Graph V1.1.0 or earlier versions only, but not Nebula
 
 ## Documentation
 
+Watch [this video](https://www.youtube.com/watch?v=kWg47hn_4Lo "Click to go to Youtube") to learn Nebula Graph Studio in two minutes. 
+
+For more information about Studio, see: 
+
 - [User Manual](./docs/nebula-graph-studio-user-guide-en.md)
 - [用户手册](docs/cn/st-ug-toc.md)
 
