@@ -23,7 +23,10 @@
     - [操作边类型](manage-schema/st-ug-crud-edge-type.md)
     - [操作索引](manage-schema/st-ug-crud-index.md)
   - 使用图探索[TODO]
-  - 使用控制台[TODO]
+  - 使用控制台
+    - 界面介绍 [TODO]
+    - [导入图探索](use-console/st-ug-open-in-explorer.md)
+    - 导出 CSV 文件[TODO]
 - 最佳实践 [TODO]
 - 故障排查 [TODO]
   - 连接问题
