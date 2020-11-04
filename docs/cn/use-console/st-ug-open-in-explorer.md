@@ -34,7 +34,7 @@
    b. 在 **Edge Type** 字段，填写边类型名称。在本示例中，填写 `action`。  
    c. 在 **Src ID** 字段，选择查询结果中代表边起点 VID 的列名。在本示例中，选择 `action._src`。  
    d. 在 **Dst ID** 字段，选择查询结果中代表边终点 VID 的列名。在本示例中，选择 `action._dst`。  
-   e. （可选）如果返回的边数据中有边权重（rank）信息，则在 **Rank** 字段，选择代表边权重的列名。  
+   e. （可选）如果返回的边数据中有边权重（`rank`）信息，则在 **Rank** 字段，选择代表边权重的列名。如果 **Rank** 字段未设置，默认为 0。  
    f. 完成配置后，点击 **导入** 按钮。  
 
       ![填写边类型名称，选择代表边起点和终点 VID 的列名](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-041.png "配置边类型信息")
@@ -58,7 +58,7 @@
    查询语句示例如下：
 
     ```nGQL
-    nebula> FETCH PROP ON * hash("Media History and Theory"); -- 本手册中所用数据集，course 类点的 VID 由 courseName 经 Hash() 函数处理得到
+    nebula> FETCH PROP ON * hash("Media History and Theory"); -- 对于本手册中所用数据集，course 类点的 VID 由 courseName 经 Hash() 函数处理得到
     ```
 
     查询得到 `courseId` 为 `8` 的课程信息。如下图所示。
