@@ -6,8 +6,8 @@
 
 使用导入图探索前，您需要确认以下信息：
 
-- Studio 已经连接到 Nebula Graph 数据库。详细信息参考 [连接数据库](../install-configure/st-ug-connect.md)
-- 已经导入数据集。详细操作参考 [导入数据](../quick-start/st-ug-import-data.md)
+- Studio 已经连接到 Nebula Graph 数据库。详细信息参考 [连接数据库](../install-configure/st-ug-connect.md)。
+- 已经导入数据集。详细操作参考 [导入数据](../quick-start/st-ug-import-data.md)。
 
 ## 导入边数据
 
