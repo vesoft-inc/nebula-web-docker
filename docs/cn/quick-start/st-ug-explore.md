@@ -9,5 +9,3 @@
 
 * 在 **图探索** 页面：点击 **开始探索** 按钮，在 **指定VID** 对话框中，输入 **"History of Chinese Women Through Time"**，在 **VID预处理** 选择 **Hash**，再点击 **添加** 按钮。**图探索** 画板里会显示这个点，将鼠标移到点上，您能看到这个点所有属性信息，如下图所示。  
 ![可视化显示 History of Chinese Women Through Time 课程的信息](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-013.png "按 VID 查询得到点的信息")
-
-更多操作的详细信息，参考 [操作指南](../use-studio/st-ug-use-overview.md)。
