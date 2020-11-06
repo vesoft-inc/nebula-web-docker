@@ -49,4 +49,4 @@ To bulk import data, follow these steps:
 
 ## Next to do
 
-When the data are imported to Nebula Graph, you can start [graph exploration](st-ug-explore.md).
+When the data are imported to Nebula Graph, you can [query graph data](st-ug-explore.md).
