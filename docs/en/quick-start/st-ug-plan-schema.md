@@ -13,9 +13,9 @@ This table gives all the essential elements of the schema.
 
 | Element  | Name  | Property name (Data type)  |  Description  |
 | :---  | :---  | :---  | :---  |
-| Tag  | **user**  | `userId` (`int`) <br /> The `userId` values are used to generate VIDs of user vertices. | Represents users of the specified MOOC platform.   |
+| Tag  | **user**  | `userId` (`int`). The `userId` values are used to generate VIDs of user vertices. | Represents users of the specified MOOC platform.   |
 | Tag  | **course** | `courseId` (`int`) and `courseName` (`string`). The `courseName` values are processed by the `Hash()` function to generate VIDs of course vertices. In Nebula Graph, VIDs must be distinct through a graph space. But in the source dataset, some `courseId` values are duplicate with some `userId` values, so the `courseId` values cannot be used to generate the VIDs of course vertices. | Represents the courses on the specified MOOC platform. |
-| Edge type | **action**  | - `actionId` (`int`) <br /> - `duration` (`double`): The `timestamp` values in the source. Represents the duration of an action measured in seconds from the beginning <br /> - `label` (`bool`): Represents whether a user drops out after an action. `TRUE` indicates drop-out action, `FALSE` otherwise. <br /> - `feature0` (`double`) <br /> - `feature1` (`double`) <br /> - `feature2` (`double`) <br /> - `feature3` (`double`) |  Represents actions taken by users on the specified MOOC platform. An action links a user and a course and the direction is from a user to a course. It has four features.   |
+| Edge type | **action**  | - `actionId` (`int`) <br /> - `duration` (`double`): Represents the duration of an action measured in seconds from the beginning. Its values are equal to the `timestamp` values in the data source.  <br /> - `label` (`bool`): Represents whether a user drops out after an action. `TRUE` indicates a drop-out action, `FALSE` otherwise. <br /> - `feature0` (`double`) <br /> - `feature1` (`double`) <br /> - `feature2` (`double`) <br /> - `feature3` (`double`) |  Represents actions taken by users on the specified MOOC platform. An action links a user and a course and the direction is from a user to a course. It has four features.   |
 
 This figure shows the relationship (**action**) between a **user** and a **course** on the MOOC platform.
 
