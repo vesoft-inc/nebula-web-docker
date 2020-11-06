@@ -50,7 +50,4 @@ DESCRIBE EDGE action; -- 查看每种标签和边类型的结构是否正确
 
 ## 后续操作
 
-创建 Schema 后，您可能需要执行以下操作：
-
-- 根据业务需要，您可以为标签和边类型创建索引。详细信息，参考 [Nebula Graph 的 Schema 索引](https://docs.nebula-graph.com.cn/manual-CN/2.query-language/4.statement-syntax/1.data-definition-statements/ "点击前往 Nebula Graph 网站")。
-- [导入数据](st-ug-import-data.md)。
+创建 Schema 后，您可以开始 [导入数据](st-ug-import-data.md)。
