@@ -1,6 +1,6 @@
 # Import data
 
-When you have a schema and CSV files of data, you can use the **Import** page to bulk import vertex and edge data into a Nebula Graph database for graph exploration and data analysis.
+After CSV files of data and a schema are created, you can use the **Import** page to bulk import vertex and edge data into a Nebula Graph database for graph exploration and data analysis.
 
 ## Prerequisites
 
