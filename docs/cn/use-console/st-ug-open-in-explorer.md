@@ -4,7 +4,7 @@
 
 ## 支持版本
 
-Studio v1.2.1-beta 及以上版本。请更新版本，详细操作参考 [版本更新](../about-studio/st-ug-check-updates.md)。
+Studio v1.2.1-beta 及以后版本。请更新版本，详细操作参考 [版本更新](../about-studio/st-ug-check-updates.md)。
 
 ## 前提条件
 
