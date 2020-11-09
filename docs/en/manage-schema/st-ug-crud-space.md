@@ -2,10 +2,19 @@
 
 When Studio is connected to Nebula Graph, you can create or delete a graph space. You can use **Console** or **Schema** to do these operations. This article only introduces how to use **Schema** to operate graph spaces in a Nebula Graph database.
 
+## Studio version
+
+Studio v1.2.0-beta or later versions support this function. To update the version, run this command.
+
+```bash
+docker-compose pull && docker-compose up
+```
+
 ## Prerequisites
 
 To operate a graph space on Studio, you must do a check of these:
 
+- The version of Studio is v1.2.0-beta or later.
 - Studio is connected to a Nebula Graph database.
 - Your account has the authority of GOD. It means that:
   - If the authentication is enabled in Nebula Graph, you can use `user` and `password` to sign in to Studio.

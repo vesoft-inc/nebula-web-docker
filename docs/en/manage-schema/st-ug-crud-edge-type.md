@@ -2,10 +2,19 @@
 
 After a graph space is created in a Nebula Graph database, you can create edge types. With Studio, you can choose to use **Console** or **Schema** to create, retrieve, update, or delete edge types. This article only introduces how to use **Schema** to operate edge types in a Nebula Graph database.
 
+## Studio version
+
+Studio v1.2.0-beta or later versions support this function. To update the version, run this command.
+
+```bash
+docker-compose pull && docker-compose up
+```
+
 ## Prerequisites
 
 To operate an edge type on Studio, you must do a check of these:
 
+- The version of Studio is v1.2.0-beta or later.
 - Studio is connected to a Nebula Graph database.
 - A graph space is created.
 - Your account has the authority of GOD, ADMIN, or DBA.

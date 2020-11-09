@@ -4,10 +4,19 @@ You can create an index for a tag and/or an edge type. An index lets traversal s
 
 > **NOTE**: You can create an index when a tag or an edge type is created. But an index can decrease the write speed during data import. We recommend that you import data firstly and then create and rebuild an index. For more information, see [nGQL Manual](https://docs.nebula-graph.io/manual-EN/2.query-language/4.statement-syntax/1.data-definition-statements/ "Click to go to the Nebula Graph website").
 
+## Studio version
+
+Studio v1.2.0-beta or later versions support this function. To update the version, run this command.
+
+```bash
+docker-compose pull && docker-compose up
+```
+
 ## Prerequisites
 
 To operate an index on Studio, you must do a check of these:
 
+- The version of Studio is v1.2.0-beta or later.
 - Studio is connected to a Nebula Graph database.
 - A graph space, tags, and edge types are created.
 - Your account has the authority of GOD, ADMIN, or DBA.
