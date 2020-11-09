@@ -4,7 +4,7 @@ After a graph space is created in a Nebula Graph database, you can create edge t
 
 ## Studio version
 
-Studio v1.2.0-beta or later versions support this function. To update the version, run this command.
+Studio v1.2.0-beta or later versions supports this function. To update the version, run this command.
 
 ```bash
 docker-compose pull && docker-compose up

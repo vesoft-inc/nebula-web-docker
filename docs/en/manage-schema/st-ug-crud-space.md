@@ -4,7 +4,7 @@ When Studio is connected to Nebula Graph, you can create or delete a graph space
 
 ## Studio version
 
-Studio v1.2.0-beta or later versions support this function. To update the version, run this command.
+Studio v1.2.0-beta or later versions supports this function. To update the version, run this command.
 
 ```bash
 docker-compose pull && docker-compose up

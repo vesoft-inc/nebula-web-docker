@@ -4,7 +4,7 @@ You can run nGQL statements on **Console** to query vertex or edge data and then
 
 ## Studio version
 
-Studio v1.2.1-beta or later versions support this function. To update the version, run this command.
+Studio v1.2.1-beta or later versions supports this function. To update the version, run this command.
 
 ```bash
 docker-compose pull && docker-compose up
