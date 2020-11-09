@@ -1,6 +1,6 @@
 # Create a schema
 
-To bulk import data into a Nebula Graph database, you must have a schema. You can create a schema on **Console** or **Schema** of Studio.
+To bulk import data into a Nebula Graph database, you must have a schema. You can create a schema with the **Console** module or the **Schema** module of Studio.
 
 > **NOTE**: You can use nebula-console to create a schema. For more information, see [Deploy Nebula Graph with Docker Compose
 ](https://github.com/vesoft-inc/nebula-docker-compose/blob/master/README.md "Click to go to GitHub website") and [Get started with Nebula Graph](https://docs.nebula-graph.io/manual-EN/1.overview/2.quick-start/1.get-started/ "Click to go to Nebula Graph website").
@@ -34,20 +34,24 @@ To create a schema on the **Console** page, follow these steps:
 3. In the input box, enter these statements one by one and click the ![Icon of Run](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-008.png "Run") icon.
 
    ```nGQL
-    CREATE TAG user (userId int); -- To create a tag named "user", with one property
-    CREATE TAG course (courseId int, courseName string); -- To create a tag named "course", with two properties
-    CREATE EDGE action (actionId int, duration double, label bool, feature0 double, feature1 double, feature2 double, feature3 double); -- To create an edge type named "action", with seven properties
+    nebula> CREATE TAG user (userId int); -- To create a tag named "user", with one property
+    nebula> CREATE TAG course (courseId int, courseName string); -- To create a tag named "course", with two properties
+    nebula> CREATE EDGE action (actionId int, duration double, label bool, feature0 double, feature1 double, feature2 double, feature3 double); -- To create an edge type named "action", with seven properties
     ```
 
 If the preceding statements are executed successfully, the schema is created. You can run the statements as follows to view the schema.
 
 ```nGQL
-SHOW TAGS; -- To list all the tags in the current graph space
-SHOW EDGES; -- To list all the edge types in the current graph space
-DESCRIBE TAG user;
-DESCRIBE TAG course;
-DESCRIBE EDGE action; -- To view the definition of the tags and edge types
+nebula> SHOW TAGS; -- To list all the tags in the current graph space
+nebula> SHOW EDGES; -- To list all the edge types in the current graph space
+nebula> DESCRIBE TAG user;
+nebula> DESCRIBE TAG course;
+nebula> DESCRIBE EDGE action; -- To view the definition of the tags and edge types
 ```
+
+If the schema is created successfully, in the result window, you can see the definition of the tags and edge types. For example, this figure shows the result of the `DESCRIBE EDGE action` statement.
+
+![The result window shows the definition of the action edge](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-048.png "Result of the DESCRIBE EDGE action statement")
 
 ## Next to do
 
