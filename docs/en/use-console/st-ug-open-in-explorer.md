@@ -38,12 +38,12 @@ To use **Console** to query edge data and then view the result in **Explore**, f
     ![The Result window shows the queried edge data, including the VIDs of the source vertex and the destination vertex](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-037.png "Edge data")
 
 4. Click the **Open in Explore** button.
-5. In the dialog box, configure as follows:
+5. In the dialog box, configure as follows:  
    a. Click **Edge Type**.  
-   b. In the **Edge Type** field, enter an edge type name. In this example, `action` is used.
-   c. In the **Src ID** field, choose a column name from the result table representing the VIDs of the source vertices. In this example, `action._src` is chosen.
+   b. In the **Edge Type** field, enter an edge type name. In this example, `action` is used.  
+   c. In the **Src ID** field, choose a column name from the result table representing the VIDs of the source vertices. In this example, `action._src` is chosen.  
    d. In the **Dst ID** field, choose a column name from the result table representing the VIDs of the destination vertices. In this example, `action._dst` is chosen.  
-   e. (Optional) If the result table contains the ranking information of the edges, in the **Rank** field, choose a column name representing the `rank` of the edges. If no ranking information exists in the result, leave the **Rank** field blank.
+   e. (Optional) If the result table contains the ranking information of the edges, in the **Rank** field, choose a column name representing the `rank` of the edges. If no ranking information exists in the result, leave the **Rank** field blank.  
    f. When the configuration is done, click the **Import** button.  
 
       ![The dialog box for you to configure the edge data](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-038.png "Configure edge data")  
@@ -76,7 +76,7 @@ To use **Console** to query vertex data and then view the result in **Explore**,
     ![The Result window shows the queried vertex data](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-039.png "Vertex data")
 
 4. Click the **Open in Explore** button.
-5. In the dialog box, configure as follows:
+5. In the dialog box, configure as follows:  
    a. Click **Vertex**.  
    b. In the **Vertex ID** field, choose a column name from the result table representing the VIDs of the vertices. In this example, `VertexID` is chosen.  
    c. When the configuration is done, click the **Import** button.
