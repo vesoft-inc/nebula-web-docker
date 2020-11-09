@@ -11,11 +11,11 @@
   - [Connect to Nebula Graph](../nebula-graph-studio-user-guide-en.md)
   - [Clear connection] [TODO]
 - Quick start
-  - [Design a schema] [TODO]
-  - [Prepare CSV files] [TODO]
-  - [Create a schema](../nebula-graph-studio-user-guide-en.md)
-  - [Import data](../nebula-graph-studio-user-guide-en.md)
-  - [Query data] [TODO]
+  - [Design a schema](quick-start/st-ug-create-schema.md)
+  - [Prepare CSV files](quick-start/st-ug-prepare-csv.md)
+  - [Create a schema](quick-start/st-ug-create-schema.md)
+  - [Import data](quick-start/st-ug-import-data.md)
+  - [Query graph data](quick-start/st-ug-explore.md)
 - Operation guide
   - Use Schema
     - [Operate graph spaces](manage-schema/st-ug-crud-space.md)
