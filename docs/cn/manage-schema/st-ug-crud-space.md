@@ -2,6 +2,10 @@
 
 Studio 连接到 Nebula Graph 数据库后，您可以创建或删除图空间。您可以使用 **控制台** 或者 **Schema** 操作图空间。本文仅说明如何使用 **Schema** 操作图空间。
 
+## 支持版本
+
+Studio v1.2.0-beta 及以后版本。请更新版本，详细操作参考 [版本更新](../about-studio/st-ug-check-updates.md)。
+
 ## 前提条件
 
 操作图空间之前，您需要确保以下信息：

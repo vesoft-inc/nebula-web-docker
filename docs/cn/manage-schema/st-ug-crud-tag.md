@@ -2,6 +2,10 @@
 
 在 Nebula Graph 数据库中创建图空间后，您需要创建标签（点类型）。您可以选择使用 **控制台** 或者 **Schema** 操作标签。本文仅说明如何使用 **Schema** 操作标签。
 
+## 支持版本
+
+Studio v1.2.0-beta 及以后版本。请更新版本，详细操作参考 [版本更新](../about-studio/st-ug-check-updates.md)。
+
 ## 前提条件
 
 在 Studio 上操作标签之前，您必须确认以下信息：

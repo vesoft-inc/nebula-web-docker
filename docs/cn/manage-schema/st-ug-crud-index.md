@@ -4,6 +4,10 @@
 
 > **说明**：一般在创建了标签或者边类型之后即可创建索引，但是，索引会影响写性能，所以，建议您先导入数据，再批量重建索引。关于索引的详细信息，参考[《nGQL 用户手册》](https://docs.nebula-graph.com.cn/manual-CN/2.query-language/4.statement-syntax/1.data-definition-statements/ "点击前往 Nebula Graph 网站")。
 
+## 支持版本
+
+Studio v1.2.0-beta 及以后版本。请更新版本，详细操作参考 [版本更新](../about-studio/st-ug-check-updates.md)。
+
 ## 前提条件
 
 在 Studio 上操作索引之前，您必须确认以下信息：
