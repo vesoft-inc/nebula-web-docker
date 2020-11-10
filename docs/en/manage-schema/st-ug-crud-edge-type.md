@@ -1,10 +1,10 @@
 # Operate edge types
 
-After a graph space is created in a Nebula Graph database, you can create edge types. With Studio, you can choose to use **Console** or **Schema** to create, retrieve, update, or delete edge types. This article only introduces how to use **Schema** to operate edge types in a Nebula Graph database.
+After a graph space is created in a Nebula Graph database, you can create edge types. With Studio, you can choose to use the **Console** tab page or the **Schema** tab page to create, retrieve, update, or delete edge types. This article only introduces how to use the **Schema** tab page to operate edge types in a Nebula Graph database.
 
 ## Studio version
 
-Studio v1.2.0-beta or later versions supports this function. To update the version, run this command.
+Studio of v1.2.0-beta or later versions supports this function. To update the version, run this command.
 
 ```bash
 docker-compose pull && docker-compose up
@@ -21,7 +21,7 @@ To operate an edge type on Studio, you must do a check of these:
 
 ## Create an edge type
 
-To create an edge type on **Schema**, follow these steps:
+To create an edge type on the **Schema** tab page, follow these steps:
 
 1. In the toolbar, click the **Schema** tab.
 
@@ -55,7 +55,7 @@ When the edge type is created successfully, the **Define Properties** panel show
 
 ## Edit an edge type
 
-To edit an edge type on **Schema**, follow these steps:
+To edit an edge type on the **Schema** tab page, follow these steps:
 
 1. In the toolbar, click the **Schema** tab.
 
@@ -83,7 +83,7 @@ To edit an edge type on **Schema**, follow these steps:
 
 ## Delete an edge type
 
-To delete an edge type on **Schema**, follow these steps:
+To delete an edge type on the **Schema** tab page, follow these steps:
 
 1. In the toolbar, click the **Schema** tab.
 
@@ -95,4 +95,4 @@ To delete an edge type on **Schema**, follow these steps:
 
 ## Next to do
 
-After the edge type is created, you can use **Console** to insert edge data one by one manually or use **Import** to bulk import edge data.
+After the edge type is created, you can use the **Console** tab page to insert edge data one by one manually or use the **Import** tab page to bulk import edge data.
