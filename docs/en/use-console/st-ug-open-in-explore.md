@@ -1,10 +1,10 @@
 # Open in Explore
 
-You can run nGQL statements on **Console** to query vertex or edge data and then import the result into **Explore** to view them in a visualized way.
+With the **Open in Explore** function, you can run nGQL statements on the **Console** tab page to query vertex or edge data and then view the result on the **Explore** page in a visualized way.
 
 ## Studio version
 
-Studio v1.2.1-beta or later versions supports this function. To update the version, run this command.
+Studio of v1.2.1-beta or later versions supports this function. To update the version, run this command.
 
 ```bash
 docker-compose pull && docker-compose up
@@ -20,7 +20,7 @@ To use the **Open in Explore** function, you must do a check of these:
 
 ## Query and visualize edge data
 
-To use **Console** to query edge data and then view the result in **Explore**, follow these steps:
+To query edge data on the **Console** tab page and then view the result on the **Explore** tab page, follow these steps:
 
 1. In the toolbar, click the **Console** tab.
 2. In the **Current Graph Space** field, choose a graph space name. In this example, **mooc_actions** is chosen.
@@ -58,7 +58,7 @@ When the data is inserted, you can view the visualized representation of the edg
 
 ## Query and visualize vertex data
 
-To use **Console** to query vertex data and then view the result in **Explore**, follow these steps:
+To query vertex data on the **Console** tab page and then view the result on the **Explore** tab page, follow these steps:
 
 1. In the toolbar, click the **Console** tab.
 2. In the **Current Graph Space** field, choose a graph space name. In this example, **mooc_actions** is chosen.
@@ -91,4 +91,4 @@ When the data is inserted, you can view the visualized representation of the ver
 
 ## Next to do
 
-On the **Explore** page, you can expand the board to explore and analyze graph data.
+On the **Explore** tab page, you can expand the board to explore and analyze graph data.
