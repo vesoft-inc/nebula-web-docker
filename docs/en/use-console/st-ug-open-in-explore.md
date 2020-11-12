@@ -15,7 +15,7 @@ docker-compose pull && docker-compose up
 To use the **Open in Explore** function, you must do a check of these:
 
 - The version of Studio is v1.2.1-beta or later.
-- Studio is connected to a Nebula Graph database.
+- Studio is connected to Nebula Graph.
 - A dataset exists in the database.
 
 ## Query and visualize edge data

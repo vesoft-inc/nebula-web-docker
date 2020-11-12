@@ -1,6 +1,6 @@
 # Operate Indexes
 
-You can create an index for a tag and/or an edge type. An index lets traversal start from vertices or edges with the same property and it can make a data query more efficient. You can create two index types: Tag Index and Edge Type Index. With Studio, You can use the **Console** tab page or the **Schema** tab page to create, retrieve, and delete indexes. This article only introduces how to use the **Schema** tab page to operate an index.
+You can create an index for a tag and/or an edge type. An index lets traversal start from vertices or edges with the same property and it can make a query more efficient. You can create two index types: Tag Index and Edge Type Index. With Studio, you can use the **Console** tab page or the **Schema** tab page to create, retrieve, and delete indexes. This article only introduces how to use the **Schema** tab page to operate an index.
 
 > **NOTE**: You can create an index when a tag or an edge type is created. But an index can decrease the write speed during data import. We recommend that you import data firstly and then create and rebuild an index. For more information, see [nGQL Manual](https://docs.nebula-graph.io/manual-EN/2.query-language/4.statement-syntax/1.data-definition-statements/ "Click to go to the Nebula Graph website").
 
@@ -17,7 +17,7 @@ docker-compose pull && docker-compose up
 To operate an index on Studio, you must do a check of these:
 
 - The version of Studio is v1.2.0-beta or later.
-- Studio is connected to a Nebula Graph database.
+- Studio is connected to Nebula Graph.
 - A graph space, tags, and edge types are created.
 - Your account has the authority of GOD, ADMIN, or DBA.
 
