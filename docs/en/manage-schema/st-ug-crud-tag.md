@@ -1,18 +1,27 @@
 # Operate tags
 
-After a graph space is created in a Nebula Graph database, you can create tags. With Studio, you can use **Console** or **Schema** to create, retrieve, update, or delete tags. This article only introduces how to use **Schema** to operate tags in a Nebula Graph database.
+After a graph space is created in Nebula Graph, you can create tags. With Studio, you can use the **Console** tab page or the **Schema** tab page to create, retrieve, update, or delete tags. This article only introduces how to use the **Schema** tab page to operate tags in a graph space.
+
+## Studio version
+
+Studio of v1.2.0-beta or later versions supports this function. To update the version, run this command.
+
+```bash
+docker-compose pull && docker-compose up
+```
 
 ## Prerequisites
 
 To operate a tag on Studio, you must do a check of these:
 
-- Studio is connected to a Nebula Graph database.
+- The version of Studio is v1.2.0-beta or later.
+- Studio is connected to Nebula Graph.
 - A graph space is created.
 - Your account has the authority of GOD, ADMIN, or DBA.
 
 ## Create a tag
 
-To create a tag on **Schema**, follow these steps:
+To create a tag on the **Schema** tab page, follow these steps:
 
 1. In the toolbar, click the **Schema** tab.
 
@@ -46,7 +55,7 @@ When the tag is created successfully, the **Define Properties** panel shows all 
 
 ## Edit a tag
 
-To edit a tag on **Schema**, follow these steps:
+To edit a tag on the **Schema** tab page, follow these steps:
 
 1. In the toolbar, click the **Schema** tab.
 
@@ -74,7 +83,7 @@ To edit a tag on **Schema**, follow these steps:
 
 ## Delete a tag
 
-To delete a tag on **Schema**, follow these steps:
+To delete a tag on the **Schema** tab page, follow these steps:
 
 1. In the toolbar, click the **Schema** tab.
 
@@ -86,4 +95,4 @@ To delete a tag on **Schema**, follow these steps:
 
 ## Next to do
 
-After the tag is created, you can use **Console** to insert vertex data one by one manually or use **Import** to bulk import vertex data.
+After the tag is created, you can use the **Console** tab page to insert vertex data one by one manually or use the **Import** tab page to bulk import vertex data.

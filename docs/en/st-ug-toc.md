@@ -22,8 +22,12 @@
     - [Operate tags](manage-schema/st-ug-crud-tag.md)
     - [Operate edge types](manage-schema/st-ug-crud-edge-type.md)
     - [Operate indexes](manage-schema/st-ug-crud-index.md)
-  - [Use Explore] [TODO]
-  - [Use Console] [TODO]
+  - [Use Explore][TODO]
+  - Use Console
+    - [Introduce Console][TODO]
+    - [Open in Explore](use-console/st-ug-open-in-explore.md)
+    - [View subgraph][TODO]
+    - [Export as CSV files][TODO]
 - Best practices [TODO]
 - Troubleshooting [TODO]
   - Connection

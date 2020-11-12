@@ -1,19 +1,28 @@
 # Operate graph spaces
 
-When Studio is connected to Nebula Graph, you can create or delete a graph space. You can use **Console** or **Schema** to do these operations. This article only introduces how to use **Schema** to operate graph spaces in a Nebula Graph database.
+When Studio is connected to Nebula Graph, you can create or delete a graph space. You can use the **Console** tab page or the **Schema** tab page to do these operations. This article only introduces how to use the **Schema** tab page to operate graph spaces in Nebula Graph.
+
+## Studio version
+
+Studio of v1.2.0-beta or later versions supports this function. To update the version, run this command.
+
+```bash
+docker-compose pull && docker-compose up
+```
 
 ## Prerequisites
 
 To operate a graph space on Studio, you must do a check of these:
 
-- Studio is connected to a Nebula Graph database.
+- The version of Studio is v1.2.0-beta or later.
+- Studio is connected to Nebula Graph.
 - Your account has the authority of GOD. It means that:
   - If the authentication is enabled in Nebula Graph, you can use `user` and `password` to sign in to Studio.
   - If the authentication is disabled in Nebula Graph, you must use `root` and its password to sign in to Studio.
 
 ## Create a graph space
 
-To create a graph space on **Schema**, follow these steps:
+To create a graph space on the **Schema** tab page, follow these steps:
 
 1. In the toolbar, click the **Schema** tab.
 2. On the **Graph Space List** page, click the **+ Create** button.
@@ -31,7 +40,7 @@ To create a graph space on **Schema**, follow these steps:
 
 ## Delete a graph space
 
-To delete a graph space on **Schema**, follow these steps:
+To delete a graph space on the **Schema** page, follow these steps:
 
 1. In the toolbar, click the **Schema** tab.
 2. In the graph space list, find a graph space and then the ![Icon of deletion](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-017.png "Delete") icon in the **Operations** column.
