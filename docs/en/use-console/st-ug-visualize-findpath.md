@@ -1,6 +1,6 @@
 # View subgraphs
 
-With the **View Subgraphs** function, you can run a `FIND SHORTEST | ALL PATH` statement on the **Console** tab page to retrieve all the paths or the shortest path between the specified vertices and then view the result on the **Explore** tab page.
+With the **View Subgraphs** function, you can run a `FIND SHORTEST | ALL PATH` statement on the **Console** page to retrieve all the paths or the shortest path between the specified vertices and then view the result on the **Explore** page.
 
 For more information about `FIND SHORTEST | ALL PATH`, see [nGQL User Guide](https://docs.nebula-graph.io/manual-EN/2.query-language/4.statement-syntax/4.graph-algorithms/find-path-syntax/ "Click to go to Nebula Graph website").
 
@@ -22,11 +22,11 @@ To use the **View Subgraphs** function, you must do a check of these:
 
 ## Procedure
 
-To query the paths on the **Console** tab page and then view them on the **Explore** tab page, follow these steps:
+To query the paths on the **Console** page and then view them on the **Explore** page, follow these steps:
 
-1. In the toolbar, click the **Console** tab.
-2. In the **Current Graph Space** field, choose a graph space name. In this example, **mooc_actions** is chosen.
-3. In the input box, enter a `FIND SHORTEST PATH` or `FIND ALL PATH` statement and click the button ![Icon of Run](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-008.png "Run").
+1. In the navigation bar, click the **Console** tab.
+2. In the **Current Graph Space** dropdown list, choose a graph space name. In this example, **mooc_actions** is chosen.
+3. In the input box, enter a `FIND SHORTEST PATH` or `FIND ALL PATH` statement and click **Run** ![Icon of Run](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-008.png "Run").
 
    Here is an nGQL statement example.
 
@@ -50,4 +50,4 @@ When the data is inserted, you can view the visualized representation of the pat
 
 ## Next to do
 
-On the **Explore** tab page, you can expand the graph to explore and analyze graph data.
+On the **Explore** page, you can expand the graph to explore and analyze graph data.
