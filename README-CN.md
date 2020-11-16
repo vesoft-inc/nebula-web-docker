@@ -1,4 +1,4 @@
-# Nebula Graph Studio
+# 欢迎使用 Nebula Graph Studio
 
 Nebula Graph Studio（简称 Studio）是一款可以通过 Web 访问的图数据库可视化工具，搭配 Nebula Graph DBMS 使用，为您提供构图、数据导入、编写 nGQL 查询、图探索等一站式服务。
 
@@ -14,8 +14,8 @@ Nebula Graph Studio（简称 Studio）是一款可以通过 Web 访问的图数�
 
 关于 Studio 的详细信息，参考：
 
-- [用户手册](docs/cn/st-ug-toc.md)
-- [User Manual](./docs/nebula-graph-studio-user-guide-en.md)
+- [用户手册](https://github.com/vesoft-inc/nebula-docs-cn/blob/master/nebula-studio/st-ug-toc.md)
+- [User Manual](https://github.com/vesoft-inc/nebula-docs/blob/master/nebula-studio/st-ug-toc.md)
 
 ## 最新更新
 
