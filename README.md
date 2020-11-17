@@ -1,12 +1,12 @@
 # Nebula Graph Studio
 
-Neubla Graph Studio (Studio for short) is a web-based visualization tool for Nebula Graph. With Studio, you can create a graph schema, import data, edit nGQL statements for data queries, and expore graphs in one stop.
+Nebula Graph Studio (Studio for short) is a web-based visualization tool for Nebula Graph. With Studio, you can create a graph schema, import data, edit nGQL statements for data queries, and explore graphs in one stop.
 
 ![Screenshot of Studio user interface](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-025.png "Studio user interface")
 
 ## Supported Nebula Graph versions
 
-Studio now supports Nebula Graph V1.1.0 or earlier versions only, but not Nebula Graph V2.0 pre-release.
+Studio now supports Nebula Graph v1.1.0 or earlier versions only, but not Nebula Graph v2.0.0-alpha.
 
 ## Documentation
 
@@ -21,12 +21,12 @@ For more information about Studio, see:
 
 Do a check of these documents for the latest updates to Studio:
 
-- [Change log](docs/CHANGELOG-en.md)
+- [Changelog](docs/CHANGELOG-en.md)
 - [更新日志](docs/CHANGELOG-zh.md)
 
-## Feedbacks
+## Feedback
 
-If you have any questions about Studio, please feel free to leave your feedbacks on [Nebula Graph Forum](https://discuss.nebula-graph.io/ "Click to go to Nebula Graph Forum").
+If you have any questions about Studio, please feel free to leave your feedback on [Nebula Graph Forum](https://discuss.nebula-graph.io/ "Click to go to Nebula Graph Forum").
 
 ## Contact
 

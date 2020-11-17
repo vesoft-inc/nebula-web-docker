@@ -6,7 +6,7 @@ Nebula Graph Studio（简称 Studio）是一款可以通过 Web 访问的图数�
 
 ## Nebula Graph 版本支持
 
-目前 Studio 仅支持 Nebula Graph V1.1.0 及以下版本，不支持 Nebula Graph V2.0 pre-release。
+目前 Studio 仅支持 Nebula Graph v1.1.0 及以下版本，不支持 Nebula Graph v2.0.0-alpha。
 
 ## 用户手册
 
@@ -22,7 +22,7 @@ Nebula Graph Studio（简称 Studio）是一款可以通过 Web 访问的图数�
 查看以下文件确认 Studio 最新功能：
 
 - [更新日志](docs/CHANGELOG-zh.md)
-- [Change log](docs/CHANGELOG-en.md)
+- [Changelog](docs/CHANGELOG-en.md)
 
 ## 问题反馈
 
