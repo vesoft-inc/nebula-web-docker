@@ -1,0 +1,38 @@
+version: '3.4'
+services:
+  client:
+    image: vesoft/nebula-http-client-v2:latest
+    environment:
+      USER: root
+    ports:
+      - 8080
+    networks:
+      - nebula-web
+  web:
+    image: vesoft/nebula-graph-studio-v2:latest
+    environment:
+      USER: root
+      UPLOAD_DIR: ${MAPPING_DOCKER_DIR}
+    ports:
+      - 7001
+    depends_on:
+      - client
+    volumes:
+      - ${UPLOAD_DIR}:${MAPPING_DOCKER_DIR}:rw
+    networks:
+      - nebula-web
+  nginx:
+    image: nginx:alpine
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/nebula.conf
+      - ${UPLOAD_DIR}:${MAPPING_DOCKER_DIR}:rw
+    depends_on:
+      - client
+      - web
+    networks:
+      - nebula-web
+    ports:
+      - 7001:7001
+
+networks:
+  nebula-web:
