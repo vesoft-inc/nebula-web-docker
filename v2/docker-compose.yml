@@ -1,8 +1,7 @@
 version: '3.4'
 services:
   client:
-    image: hetao/go-dev
-    # image: vesoft/nebula-http-client-v2:latest
+    image: vesoft/nebula-http-client-v2:latest
     environment:
       USER: root
     ports:
@@ -10,8 +9,7 @@ services:
     networks:
       - nebula-web
   web:
-    # image: vesoft/nebula-graph-studio-v2:latest
-    image: hetao/studio-hetao-dev
+    image: vesoft/nebula-graph-studio-v2:latest
     environment:
       USER: root
       UPLOAD_DIR: ${MAPPING_DOCKER_DIR}
