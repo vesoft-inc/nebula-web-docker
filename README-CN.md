@@ -4,9 +4,57 @@ Nebula Graph Studio（简称 Studio）是一款可以通过 Web 访问的图数�
 
 ![Studio 界面截图](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-024.png "Studio 界面一览")
 
-## Nebula Graph 版本支持
+## 部署 Docker 版 Studio
 
-目前 Studio 仅支持 Nebula Graph v1.1.0 及以下版本，不支持 Nebula Graph v2.0.0-alpha。
+运行以下命令部署适用于 Nebula Graph 1.x 或者 2.0.0 的 Docker 版 Studio：
+
+1. 克隆 `nebula-web-docker` 库。
+
+    ```bash
+    git clone git@github.com:vesoft-inc/nebula-web-docker.git
+    ```
+
+2. 切换目录：
+   - 如果要部署适用于 Nebula Graph v1.x 的 Studio，运行 `cd nebula-web-docker`。
+   - 如果要部署适用于 Nebula Graph v2.0.0 的 Studio，运行 `cd nebula-web-docker/v2`。
+
+3. 拉取 Studio 的 Docker 镜像。
+
+    ```bash
+    docker-compose pull
+    ```
+
+4. 构建并启动 Studio。其中，`-d` 表示在后台运行容器。
+
+    ```bash
+    docker-compose up -d
+    ```
+  
+    如果界面返回以下信息，说明 Studio 已经完成部署并启动。
+
+    ```bash
+    Creating docker_importer_1 ... done
+    Creating docker_client_1   ... done
+    Creating docker_web_1      ... done
+    Creating docker_nginx_1    ... done
+    ```
+
+在 Chrome 浏览器中，输入 `localhost:7001` 访问 Studio。如果在浏览器窗口中看到以下登录界面，表示您已经成功部署并启动 Studio。
+
+![Nebula Graph Studio 登录界面](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-001.png "Nebula Graph Studio 登录界面")
+
+## 连接 Nebula Graph
+
+按以下说明连接 Nebula Graph v2.0.0：
+
+1. 确认 Nebula Graph 2.0.0 已经完成部署。详细信息参考 [Deploy Nebula Graph with Docker Compose](https://docs.nebula-graph.io/2.0/2.quick-start/2.deploy-nebula-graph-with-docker-compose/ "Click to go to Nebula Graph website") 或者 [Install Nebula Graph by compiling the source code](https://docs.nebula-graph.io/2.0/4.deployment-and-installation/2.compile-and-install-nebula-graph/1.install-nebula-graph-by-compiling-the-source-code/ "Click to go to Nebula Graph website")。
+   > **说明**：如果您使用 Docker Compose 部署 Nebula Graph v2.0.0，则必须运行 `docker-compose pull && docker-compose up -d` 更新镜像。
+2. 连接 Nebula Graph v2.0.0。详细信息参考 [Nebula Graph Studio 用户手册](https://github.com/vesoft-inc/nebula-docs-cn/blob/master/nebula-studio/deploy-connect/st-ug-connect.md "点击前往 GitHub")。
+
+按以下说明连接 Nebula Graph v1.x：
+
+1. 确认 Nebula Graph v1.x 已经完成部署。详细信息参考 [Nebula Graph 用户手册](https://docs.nebula-graph.com.cn/manual-CN/3.build-develop-and-administration/1.build/1.build-source-code/ "点击前往 Nebula Graph 网站")。
+2. 连接 Nebula Graph v1.x。详细信息参考 [Nebula Graph Studio 用户手册](https://github.com/vesoft-inc/nebula-docs-cn/blob/master/nebula-studio/deploy-connect/st-ug-connect.md "点击前往 GitHub")。
 
 ## 用户手册
 
