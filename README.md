@@ -62,8 +62,8 @@ Watch [this video](https://www.youtube.com/watch?v=kWg47hn_4Lo "Click to go to Y
 
 For more information about Studio, see:
 
-- [User Guide](https://docs.nebula-graph.io/1.1/nebula-studio/about-studio/st-ug-what-is-graph-studio/)
-- [用户手册](https://github.com/vesoft-inc/nebula-docs-cn/blob/master/nebula-studio/st-ug-toc.md)
+- [User Guide](https://docs.nebula-graph.io/1.1/nebula-studio/about-studio/st-ug-what-is-graph-studio/ "Click to go to Nebula Graph website")
+- [用户手册](https://docs.nebula-graph.com.cn/nebula-studio/about-studio/st-ug-what-is-graph-studio/ "Click to go to Nebula Graph website")
 
 ## Updates
 
