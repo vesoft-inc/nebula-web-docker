@@ -54,7 +54,7 @@ Nebula Graph Studio（简称 Studio）是一款可以通过 Web 访问的图数�
 按以下说明连接 Nebula Graph v1.x：
 
 1. 确认 Nebula Graph v1.x 已经完成部署。详细信息参考 [Nebula Graph 用户手册](https://docs.nebula-graph.com.cn/manual-CN/3.build-develop-and-administration/1.build/1.build-source-code/ "点击前往 Nebula Graph 网站")。
-2. 连接 Nebula Graph v1.x。详细信息参考 [Nebula Graph Studio 用户手册](https://github.com/vesoft-inc/nebula-docs-cn/blob/master/nebula-studio/deploy-connect/st-ug-connect.md "点击前往 GitHub")。
+2. 连接 Nebula Graph v1.x。详细信息参考 [Nebula Graph Studio 用户手册](https://docs.nebula-graph.com.cn/nebula-studio/deploy-connect/st-ug-connect/ "点击前往 Nebula Graph 网站")。
 
 ## 用户手册
 
@@ -62,8 +62,8 @@ Nebula Graph Studio（简称 Studio）是一款可以通过 Web 访问的图数�
 
 关于 Studio 的详细信息，参考：
 
-- [用户手册](https://github.com/vesoft-inc/nebula-docs-cn/blob/master/nebula-studio/st-ug-toc.md)
-- [User Manual](https://github.com/vesoft-inc/nebula-docs/blob/master/nebula-studio/st-ug-toc.md)
+- [用户手册](https://docs.nebula-graph.com.cn/nebula-studio/about-studio/st-ug-what-is-graph-studio/ "点击前往 Nebula Graph 网站")
+- [User Manual](https://docs.nebula-graph.io/1.1/nebula-studio/about-studio/st-ug-what-is-graph-studio/ "Click to go to Nebula Graph website")
 
 ## 最新更新
 
