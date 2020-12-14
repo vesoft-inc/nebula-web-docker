@@ -21,6 +21,17 @@ services:
       - ${UPLOAD_DIR}:${MAPPING_DOCKER_DIR}:rw
     networks:
       - nebula-web
+  importer:
+    image: vesoft/nebula-importer:latest
+    networks:
+      - nebula-web
+    ports:
+      - 5699
+    volumes:
+      - ${UPLOAD_DIR}:${MAPPING_DOCKER_DIR}:rw
+    command:
+      - "--port=5699"
+      - "--callback=http://nginx:7001/api/import/finish"
   nginx:
     image: nginx:alpine
     volumes:
