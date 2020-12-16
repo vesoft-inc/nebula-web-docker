@@ -6,16 +6,16 @@ Nebula Graph Studio (Studio for short) is a web-based visualization tool for Neb
 
 ## Start Docker-based Studio
 
-To start Docker-based Studio for Nebula Graph v1.x or v2.0.0, run these commands:
+To start Docker-based Studio for Nebula Graph v1.x or v2.x, run these commands:
 
 1. Clone the `nebula-web-docker` repo.
 
     ```bash
-    git clone git@github.com:vesoft-inc/nebula-web-docker.git
+    git clone https://github.com/vesoft-inc/nebula-web-docker.git
     ```
 
 2. Change the directory:
-   - For Nebula Graph v2.0.0, run `cd nebula-web-docker/v2`.
+   - For Nebula Graph v2.x, run `cd nebula-web-docker/v2`.
    - For Nebula Graph v1.x, run `cd nebula-web-docker`.
 
 3. Pull the docker image of Studio.
@@ -45,11 +45,11 @@ On Chrome, enter `localhost:7001` to get access to Studio. When a page as follow
 
 ## Connect to Nebula Graph
 
-To connect to Nebula Graph v2.0.0:
+To connect to Nebula Graph v2.x:
 
-1. Make sure that Nebula Graph 2.0.0 is deployed. For more information, see [Deploy Nebula Graph with Docker Compose](https://docs.nebula-graph.io/2.0/2.quick-start/2.deploy-nebula-graph-with-docker-compose/ "Click to go to Nebula Graph website") or [Install Nebula Graph by compiling the source code](https://docs.nebula-graph.io/2.0/4.deployment-and-installation/2.compile-and-install-nebula-graph/1.install-nebula-graph-by-compiling-the-source-code/ "Click to go to Nebula Graph website").
-   > **NOTE**: If you deployed Nebula Graph 2.0.0-alpha with Docker Compose, you must clone the `v2-preview` branch of the nebula-docker-compose repository to update the Docker configuration.
-2. Connect to Nebula Graph v2.0.0. For more information, see [Nebula Graph Studio User Guide](https://docs.nebula-graph.io/1.1/nebula-studio/install-configure/st-ug-connect/ "Click to go to Nebula Graph website").
+1. Make sure that Nebula Graph 2.x is deployed. For more information, see [Deploy Nebula Graph with Docker Compose](https://docs.nebula-graph.io/2.0/2.quick-start/2.deploy-nebula-graph-with-docker-compose/ "Click to go to Nebula Graph website") or [Install Nebula Graph by compiling the source code](https://docs.nebula-graph.io/2.0/4.deployment-and-installation/2.compile-and-install-nebula-graph/1.install-nebula-graph-by-compiling-the-source-code/ "Click to go to Nebula Graph website").
+   > **NOTE**: If you deployed Nebula Graph 2.0.0-alpha with Docker Compose, you must clone the nebula-docker-compose repository to update the Docker configuration.
+2. Connect to Nebula Graph v2.x. For more information, see [Nebula Graph Studio User Guide](https://docs.nebula-graph.io/1.1/nebula-studio/install-configure/st-ug-connect/ "Click to go to Nebula Graph website").
 
 To connect to Nebula Graph v1.x:
 
