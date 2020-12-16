@@ -6,17 +6,17 @@ Nebula Graph Studio（简称 Studio）是一款可以通过 Web 访问的图数�
 
 ## 部署 Docker 版 Studio
 
-运行以下命令部署适用于 Nebula Graph 1.x 或者 2.0.0 的 Docker 版 Studio：
+运行以下命令部署适用于 Nebula Graph 1.x 或者 2.x 的 Docker 版 Studio：
 
 1. 克隆 `nebula-web-docker` 库。
 
     ```bash
-    git clone git@github.com:vesoft-inc/nebula-web-docker.git
+    git clone https://github.com/vesoft-inc/nebula-web-docker.git
     ```
 
 2. 切换目录：
    - 如果要部署适用于 Nebula Graph v1.x 的 Studio，运行 `cd nebula-web-docker`。
-   - 如果要部署适用于 Nebula Graph v2.0.0 的 Studio，运行 `cd nebula-web-docker/v2`。
+   - 如果要部署适用于 Nebula Graph v2.x 的 Studio，运行 `cd nebula-web-docker/v2`。
 
 3. 拉取 Studio 的 Docker 镜像。
 
@@ -45,11 +45,11 @@ Nebula Graph Studio（简称 Studio）是一款可以通过 Web 访问的图数�
 
 ## 连接 Nebula Graph
 
-按以下说明连接 Nebula Graph v2.0.0：
+按以下说明连接 Nebula Graph v2.x：
 
-1. 确认 Nebula Graph 2.0.0 已经完成部署。详细信息参考 [Deploy Nebula Graph with Docker Compose](https://docs.nebula-graph.io/2.0/2.quick-start/2.deploy-nebula-graph-with-docker-compose/ "Click to go to Nebula Graph website") 或者 [Install Nebula Graph by compiling the source code](https://docs.nebula-graph.io/2.0/4.deployment-and-installation/2.compile-and-install-nebula-graph/1.install-nebula-graph-by-compiling-the-source-code/ "Click to go to Nebula Graph website")。
-   > **说明**：如果您使用 Docker Compose 部署 Nebula Graph v2.0.0，则必须重新克隆 nebula-docker-compose 的 `v2-preview` 分支更新 Docker 配置文件。
-2. 连接 Nebula Graph v2.0.0。详细信息参考 [Nebula Graph Studio 用户手册](https://github.com/vesoft-inc/nebula-docs-cn/blob/master/nebula-studio/deploy-connect/st-ug-connect.md "点击前往 GitHub")。
+1. 确认 Nebula Graph 2.x 已经完成部署。详细信息参考 [Deploy Nebula Graph with Docker Compose](https://docs.nebula-graph.io/2.0/2.quick-start/2.deploy-nebula-graph-with-docker-compose/ "Click to go to Nebula Graph website") 或者 [Install Nebula Graph by compiling the source code](https://docs.nebula-graph.io/2.0/4.deployment-and-installation/2.compile-and-install-nebula-graph/1.install-nebula-graph-by-compiling-the-source-code/ "Click to go to Nebula Graph website")。
+   > **说明**：如果您使用 Docker Compose 部署 Nebula Graph v2.0.0-alpha，则必须重新克隆 nebula-docker-compose 仓库以更新 Docker 配置文件。
+2. 连接 Nebula Graph v2.x。详细信息参考 [Nebula Graph Studio 用户手册](https://github.com/vesoft-inc/nebula-docs-cn/blob/master/nebula-studio/deploy-connect/st-ug-connect.md "点击前往 GitHub")。
 
 按以下说明连接 Nebula Graph v1.x：
 
