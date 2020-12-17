@@ -3,7 +3,7 @@
 ## 2020.12.17 - v1.2.2-beta
 - Feature Enhancements:
   - Explore
-    - Supports importing hangling edges
+    - Supports importing dangling edges
 - Fix
   - Console
     - Fixed the sorting bugs
