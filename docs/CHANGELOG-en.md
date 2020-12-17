@@ -6,7 +6,7 @@
     - Supports importing hangling edges
 - Fix
   - Console
-    - Fixed the ordering bugs
+    - Fixed the sorting bugs
 
 ## 2020.11.02 - v1.2.1-beta
 - Feature Enhancements:
