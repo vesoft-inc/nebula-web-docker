@@ -1,5 +1,13 @@
 # Change Log
 
+## 2020.12.17 - v1.2.2-beta
+- Feature Enhancements:
+  - Explore
+    - Supports importing dangling edges
+- Fix
+  - Console
+    - Fixed the sorting bugs
+
 ## 2020.11.02 - v1.2.1-beta
 - Feature Enhancements:
   - Console
