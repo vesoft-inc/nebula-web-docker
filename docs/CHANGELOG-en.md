@@ -1,5 +1,11 @@
 # Change Log
 
+## 2020.12.23 - v1.2.3-beta
+- Fix:
+  - Import
+    - Fixed incorrect parsing of CSV files
+    - Fixed truncation of large files.
+
 ## 2020.12.17 - v1.2.2-beta
 - Feature Enhancements:
   - Explore
