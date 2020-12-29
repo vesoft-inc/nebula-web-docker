@@ -1,5 +1,11 @@
 # Change Log
 
+## 2020.12.29 - v1.2.4-beta
+- Feature Enhancements:
+  - Explore
+    - Supports exporting the returned results as pictures
+    - Supports double-click to do quick exploration
+
 ## 2020.12.23 - v1.2.3-beta
 - Fix:
   - Import
