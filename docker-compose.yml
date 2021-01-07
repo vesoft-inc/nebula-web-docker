@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   client:
-    image: vesoft/nebula-http-gateway-v1:latest
+    image: vesoft/nebula-http-gateway:v1
     environment:
       USER: root
     ports:
