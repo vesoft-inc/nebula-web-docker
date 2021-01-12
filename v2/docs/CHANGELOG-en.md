@@ -1,5 +1,12 @@
 # Change Log
 
+## 2021.01.12 - v2.1.3-beta
+- Fix:
+  - Explore
+    - Fixed vertices rendering problem for the undo operation
+    - Limited the maximum vertices number when exploring
+
+
 ## 2020.12.29 - v2.1.2-beta
 - Feature Enhancements:
   - Explore
