@@ -1,5 +1,11 @@
 # Change Log
 
+## 2021.01.19 - v1.2.6-beta
+- Feature Enhancements:
+  - Explore
+    - When a vertex is selected, its information is fixed on the page
+    - Configuration persistence for vertex/edge display
+
 ## 2021.01.12 - v1.2.5-beta
 - Fix:
   - Explore
