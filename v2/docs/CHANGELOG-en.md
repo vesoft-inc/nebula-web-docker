@@ -1,5 +1,14 @@
 # Change Log
 
+## 2021.01.19 - v2.1.4-beta
+- Feature Enhancements:
+  - Schema
+    - Supported configuring fixed string for space/tag/edge/index
+  - Explore
+    - When a vertex is selected, its information is fixed on the page
+    - Configuration persistence for vertex/edge display
+
+
 ## 2021.01.12 - v2.1.3-beta
 - Fix:
   - Explore
