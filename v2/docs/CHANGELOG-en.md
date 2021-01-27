@@ -1,5 +1,10 @@
 # Change Log
 
+## 2021.01.25 - v2.1.5-beta
+- Fix:
+  - Explore
+    - Fix the rendering problem caused by the change of the returned data structure
+
 ## 2021.01.19 - v2.1.4-beta
 - Feature Enhancements:
   - Schema
