@@ -1,5 +1,9 @@
 # Change Log
 
+## 2021.02.22 - v1.2.7-beta
+-  Fix:
+  - Fixed the inaccurate display when the number exceeds the precision
+
 ## 2021.01.19 - v1.2.6-beta
 - Feature Enhancements:
   - Explore

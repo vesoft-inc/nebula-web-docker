@@ -1,5 +1,12 @@
 # Change Log
 
+## 2021.02.22 - v2.1.6-beta
+- Fix:
+  - Fixed the inaccurate display when the number exceeds the precision
+- Feature Enhancements:
+  - Explore
+    - Supported querying the integer type vertex id
+
 ## 2021.01.25 - v2.1.5-beta
 - Fix:
   - Explore
