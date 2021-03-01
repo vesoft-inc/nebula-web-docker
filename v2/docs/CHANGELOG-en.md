@@ -1,5 +1,9 @@
 # Change Log
 
+## 2021.03.01 - v2.1.7-beta
+- Feature Enhancements:
+  - Console
+    - EXPLAIN dot parameter results support graph
 ## 2021.02.22 - v2.1.6-beta
 - Fix:
   - Fixed the inaccurate display when the number exceeds the precision
