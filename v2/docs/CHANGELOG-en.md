@@ -1,5 +1,12 @@
 # Change Log
 
+## 2021.03.01 - v2.1.8-beta
+- Feature Enhancements:
+  - Console
+    - The history gql supports clearing
+  - Explore
+    - Optimize display of large amounts of data
+    - Operation panel to add buttons to support zoom, drag and drop functions
 ## 2021.03.01 - v2.1.7-beta
 - Feature Enhancements:
   - Console
