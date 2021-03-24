@@ -22,7 +22,7 @@ services:
     networks:
       - nebula-web
   importer:
-    image: vesoft/nebula-importer:latest
+    image: vesoft/nebula-importer:v2
     networks:
       - nebula-web
     ports:

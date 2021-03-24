@@ -1,5 +1,10 @@
 # Change Log
 
+## 2021.03.24 - v2.1.9-beta
+- Fix:
+  - Import
+    - Support import the integer type vertex id data
+
 ## 2021.03.01 - v2.1.8-beta
 - Feature Enhancements:
   - Console
