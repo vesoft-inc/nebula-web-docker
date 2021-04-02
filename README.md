@@ -15,7 +15,16 @@ To start Docker-based Studio for Nebula Graph v1.x or v2.x, run these commands:
     ```
 
 2. Change the directory:
-   - For Nebula Graph v2.x, run `cd nebula-web-docker/v2`.
+   - For Nebula Graph v2.0 GA, run `cd nebula-web-docker/v2`.
+   - For Nebula Graph V2.0-rc，Please：
+   ```shell
+    $ cd nebula-web-docker/v2
+    $ vim ./nebula-docker-compose
+    ...
+        web:
+            image: vesoft/nebula-graph-studio:v2-rc // modify v2 to v2-rc
+    ...
+   ```
    - For Nebula Graph v1.x, run `cd nebula-web-docker`.
 
 3. Pull the docker image of Studio.
