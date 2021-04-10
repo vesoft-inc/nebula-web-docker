@@ -9,7 +9,7 @@ services:
     networks:
       - nebula-web
   web:
-    image: vesoft/nebula-graph-studio:v2
+    image: vesoft/nebula-graph-studio:v2-rc
     environment:
       USER: root
       UPLOAD_DIR: ${MAPPING_DOCKER_DIR}
