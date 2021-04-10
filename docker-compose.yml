@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   client:
-    image: vesoft/nebula-http-gateway:v1
+    image: vesoft/nebula-http-gateway:v2
     environment:
       USER: root
     ports:
@@ -9,7 +9,7 @@ services:
     networks:
       - nebula-web
   web:
-    image: vesoft/nebula-graph-studio:v1
+    image: vesoft/nebula-graph-studio:v2
     environment:
       USER: root
       UPLOAD_DIR: ${MAPPING_DOCKER_DIR}
@@ -22,7 +22,7 @@ services:
     networks:
       - nebula-web
   importer:
-    image: vesoft/nebula-importer:v1
+    image: vesoft/nebula-importer:v2
     networks:
       - nebula-web
     ports:
@@ -40,7 +40,6 @@ services:
     depends_on:
       - client
       - web
-      - importer
     networks:
       - nebula-web
     ports:
