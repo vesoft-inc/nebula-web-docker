@@ -8,6 +8,8 @@ Nebula Graph Studio（简称 Studio）是一款可以通过 Web 访问的图数�
 
 ### docker-compose
 
+[安装部署视频教程](https://nebula-website-cn.oss-cn-hangzhou.aliyuncs.com/nebula-blog/deploy-nebula-graph-and-nebula-graph-studio-with-docker.mp4)
+
 运行以下命令部署适用于 Nebula Graph 1.x 或者 2.x 的 Docker 版 Studio：
 
 1. 克隆 `nebula-web-docker` 库。
