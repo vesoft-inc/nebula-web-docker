@@ -4,7 +4,11 @@ Nebula Graph Studio（简称 Studio）是一款可以通过 Web 访问的图数�
 
 ![Studio 界面截图](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-024.png "Studio 界面一览")
 
-## 部署 Docker 版 Studio
+## 部署
+
+### docker-compose
+
+[安装部署视频教程](https://nebula-website-cn.oss-cn-hangzhou.aliyuncs.com/nebula-blog/deploy-nebula-graph-and-nebula-graph-studio-with-docker.mp4)
 
 运行以下命令部署适用于 Nebula Graph 1.x 或者 2.x 的 Docker 版 Studio：
 
@@ -15,25 +19,24 @@ Nebula Graph Studio（简称 Studio）是一款可以通过 Web 访问的图数�
     ```
 
 2. 选择合适的 Studio 版本：
-   - 如果要部署适用于 Nebula Graph v2.0 GA 的 Studio，运行 `cd nebula-web-docker/v2`。
-   - 如果要部署适用于 Nebula Graph V2.0-rc 的 Studio，请：
-   ```shell
-    $ cd nebula-web-docker/v2
-    $ vim ./nebula-docker-compose
-    ...
-        web:
-            image: vesoft/nebula-graph-studio:v2-rc // 将v2改为v2-rc
-    ...
-   ```
-   - 如果要部署适用于 Nebula Graph v1.x 的 Studio，运行 `cd nebula-web-docker`。
+   
+| 分支 | 对应 nebula 版本 |
+| --- | --- |
+| master | latest |
+| v2 | 2.0 GA |
+| v2-rc | 2.0-rc |
+| v1 |  1.x |
+```
+// 以 nebula 2.0 GA 为例
+git checkout v2
+```
+1. 拉取 Studio 的 Docker 镜像。
 
-3. 拉取 Studio 的 Docker 镜像。
+```bash
+docker-compose pull
+```
 
-    ```bash
-    docker-compose pull
-    ```
-
-4. 构建并启动 Studio。其中，`-d` 表示在后台运行容器。
+2. 启动 Studio。其中，`-d` 表示在后台运行容器。
 
     ```bash
     docker-compose up -d
@@ -51,6 +54,41 @@ Nebula Graph Studio（简称 Studio）是一款可以通过 Web 访问的图数�
 在 Chrome 浏览器中，输入 `localhost:7001` 访问 Studio。如果在浏览器窗口中看到以下登录界面，表示您已经成功部署并启动 Studio。
 
 ![Nebula Graph Studio 登录界面](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-001.png "Nebula Graph Studio 登录界面")
+
+3. 停止服务
+```
+// 当docker-compose是-d模式运行时
+$ docker-compose down
+```
+
+### RPM
+| 安装包 | nebula版本 |
+| ----- | ----- |
+| [nebula-graph-studio-2.1.9-1.x86_64.rpm](https://oss-cdn.nebula-graph.io/nebula-graph-studio/nebula-graph-studio-2.1.9-1.x86_64.rpm) |  2.0 GA |
+| [nebula-graph-studio-1.2.7-1.x86_64.rpm](https://oss-cdn.nebula-graph.io/nebula-graph-studio/nebula-graph-studio-1.2.7-1.x86_64.rpm) |  1.x |
+
+#### 环境依赖
+- Node.js (v10.16.0 +)
+- lsof
+
+#### 安装
+以 Nebula 2.0GA 版本为例
+```
+$ sudo rpm -i nebula-graph-studio-2.1.9-1.x86_64.rpm
+```
+#### 删除
+```
+$ sudo rpm -e nebula-graph-studio-2.1.9-1.x86_64.rpm
+```
+
+#### 配套脚本
+```
+// 手动启动服务
+$ bash /usr/local/nebula-graph-studio/scripts/start.sh
+
+// 手动停止服务
+$ bash /usr/local/nebula-graph-studio/scripts/stop.sh
+```
 
 ## 连接 Nebula Graph
 

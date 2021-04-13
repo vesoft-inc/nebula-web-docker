@@ -4,7 +4,9 @@ Nebula Graph Studio (Studio for short) is a web-based visualization tool for Neb
 
 ![Screenshot of Studio user interface](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-025.png "Studio user interface")
 
-## Start Docker-based Studio
+## Deploy
+
+### docker-compose
 
 To start Docker-based Studio for Nebula Graph v1.x or v2.x, run these commands:
 
@@ -14,18 +16,18 @@ To start Docker-based Studio for Nebula Graph v1.x or v2.x, run these commands:
     git clone https://github.com/vesoft-inc/nebula-web-docker.git
     ```
 
-2. Change the directory:
-   - For Nebula Graph v2.0 GA, run `cd nebula-web-docker/v2`.
-   - For Nebula Graph V2.0-rc，Please：
-   ```shell
-    $ cd nebula-web-docker/v2
-    $ vim ./nebula-docker-compose
-    ...
-        web:
-            image: vesoft/nebula-graph-studio:v2-rc // modify v2 to v2-rc
-    ...
-   ```
-   - For Nebula Graph v1.x, run `cd nebula-web-docker`.
+2. Select the proper version:
+
+| git branch | nebula version|
+| --- | --- |
+| master | latest |
+| v2 | 2.0 GA |
+| v2-rc | 2.0-rc |
+| v1 |  1.x |
+```
+// when use nebula 2.0 ga
+git checkout v2
+```
 
 3. Pull the docker image of Studio.
 
@@ -52,6 +54,39 @@ On Chrome, enter `localhost:7001` to get access to Studio. When a page as follow
 
 ![The Config Server page shows that Docker-based Studio is started successfully](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-052.png "Docker-based Studio is started")
 
+5. Stop Server
+```
+$ docker-compose down
+```
+
+### RPM
+| package | nebula version|
+| ----- | ----- |
+| [nebula-graph-studio-2.1.9-1.x86_64.rpm](https://oss-cdn.nebula-graph.io/nebula-graph-studio/nebula-graph-studio-2.1.9-1.x86_64.rpm) |  2.0 GA |
+| [nebula-graph-studio-1.2.7-1.x86_64.rpm](https://oss-cdn.nebula-graph.io/nebula-graph-studio/nebula-graph-studio-1.2.7-1.x86_64.rpm) |  1.x |
+
+#### Env Dependencies
+- Node.js (v10.16.0 +)
+- lsof
+
+#### Setup
+```
+$ sudo rpm -i nebula-graph-studio-2.1.9-1.x86_64.rpm
+```
+
+#### Remove
+```
+$ sudo rpm -e nebula-graph-studio-2.1.9-1.x86_64.rpm
+```
+
+#### Some Scripts
+```
+// start server by hand
+$ bash /usr/local/nebula-graph-studio/scripts/start.sh
+
+// kill server by hand
+$ bash /usr/local/nebula-graph-studio/scripts/stop.sh
+```
 ## Connect to Nebula Graph
 
 To connect to Nebula Graph v2.x:
