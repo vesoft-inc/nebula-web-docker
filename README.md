@@ -17,6 +17,7 @@ To start Docker-based Studio for Nebula Graph v1.x or v2.x, run these commands:
     ```
 
 2. Select the proper version:
+
 | git branch | nebula version|
 | --- | --- |
 | master | latest |
@@ -24,7 +25,7 @@ To start Docker-based Studio for Nebula Graph v1.x or v2.x, run these commands:
 | v2-rc | 2.0-rc |
 | v1 |  1.x |
 ```
-// whn use nebula 2.0 ga
+// when use nebula 2.0 ga
 git checkout v2
 ```
 
