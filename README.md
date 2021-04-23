@@ -1,5 +1,7 @@
 # Nebula Graph Studio
 
+<br> English | <a href="README-CN.md">中文</a><br/>
+
 Nebula Graph Studio (Studio for short) is a web-based visualization tool for Nebula Graph. With Studio, you can create a graph schema, import data, edit nGQL statements for data queries, and explore graphs in one stop.
 
 ![Screenshot of Studio user interface](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-025.png "Studio user interface")
@@ -62,6 +64,7 @@ $ docker-compose down
 ### RPM
 | package | nebula version|
 | ----- | ----- |
+| [nebula-graph-studio-2.2.0-1.x86_64.rpm](https://oss-cdn.nebula-graph.io/nebula-graph-studio/nebula-graph-studio-2.2.0-1.x86_64.rpm) |  2.0.1 |
 | [nebula-graph-studio-2.1.9-1.x86_64.rpm](https://oss-cdn.nebula-graph.io/nebula-graph-studio/nebula-graph-studio-2.1.9-1.x86_64.rpm) |  2.0 GA |
 | [nebula-graph-studio-1.2.7-2.x86_64.rpm](https://oss-cdn.nebula-graph.io/nebula-graph-studio/nebula-graph-studio-1.2.7-1.x86_64.rpm) |  1.x |
 
@@ -71,12 +74,12 @@ $ docker-compose down
 
 #### Setup
 ```
-$ sudo rpm -i nebula-graph-studio-2.1.9-1.x86_64.rpm
+$ sudo rpm -i nebula-graph-studio-2.2.0-1.x86_64.rpm
 ```
 
 #### Remove
 ```
-$ sudo rpm -e nebula-graph-studio-2.1.9-1.x86_64.rpm
+$ sudo rpm -e nebula-graph-studio-2.2.0-1.x86_64.rpm
 ```
 
 #### Some Scripts
@@ -93,12 +96,12 @@ To connect to Nebula Graph v2.x:
 
 1. Make sure that Nebula Graph 2.x is deployed. For more information, see [Deploy Nebula Graph with Docker Compose](https://docs.nebula-graph.io/2.0/2.quick-start/2.deploy-nebula-graph-with-docker-compose/ "Click to go to Nebula Graph website") or [Install Nebula Graph by compiling the source code](https://docs.nebula-graph.io/2.0/4.deployment-and-installation/2.compile-and-install-nebula-graph/1.install-nebula-graph-by-compiling-the-source-code/ "Click to go to Nebula Graph website").
    > **NOTE**: If you deployed Nebula Graph 2.0.0-alpha with Docker Compose, you must clone the nebula-docker-compose repository to update the Docker configuration.
-2. Connect to Nebula Graph v2.x. For more information, see [Nebula Graph Studio User Guide](https://docs.nebula-graph.io/1.1/nebula-studio/install-configure/st-ug-connect/ "Click to go to Nebula Graph website").
+2. Connect to Nebula Graph v2.x. For more information, see [Nebula Graph Studio User Guide](https://docs.nebula-graph.io/2.0.1/nebula-studio/install-configure/st-ug-connect/ "Click to go to Nebula Graph website").
 
 To connect to Nebula Graph v1.x:
 
-1. Make sure that Nebula Graph 1.x is deployed. For more information, see [Nebula Graph Manual](https://docs.nebula-graph.io/1.1/manual-EN/3.build-develop-and-administration/1.build/1.build-source-code/ "Click to go to Nebula Graph website").
-2. Connect to Nebula Graph v1.x. For more information, see [Nebula Graph Studio User Guide](https://docs.nebula-graph.io/1.1/nebula-studio/install-configure/st-ug-connect/ "Click to go to Nebula Graph website").
+1. Make sure that Nebula Graph 1.x is deployed. For more information, see [Nebula Graph Manual](https://docs.nebula-graph.io/1.2.1/manual-EN/3.build-develop-and-administration/1.build/1.build-source-code/ "Click to go to Nebula Graph website").
+2. Connect to Nebula Graph v1.x. For more information, see [Nebula Graph Studio User Guide](https://docs.nebula-graph.io/1.2.1/nebula-studio/install-configure/st-ug-connect/ "Click to go to Nebula Graph website").
 
 ## Documentation
 
@@ -106,7 +109,7 @@ Watch [this video](https://www.youtube.com/watch?v=kWg47hn_4Lo "Click to go to Y
 
 For more information about Studio, see:
 
-- [User Guide](https://docs.nebula-graph.io/1.1/nebula-studio/about-studio/st-ug-what-is-graph-studio/ "Click to go to Nebula Graph website")
+- [User Guide](https://docs.nebula-graph.io/2.0.1/nebula-studio/about-studio/st-ug-what-is-graph-studio/ "Click to go to Nebula Graph website")
 - [用户手册](https://docs.nebula-graph.com.cn/nebula-studio/about-studio/st-ug-what-is-graph-studio/ "Click to go to Nebula Graph website")
 
 ## Updates

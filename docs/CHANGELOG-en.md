@@ -1,5 +1,18 @@
 # Change Log
 
+## 2021.04.23 - v2.2.0
+- Feature Enhancements:
+  - Explore
+    - UI revision
+    - Add operation panel and right-click menu, support zoom, dragging graph, modify vertex color and other operations
+    - Support some operation shortcut keys operation
+    - Support quick search of related vertexes in the canvas
+    - Expanded function enhancement, support multi-step query
+    - Added graph algorithm query function
+- Fix:
+  - Console
+    - Fix the problem that the match return structure cannot quickly lead to graph exploration
+
 ## 2021.03.24 - v2.1.9-beta
 - Fix:
   - Import
