@@ -11,7 +11,7 @@
     - Added graph algorithm query function
 - Fix:
   - Console
-    - Fix the problem that the match return structure cannot quickly lead to graph exploration
+    - Fix the problem that the match return structure cannot lead to graph exploration
 
 ## 2021.03.24 - v2.1.9-beta
 - Fix:
