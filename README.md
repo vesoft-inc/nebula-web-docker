@@ -12,10 +12,10 @@ Nebula Graph Studio (Studio for short) is a web-based visualization tool for Neb
 
 To start Docker-based Studio for Nebula Graph v1.x or v2.x, run these commands:
 
-1. Clone the `nebula-web-docker` repo.
+1. Clone the `nebula-graph-studio` repo.
 
     ```bash
-    git clone https://github.com/vesoft-inc/nebula-web-docker.git
+    git clone https://github.com/vesoft-inc/nebula-graph-studio.git
     ```
 
 2. Select the proper version:
