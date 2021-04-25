@@ -14,10 +14,10 @@ Nebula Graph Studio（简称 Studio）是一款可以通过 Web 访问的图数�
 
 运行以下命令部署适用于 Nebula Graph 1.x 或者 2.x 的 Docker 版 Studio：
 
-1. 克隆 `nebula-web-docker` 库。
+1. 克隆 `nebula-graph-studio` 库。
 
     ```bash
-    git clone https://github.com/vesoft-inc/nebula-web-docker.git
+    git clone https://github.com/vesoft-inc/nebula-graph-studio.git
     ```
 
 2. 选择合适的 Studio 版本：
