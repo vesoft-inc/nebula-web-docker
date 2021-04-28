@@ -1,5 +1,9 @@
 # Change Log
 
+## 2021.04.28 - v2.2.1
+- Fix
+  - Fix browser compatibility issues
+
 ## 2021.04.23 - v2.2.0
 - Feature Enhancements:
   - Explore
