@@ -1,5 +1,10 @@
 # Change Log
 
+## 2021.05.06 - v2.2.1
+- Fix
+  - Fix browser compatibility issues
+  - Fix the rendering problem of big int type data
+  - Fix the problem that no results can be obtained when importing data    
 ## 2021.04.23 - v2.2.0
 - Feature Enhancements:
   - Explore
