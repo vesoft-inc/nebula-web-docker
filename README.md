@@ -64,7 +64,7 @@ $ docker-compose down
 ### RPM
 | package | checksum | nebula version|
 | ----- | ----- | ----- |
-| [nebula-graph-studio-2.2.1-1.x86_64.rpm](https://oss-cdn.nebula-graph.io/nebula-graph-studio/nebula-graph-studio-2.2.1-1.x86_64.rpm) |  [nebula-graph-studio-2.2.1-1.x86_64.rpm.sha256](https://oss-cdn.nebula-graph.io/nebula-graph-studio/nebula-graph-studio-2.2.1-1.x86_64.rpm.sha256) | 2.0.1 |
+| [nebula-graph-studio-2.2.1-2.x86_64.rpm](https://oss-cdn.nebula-graph.io/nebula-graph-studio/nebula-graph-studio-2.2.1-2.x86_64.rpm) |  [nebula-graph-studio-2.2.1-2.x86_64.rpm.sha256](https://oss-cdn.nebula-graph.io/nebula-graph-studio/nebula-graph-studio-2.2.1-2.x86_64.rpm.sha256) | 2.0.1 |
 | [nebula-graph-studio-2.2.0-1.x86_64.rpm](https://oss-cdn.nebula-graph.io/nebula-graph-studio/nebula-graph-studio-2.2.0-1.x86_64.rpm) |  [nebula-graph-studio-2.2.0-1.x86_64.rpm.sha256](https://oss-cdn.nebula-graph.io/nebula-graph-studio/nebula-graph-studio-2.2.0-1.x86_64.rpm.sha256) | 2.0.1 |
 | [nebula-graph-studio-2.1.9-1.x86_64.rpm](https://oss-cdn.nebula-graph.io/nebula-graph-studio/nebula-graph-studio-2.1.9-1.x86_64.rpm) | - |  2.0 GA |
 | [nebula-graph-studio-1.2.7-2.x86_64.rpm](https://oss-cdn.nebula-graph.io/nebula-graph-studio/nebula-graph-studio-1.2.7-2.x86_64.rpm) | [nebula-graph-studio-1.2.7-2.x86_64.rpm.sha256](https://oss-cdn.nebula-graph.io/nebula-graph-studio/nebula-graph-studio-1.2.7-2.x86_64.rpm.sha256) |  1.x |
