@@ -71,6 +71,12 @@ $ docker-compose down
 
 #### Env Dependencies
 - Node.js (v10.16.0 +)
+    - `node` && `npm` commands should be installed in `/usr/bin/` to avoid `command not found`.
+    - If installed in other place such as `/usr/local`, you can add a soft link to solve it:
+      ```
+      $ sudo ln -s /usr/local/bin/node /usr/bin/node
+      $ sudo ln -s /usr/local/bin/npm /usr/bin/npm
+      ```
 - lsof
 
 #### Setup
