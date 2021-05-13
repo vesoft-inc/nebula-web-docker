@@ -5,122 +5,14 @@
 Nebula Graph Studio（简称 Studio）是一款可以通过 Web 访问的图数据库可视化工具，搭配 Nebula Graph DBMS 使用，为您提供构图、数据导入、编写 nGQL 查询、图探索等一站式服务。
 
 ![Studio 界面截图](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-053.png "Studio 界面一览")
-
-## 部署
-
-### docker-compose
-
-[安装部署视频教程](https://nebula-website-cn.oss-cn-hangzhou.aliyuncs.com/nebula-blog/deploy-nebula-graph-and-nebula-graph-studio-with-docker.mp4)
-
-运行以下命令部署适用于 Nebula Graph 1.x 或者 2.x 的 Docker 版 Studio：
-
-1. 克隆 `nebula-graph-studio` 库。
-
-    ```bash
-    git clone https://github.com/vesoft-inc/nebula-graph-studio.git
-    ```
-
-2. 选择合适的 Studio 版本：
-   
-| 分支 | 对应 nebula 版本 |
-| --- | --- |
-| master | latest |
-| v2 | 2.0 GA |
-| v2-rc | 2.0-rc |
-| v1 |  1.x |
-```
-// 以 nebula 2.0 GA 为例
-git checkout v2
-```
-1. 拉取 Studio 的 Docker 镜像。
-
-```bash
-docker-compose pull
-```
-
-2. 启动 Studio。其中，`-d` 表示在后台运行容器。
-
-    ```bash
-    docker-compose up -d
-    ```
-  
-    如果界面返回以下信息，说明 Studio 已经完成部署并启动。
-
-    ```bash
-    Creating docker_importer_1 ... done
-    Creating docker_client_1   ... done
-    Creating docker_web_1      ... done
-    Creating docker_nginx_1    ... done
-    ```
-
-在 Chrome 浏览器中，输入 `localhost:7001` 访问 Studio。如果在浏览器窗口中看到以下登录界面，表示您已经成功部署并启动 Studio。
-
-![Nebula Graph Studio 登录界面](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-001.png "Nebula Graph Studio 登录界面")
-
-3. 停止服务
-```
-// 当docker-compose是-d模式运行时
-$ docker-compose down
-```
-
-### RPM
-| 安装包 | checksum | nebula版本 |
-| ----- | ----- | ----- |
-| [nebula-graph-studio-2.2.1-2.x86_64.rpm](https://oss-cdn.nebula-graph.com.cn/nebula-graph-studio/nebula-graph-studio-2.2.1-2.x86_64.rpm) |  [nebula-graph-studio-2.2.1-2.x86_64.rpm.sha256](https://oss-cdn.nebula-graph.com.cn/nebula-graph-studio/nebula-graph-studio-2.2.1-2.x86_64.rpm.sha256) | 2.0.1 |
-| [nebula-graph-studio-2.2.0-1.x86_64.rpm](https://oss-cdn.nebula-graph.com.cn/nebula-graph-studio/nebula-graph-studio-2.2.0-1.x86_64.rpm) |  [nebula-graph-studio-2.2.0-1.x86_64.rpm.sha256](https://oss-cdn.nebula-graph.com.cn/nebula-graph-studio/nebula-graph-studio-2.2.0-1.x86_64.rpm.sha256) | 2.0.1 |
-| [nebula-graph-studio-2.1.9-1.x86_64.rpm](https://oss-cdn.nebula-graph.com.cn/nebula-graph-studio/nebula-graph-studio-2.1.9-1.x86_64.rpm) | - |  2.0 GA |
-| [nebula-graph-studio-1.2.7-2.x86_64.rpm](https://oss-cdn.nebula-graph.com.cn/nebula-graph-studio/nebula-graph-studio-1.2.7-2.x86_64.rpm) | [nebula-graph-studio-1.2.7-2.x86_64.rpm.sha256](https://oss-cdn.nebula-graph.com.cn/nebula-graph-studio/nebula-graph-studio-1.2.7-2.x86_64.rpm.sha256) |  1.x | 
-
-#### 环境依赖
-- Node.js (v10.16.0 +)
-    - 同时 `node` 及 `npm` 命令需要安装在 `/usr/bin/`目录下，以防出现rpm安装时`node`命令找不到的情况
-    - 假如依赖是安装在个人用户目录下，比如 `/usr/local`，可以通过创建软连接的方式来解决:
-      ```
-      $ sudo ln -s /usr/local/bin/node /usr/bin/node
-      $ sudo ln -s /usr/local/bin/npm /usr/bin/npm
-      ```
-- lsof
-
-#### 安装
-以 Nebula 2.0GA 版本为例
-```
-$ sudo rpm -i nebula-graph-studio-2.2.0-1.x86_64.rpm
-```
-#### 删除
-```
-$ sudo rpm -e nebula-graph-studio-2.2.0-1.x86_64.rpm
-```
-
-#### 配套脚本
-```
-// 手动启动服务
-$ bash /usr/local/nebula-graph-studio/scripts/start.sh
-
-// 手动停止服务
-$ bash /usr/local/nebula-graph-studio/scripts/stop.sh
-```
-
-## 连接 Nebula Graph
-
-按以下说明连接 Nebula Graph v2.x：
-
-1. 确认 Nebula Graph 2.x 已经完成部署。详细信息参考 [Deploy Nebula Graph with Docker Compose](https://docs.nebula-graph.com.cn/2.0/2.quick-start/2.deploy-nebula-graph-with-docker-compose/ "Click to go to Nebula Graph website") 或者 [Install Nebula Graph by compiling the source code](https://docs.nebula-graph.io/2.0/4.deployment-and-installation/2.compile-and-install-nebula-graph/1.install-nebula-graph-by-compiling-the-source-code/ "Click to go to Nebula Graph website")。
-   > **说明**：如果您使用 Docker Compose 部署 Nebula Graph v2.0.0-alpha，则必须重新克隆 nebula-docker-compose 仓库以更新 Docker 配置文件。
-2. 连接 Nebula Graph v2.x。详细信息参考 [Nebula Graph Studio 用户手册](https://github.com/vesoft-inc/nebula-docs-cn/tree/master/docs-2.0/nebula-studio "点击前往 GitHub")。
-
-按以下说明连接 Nebula Graph v1.x：
-
-1. 确认 Nebula Graph v1.x 已经完成部署。详细信息参考 [Nebula Graph 用户手册](https://docs.nebula-graph.com.cn/manual-CN/3.build-develop-and-administration/1.build/1.build-source-code/ "点击前往 Nebula Graph 网站")。
-2. 连接 Nebula Graph v1.x。详细信息参考 [Nebula Graph Studio 用户手册](https://docs.nebula-graph.com.cn/nebula-studio/deploy-connect/st-ug-connect/ "点击前往 Nebula Graph 网站")。
-
 ## 用户手册
 
 观看 [两分钟 Studio 操作介绍视频](https://www.bilibili.com/video/BV1h54y1C7bf "点击前往 bilibili 网站") 迅速了解 Studio 操作。
 
 关于 Studio 的详细信息，参考：
 
-- [用户手册](https://docs.nebula-graph.com.cn/nebula-studio/about-studio/st-ug-what-is-graph-studio/ "点击前往 Nebula Graph 网站")
-- [User Manual](https://docs.nebula-graph.com.cn/2.0/nebula-studio/about-studio/st-ug-what-is-graph-studio/ "Click to go to Nebula Graph website")
+- [用户手册](https://docs.nebula-graph.com.cn/2.0.1/nebula-studio/about-studio/st-ug-what-is-graph-studio/ "点击前往 Nebula Graph 网站")
+- [User Manual](https://docs.nebula-graph.com.cn/2.0.1/nebula-studio/about-studio/st-ug-what-is-graph-studio/ "Click to go to Nebula Graph website")
 
 ## 最新更新
 
