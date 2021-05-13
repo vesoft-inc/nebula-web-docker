@@ -73,6 +73,12 @@ $ docker-compose down
 
 #### 环境依赖
 - Node.js (v10.16.0 +)
+    - 同时 `node` 及 `npm` 命令需要安装在 `/usr/bin/`目录下，以防出现rpm安装时`node`命令找不到的情况
+    - 假如依赖是安装在个人用户目录下，比如 `/usr/local`，可以通过创建软连接的方式来解决:
+      ```
+      $ sudo ln -s /usr/local/bin/node /usr/bin/node
+      $ sudo ln -s /usr/local/bin/npm /usr/bin/npm
+      ```
 - lsof
 
 #### 安装
